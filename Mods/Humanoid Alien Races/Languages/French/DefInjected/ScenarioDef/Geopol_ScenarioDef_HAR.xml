@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<scenario_buddhists.label>Nouvelle colonie bouddhiste</scenario_buddhists.label>
+
+<scenario_buddhists.description>Trois bouddhistes fondent une nouvelle colonie en accord avec leurs croyances.</scenario_buddhists.description>
+
+<scenario_buddhists.scenario.description>Trois bouddhistes fondent une nouvelle colonie en accord avec leurs croyances.</scenario_buddhists.scenario.description>
+
+<scenario_buddhists.scenario.name>Nouvelle colonie bouddhiste</scenario_buddhists.scenario.name>
+
+<scenario_buddhists.scenario.summary>Trois bouddhistes fondent une nouvelle colonie en accord avec leurs croyances.</scenario_buddhists.scenario.summary>
+
+
+
+<scenario_multiculturel.label>Nouvelle colonie multiculturelle</scenario_multiculturel.label>
+
+<scenario_multiculturel.description>Trois colons d'ethnies différentes fondent une nouvelle colonie en accord avec leurs croyances.\nLes êtres humains sont tous les mêmes, peut importe leur couleur de peau, leur religion, leur origine, nos différences sont notre richesse.</scenario_multiculturel.description>
+
+<scenario_multiculturel.scenario.description>Trois colons d'ethnies différentes fondent une nouvelle colonie en accord avec leurs croyances.\nLes êtres humains sont tous les mêmes, peut importe leur couleur de peau, leur religion, leur origine, nos différences sont notre richesse.</scenario_multiculturel.scenario.description>
+
+<scenario_multiculturel.scenario.name>Nouvelle colonie multiculturelle</scenario_multiculturel.scenario.name>
+
+<scenario_multiculturel.scenario.summary>Trois colons d'ethnies différentes fondent une nouvelle colonie en accord avec leurs croyances.\nLes êtres humains sont tous les mêmes, peut importe leur couleur de peau, leur religion, leur origine, nos différences sont notre richesse.</scenario_multiculturel.scenario.summary>
+
+
+
+<scenario_muslims.label>Nouvelle colonie musulmane</scenario_muslims.label>
+
+<scenario_muslims.description>Trois musulmans fondent une nouvelle colonie en accord avec leurs croyances.</scenario_muslims.description>
+
+<scenario_muslims.scenario.description>Trois musulmans fondent une nouvelle colonie en accord avec leurs croyances.</scenario_muslims.scenario.description>
+
+<scenario_muslims.scenario.name>Nouvelle colonie musulmane</scenario_muslims.scenario.name>
+
+<scenario_muslims.scenario.summary>Trois musulmans fondent une nouvelle colonie en accord avec leurs croyances.</scenario_muslims.scenario.summary>
+
+
+
+</LanguageData>

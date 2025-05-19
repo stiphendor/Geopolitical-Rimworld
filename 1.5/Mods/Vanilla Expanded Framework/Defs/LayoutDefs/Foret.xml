@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- Foret -->
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_bambou_1</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_Grass,.,Plant_Grass,.,Plant_TallGrass,Plant_Grass,Plant_TallGrass,.,Plant_TreeBamboo</li>
+      <li>.,Plant_Grass,Plant_Grass,.,.,.,Plant_Grass,Plant_Grass,.,Plant_Grass,Plant_Grass,.,Plant_TallGrass,.,Plant_Grass,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,.</li>
+      <li>.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_Grass,Plant_Grass,Plant_TallGrass,.,.,.,.,.,.,Plant_TreeBamboo</li>
+      <li>.,.,Plant_TallGrass,Plant_TallGrass,.,Plant_Grass,Plant_Grass,.,Plant_TallGrass,Plant_TallGrass,Plant_TallGrass,Plant_Grass,.,Plant_Grass,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_Grass,Plant_Grass</li>
+      <li>Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_Grass,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,.,Plant_Grass,.,.,.,Plant_TallGrass,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Grass,Plant_TreeBamboo</li>
+      <li>.,.,Plant_Grass,.,.,Plant_TallGrass,.,.,Plant_Grass,.,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_TallGrass,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_Grass,.,Plant_Grass,Plant_TreeBamboo,.,.</li>
+      <li>Plant_TreeBamboo,.,.,Plant_TallGrass,Plant_TreeBamboo,.,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,.,Plant_TreeBamboo,Plant_Grass,.,.,.,Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,.,.,Plant_TreeBamboo</li>
+      <li>.,.,Plant_TreeBamboo,.,Plant_Grass,.,.,Plant_TallGrass,.,.,.,.,.,Plant_Grass,Plant_TallGrass,Plant_Grass,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_Grass,Plant_TallGrass,Plant_TreeBamboo,Plant_Grass,.</li>
+      <li>Plant_TreeBamboo,.,.,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_Grass,Plant_Grass,.,.,Plant_TreeBamboo,.,.,Plant_TallGrass,Plant_TreeBamboo</li>
+      <li>Plant_TallGrass,Plant_Grass,Plant_TreeBamboo,.,Plant_Grass,Plant_Grass,.,Plant_TallGrass,Plant_Grass,.,Plant_TallGrass,.,Plant_Grass,.,.,Plant_TallGrass,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,.,.,Plant_TreeBamboo,Plant_Grass,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>bambou</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_bambou_2</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_Bush</li>
+      <li>Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_Grass,.,.,Plant_Grass,Plant_Grass,.</li>
+      <li>Plant_TreeBamboo,Plant_Grass,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_Alocasia,Plant_TreeBamboo,.,Plant_Grass</li>
+      <li>Plant_TallGrass,.,Plant_Grass,.,.,Plant_TallGrass,.,Plant_Grass,.,Plant_TreeBamboo</li>
+      <li>Plant_TreeBamboo,Plant_Grass,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,.</li>
+      <li>Plant_Grass,Plant_TallGrass,Plant_Grass,Plant_Grass,Plant_Grass,.,.,Plant_TallGrass,.,Plant_Grass</li>
+      <li>Plant_TallGrass,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo</li>
+      <li>.,.,.,.,.,Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_Grass</li>
+      <li>Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,.,.,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo</li>
+      <li>Plant_TallGrass,.,.,Plant_Grass,Plant_Grass,.,Plant_Alocasia,Plant_Grass,Plant_TallGrass,.</li>
+      <li>Plant_TreeBamboo,.,Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo,.,Plant_TreeBamboo</li>
+      <li>Plant_Grass,.,.,Plant_TallGrass,.,Plant_TallGrass,Plant_Grass,.,.,.</li>
+      <li>Plant_TallGrass,.,Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_TreeBamboo,Plant_TallGrass,.,Plant_TreeBamboo</li>
+      <li>Plant_TreeBamboo,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TallGrass,.,.,Plant_Alocasia</li>
+      <li>.,.,Plant_TallGrass,.,.,Plant_Grass,Plant_Grass,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo</li>
+      <li>Plant_Grass,Plant_TreeBamboo,Plant_Grass,Plant_TallGrass,Plant_TallGrass,.,Plant_TallGrass,.,.,.</li>
+      <li>.,.,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo</li>
+      <li>Plant_Grass,Plant_TreeBamboo,Plant_TallGrass,.,.,.,Plant_Grass,.,Plant_Grass,Plant_Grass</li>
+      <li>Plant_Grass,.,.,.,Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo,.</li>
+      <li>Plant_TreeBamboo,.,Plant_TreeBamboo,Plant_Grass,.,Plant_Grass,Plant_Grass,.,Plant_TallGrass,.</li>
+      <li>.,Plant_Grass,Plant_Grass,.,.,.,.,Plant_TreeBamboo,Plant_TallGrass,Plant_TreeBamboo</li>
+      <li>Plant_TreeBamboo,Plant_Grass,.,Plant_TallGrass,Plant_TreeBamboo,Plant_Grass,.,.,.,Plant_TallGrass</li>
+      <li>Plant_TallGrass,.,Plant_TreeBamboo,.,.,.,Plant_TreeBamboo,.,.,Plant_TreeBamboo</li>
+      <li>Plant_TreeBamboo,Plant_Grass,.,.,Plant_TreeBamboo,Plant_Grass,.,Plant_Grass,.,Plant_TallGrass</li>
+      <li>.,Plant_TallGrass,Plant_TreeBamboo,.,Plant_TallGrass,.,.,Plant_TreeBamboo,Plant_Grass,Plant_TreeBamboo</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>bambou</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_pin_1</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,Plant_Grass,.,.,.,Plant_TreePine,.,.,.,.,.,Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine,.,.,Plant_TreePine</li>
+      <li>Plant_TreePine,.,.,Plant_TreePine,.,Plant_Grass,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,.,.,.,Plant_Grass</li>
+      <li>.,Plant_Moss,Plant_Moss,.,.,Plant_TreePine,.,Plant_Grass,.,.,.,Plant_TreePine,.,.,Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,Plant_Grass,Plant_TreePine,Plant_Grass,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,Plant_TreePine,.,Plant_Moss,Plant_TreePine,.,Plant_Moss,Plant_Grass,.,.,.,Plant_TreePine,Plant_Grass,Plant_TreePine,.,Plant_TreePine</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,.,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,.</li>
+      <li>Plant_Bush,.,.,Plant_Brambles,.,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,.,Plant_TreePine,.,Plant_TreePine,.</li>
+      <li>Plant_TreePine,Plant_Brambles,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_pin</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_pin_2</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,Plant_Grass,.,.,.,Plant_TreePine,.,Plant_TreePine,Plant_Grass,Plant_TreePine</li>
+      <li>.,Plant_Grass,.,.,Plant_TreePine,.,Plant_TreePine,.,.,.,Plant_Grass,.,Plant_Moss</li>
+      <li>.,.,.,.,.,.,.,.,Plant_Grass,Plant_TreePine,.,.,Plant_TreePine</li>
+      <li>.,Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,Plant_Grass,.,.</li>
+      <li>.,.,.,.,.,.,.,Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine,Plant_Grass</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine,.,.,.,.,.,Plant_Grass,.,.</li>
+      <li>.,.,.,.,Plant_Grass,Plant_Grass,.,Plant_Grass,Plant_TreePine,.,Plant_TreePine,.,Plant_TreePine</li>
+      <li>Plant_TreePine,Plant_Grass,Plant_TreePine,Plant_Moss,Plant_TreePine,Plant_Moss,Plant_TreePine,.,.,.,Plant_Grass,.,.</li>
+      <li>Plant_Grass,Plant_Moss,.,Plant_Grass,.,Plant_Grass,.,.,.,Plant_TreePine,.,Plant_TreePine,Plant_Moss</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,.,Plant_Grass,.,Plant_TreePine,.,Plant_Grass,Plant_Moss,.,Plant_Grass</li>
+      <li>.,.,Plant_Bush,.,Plant_TreePine,.,Plant_Grass,.,.,Plant_TreePine,.,.,.</li>
+      <li>Plant_Grass,Plant_TreePine,.,.,.,.,Plant_TreePine,.,.,.,.,Plant_Grass,Plant_TreePine</li>
+      <li>.,.,.,.,Plant_TreePine,.,.,.,Plant_TreePine,.,Plant_TreePine,.,.</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,Plant_Moss,.,Plant_TreePine,.,.,.,Plant_Grass,.,Plant_TreePine</li>
+      <li>.,.,Plant_Grass,.,Plant_TreePine,.,.,Plant_Brambles,Plant_TreePine,Plant_Grass,Plant_TreePine,.,.</li>
+      <li>Plant_TreePine,.,Plant_TreePine,.,.,.,Plant_TreePine,Plant_Grass,.,.,.,.,Plant_TreePine</li>
+      <li>.,.,Plant_Moss,.,Plant_TreePine,.,.,Plant_Brambles,Plant_TreePine,.,Plant_TreePine,Plant_Grass,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_pin</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_cerisier_1</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,Plant_Grass,.,.,.,.,.,.,.,.,.,.,.,Plant_Moss,.,.</li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,Plant_Grass,VCE_CherryTree,Plant_Grass,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,Plant_Grass,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.</li>
+      <li>.,.,.,.,.,.,Plant_Grass,.,.,.,.,.,Plant_Grass,.,.,.,.,.,Plant_Grass,.</li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,Plant_Grass,VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree,.,VCE_CherryTree,.</li>
+      <li>Plant_Grass,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree,.,VCE_CherryTree,.,Plant_Moss,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_cerisier</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_cerisier_2</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,VCE_CherryTree,Plant_Moss,.,Plant_Moss</li>
+      <li>VCE_CherryTree,.,Plant_Grass,Plant_Grass,VCE_CherryTree,.</li>
+      <li>.,.,VCE_CherryTree,.,Plant_Grass,.</li>
+      <li>Plant_Moss,.,Plant_Grass,.,VCE_CherryTree,.</li>
+      <li>.,VCE_CherryTree,.,.,.,.</li>
+      <li>.,.,Plant_Grass,.,.,.</li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree</li>
+      <li>.,.,.,.,Plant_Grass,.</li>
+      <li>VCE_CherryTree,Plant_Grass,.,VCE_CherryTree,.,VCE_CherryTree</li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree</li>
+      <li>.,.,.,.,.,.</li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,Plant_Grass,VCE_CherryTree</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_cerisier</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_cerisier_3</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,Plant_Grass,VCE_CherryTree,.,VCE_CherryTree</li>
+      <li>.,.,.,Plant_Grass,.,.,.,.,.,.,.,.,Plant_Grass</li>
+      <li>.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree</li>
+      <li>.,.,.,Plant_Grass,.,.,.,.,.,.,.,.,Plant_Grass</li>
+      <li>.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree,.,.,VCE_CherryTree,.,VCE_CherryTree,.,VCE_CherryTree</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_cerisier</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>foret_1_rg</defName>
+  <layouts>
+    <li>
+      <li>RG_Plant_BlueTreePine,.,Plant_TreePine,Plant_Moss,RG_Plant_TigerLily,Plant_TreePine,Plant_TreePine,.,Plant_TreePine,Plant_Grass,Plant_TreePine</li>
+      <li>RG_Plant_BlueTreePine,Plant_Moss,RG_Plant_BlueTreePine,Plant_TreePine,.,.,Plant_Grass,Plant_Berry,Plant_Berry,Plant_TreePine,Plant_TreePine</li>
+      <li>.,Plant_Grass,Plant_TreePine,Plant_Moss,Plant_Moss,.,.,Plant_Grass,Plant_TreePine,Plant_TreePine,Plant_TreePine</li>
+      <li>RG_Plant_BlueTreePine,.,Plant_Grass,Plant_TreePine,.,Plant_Grass,Plant_Bush,Plant_TreePine,Plant_TreePine,.,Plant_Grass</li>
+      <li>.,Plant_TreePine,Plant_TreePine,Plant_TreePine,Plant_Moss,Plant_TreePine,Plant_TreePine,.,Plant_TallGrass,RG_Plant_Coldheart,Plant_TreePine</li>
+      <li>Plant_Grass,RG_Plant_Coldheart,Plant_Moss,Plant_Moss,Plant_Moss,Plant_TallGrass,.,Plant_TreePine,.,Plant_Grass,.</li>
+      <li>RG_Plant_BorealFern,Plant_Moss,Plant_Moss,Plant_TreePine,.,Plant_Moss,Plant_Grass,.,RG_Plant_TigerLily,Plant_TreePine,Plant_Moss</li>
+      <li>Plant_Grass,Plant_TreePine,.,Plant_TallGrass,Plant_TreePine,Plant_TreePine,.,.,Plant_Grass,Plant_TreePine,Plant_Moss</li>
+      <li>Plant_Grass,RG_Plant_BorealFern,Plant_Moss,Plant_Moss,Plant_TreePine,Plant_TreePine,Plant_TreePine,Plant_Grass,Plant_TallGrass,.,Plant_TreePine</li>
+      <li>.,.,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Grass,RG_Plant_Coldheart,Plant_TreePine,.,RG_Plant_BorealFern,Plant_Grass</li>
+      <li>Plant_TreePine,.,Plant_Moss,RG_Plant_BorealFern,Plant_Grass,Plant_Moss,Plant_TreePine,Plant_Grass,Plant_TreePine,.,.</li>
+      <li>.,.,.,RG_Plant_TigerLily,Plant_Moss,Plant_Grass,Plant_Grass,Plant_TreePine,RG_Plant_BorealFern,Plant_Grass,Plant_Moss</li>
+      <li>Plant_Grass,Plant_Grass,Plant_Grass,Plant_TreePine,Plant_Moss,Plant_Grass,Plant_TreePine,Plant_Grass,.,RG_Plant_LargeTreePine,RG_Plant_LargeTreePine</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>foret_boreale_rg</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+
+</Defs>

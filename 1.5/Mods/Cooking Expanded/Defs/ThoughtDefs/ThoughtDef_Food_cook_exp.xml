@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+  <defName>WF_AteFondue</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a Swiss culinary specialty, fondue.</description>
+      <baseMoodEffect>2</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteCheeseburger</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted an American culinary specialty, a cheeseburger.</description>
+      <baseMoodEffect>2</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AtePoutine</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a Canadian culinary specialty, poutine.</description>
+      <baseMoodEffect>2</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+</Defs>

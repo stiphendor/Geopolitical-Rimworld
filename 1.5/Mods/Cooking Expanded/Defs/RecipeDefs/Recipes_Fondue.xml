@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Swiss_Fondue</defName>
+		<label>cook fondue</label>
+		<description>cook fondue.</description>
+		<jobString>cooking fondue.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<ingredients>
+     <li>
+	<filter>
+	<thingDefs>
+		<li>Beer</li>
+	</thingDefs>
+	</filter>
+	<count>0.08</count>
+     </li>
+      <li>
+        <filter>
+          <categories>
+            <li>VCE_Cheese</li>
+          </categories>
+        </filter>
+        <count>0.6</count>
+      </li>
+		</ingredients>
+		<products>
+			<Swiss_fondue>1</Swiss_fondue>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_suisse</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

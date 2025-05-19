@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<casques_militaires.label>military helmets</casques_militaires.label>
+
+<uniformes_militaires.label>military uniforms</uniformes_militaires.label>
+
+<vetements_religieux.label>religious apparels</vetements_religieux.label>
+
+<couvre_chef_religieux.label>religious headgears</couvre_chef_religieux.label>
+
+<gants.label>gloves</gants.label>
+
+<chaussures.label>shoes</chaussures.label>
+
+<outils.label>tools</outils.label>
+
+<outils_agricoles.label>agricoles</outils_agricoles.label>
+
+<outils_cuisine.label>kitchen</outils_cuisine.label>
+
+<outils_construction.label>building</outils_construction.label>
+
+</LanguageData>

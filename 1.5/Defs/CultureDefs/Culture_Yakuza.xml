@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>yakuza</defName>
+    <label>Yakuza</label>
+    <description>Culture des Yakuzas.</description>
+    <pawnNameMaker>nom_japonais_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_japonais_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoYakuza</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Yakuza</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalJapon</festivalNameMaker>
+    <iconPath>Symbols/yakuza/yakuza</iconPath>
+    <allowedPlaceTags>
+    <li>OriginYakuza</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Yakuza_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Yakuza_Beard</tag>
+        <baseWeight>0.1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_japonais_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_japonais_h] [nom_japonais]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_japonais_h</keyword>
+          <path>Noms/prenom_m_japonais</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_japonais</keyword>
+          <path>Noms/nom_japonais</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_japonais_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_japonais_f] [nom_japonais]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_japonais_f</keyword>
+          <path>Noms/prenom_f_japonais</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_japonais</keyword>
+          <path>Noms/nom_japonais</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoYakuza</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie des yakuzas</li>
+        <li>r_ideoAdjective->yakuza</li>
+        <li>r_memberName->Yakuza</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Yakuza</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Obayun</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <PlaceDef>
+    <defName>Yakuza</defName>
+    <tags>
+      <li>OriginYakuza</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Tokyo</li>
+        <li>place_adjective->tokyoite</li>
+        <li>place_summary->ville japonaise</li>
+        <li>place_community->bar</li>
+        <li>place_community->casino</li>
+        <li>place_community->maison close</li>
+        <li>place_powerCenter->villa</li>
+        <li>place_job->homme de main</li>
+        <li>place_job->sumo</li>
+        <li>place_job->saiko-komon</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->procès</li>
+        <li>place_foeLeader->commissaire de police</li>
+        <li>place_foeSoldiers->policiers</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <RulePackDef>
+    <defName>NamerFestivalJapon</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Sanja matsuri</li>
+        <li>festivalName->Nouvel an Japonais</li>
+        <li>festivalName->Onbashira</li>
+        <li>festivalName->Jidai matsuri</li>
+        <li>festivalName->Aoi matsuri</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomfactionyakuzas</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[nomfactionyakuzas]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>nomfactionyakuzas</keyword>
+          <path>Noms/faction_yakuzas</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef>
+    <defName>Femenleader1</defName>
+    <label>Femen</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <factionLeader>true</factionLeader>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>25~32</initialResistanceRange>
+    <combatPower>35</combatPower>
+    <defaultFactionType>femen</defaultFactionType>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+    <invNutrition>1</invNutrition>
+    <minGenerationAge>18</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>150</min>
+      <max>450</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelRequired>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelTags>
+	<li>FemenBasic</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>Femen1</defName>
+    <label>Femen</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>20~27</initialResistanceRange>
+    <combatPower>35</combatPower>
+    <defaultFactionType>femen</defaultFactionType>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+    <invNutrition>1</invNutrition>
+    <minGenerationAge>18</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>150</min>
+      <max>450</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelRequired>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelTags>
+	<li>FemenBasic</li>
+    </apparelTags>
+  </PawnKindDef>
+
+</Defs>

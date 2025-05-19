@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Anarchistes</defName>
+    <label>Anarchistes</label>
+    <description>Un groupe d'anarchistes qui ne croient en rien sinon en eux-mêmes, il est impossible d'établir un dialogue avec eux, ils ne chercheront qu'à détruire ce que vous avez construit. Si un anarchiste n'est pas très dangereux seul, méfiez-vous, car ils attaquent toujours en groupe.</description>
+    <pawnSingular>anarchiste</pawnSingular>
+    <pawnsPlural>anarchistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>anarchiste</leaderTitle>
+    <factionIconPath>Icon/anarcho_individualiste</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>nomfactionanarchistes</factionNameMaker>
+    <settlementNameMaker>nomcolonieanarchistes</settlementNameMaker>
+    <allowedCultures><li>anarchiste</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+    </disallowedMemes>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Sarg.AlphaMemes">AM_Structure_Atheist</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentLiberty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Leader</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_Elections_Required</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Anarchiste</li>
+    </backstoryCategories>
+    <visitorTraderKinds>
+      <li>Visitor_anarchist</li>
+    </visitorTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+<raidLootMaker>AnarchistesRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged & melee -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <Anarchiste_distance>8</Anarchiste_distance>
+          <Anarchiste_melee>5</Anarchiste_melee>
+	  <Anarchiste_molotov>1</Anarchiste_molotov>
+	<Anarchiste_leader>0.1</Anarchiste_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <Anarchiste_distance>8</Anarchiste_distance>
+          <Anarchiste_melee>5</Anarchiste_melee>
+	  <Anarchiste_molotov>1</Anarchiste_molotov>
+	<Anarchiste_leader>0.1</Anarchiste_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Anarchiste_distance>8</Anarchiste_distance>
+        <Anarchiste_melee>5</Anarchiste_melee>
+	<Anarchiste_molotov>2</Anarchiste_molotov>
+	<Anarchiste_leader>1</Anarchiste_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/anarcho_individualisteSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Anarchistes_feministes</defName>
+    <label>Anarcho-féministes</label>
+    <description>Un groupe d'anarchistes qui ne croient en rien sinon en eux-mêmes, il est impossible d'établir un dialogue avec eux, ils ne chercheront qu'à détruire ce que vous avez construit. Si un anarchiste n'est pas très dangereux seul, méfiez-vous, car ils attaquent toujours en groupe.</description>
+    <pawnSingular>anarchiste</pawnSingular>
+    <pawnsPlural>anarchistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>anarchiste</leaderTitle>
+    <factionIconPath>Icon/anarcho_feminisme</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>nomfactionanarchistes</factionNameMaker>
+    <settlementNameMaker>nomcolonieanarchistes</settlementNameMaker>
+    <allowedCultures><li>anarchiste</li></allowedCultures>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Sarg.AlphaMemes">AM_Structure_Atheist</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentLiberty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Leader</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_Elections_Required</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Anarchiste</li>
+    </backstoryCategories>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+<raidLootMaker>AnarchistesRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged & melee -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <Anarchiste_distance_f>5</Anarchiste_distance_f>
+          <Anarchiste_melee_f>5</Anarchiste_melee_f>
+	  <Anarchiste_molotov_f>1</Anarchiste_molotov_f>
+	<Anarchiste_leader_f>0.1</Anarchiste_leader_f>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <Anarchiste_distance_f>5</Anarchiste_distance_f>
+          <Anarchiste_melee_f>5</Anarchiste_melee_f>
+	  <Anarchiste_molotov_f>1</Anarchiste_molotov_f>
+	<Anarchiste_leader_f>0.1</Anarchiste_leader_f>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Anarchiste_distance_f>5</Anarchiste_distance_f>
+        <Anarchiste_melee_f>5</Anarchiste_melee_f>
+	<Anarchiste_molotov_f>2</Anarchiste_molotov_f>
+	<Anarchiste_leader_f>1</Anarchiste_leader_f>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/anarcho_feminismeSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Anarchiste_communiste</defName>
+    <label>Anarcho-communistes</label>
+    <description>Un groupe d'anarchistes qui ne croient en rien sinon en eux-mêmes, il est impossible d'établir un dialogue avec eux, ils ne chercheront qu'à détruire ce que vous avez construit. Si un anarchiste n'est pas très dangereux seul, méfiez-vous, car ils attaquent toujours en groupe.</description>
+    <pawnSingular>anarchiste</pawnSingular>
+    <pawnsPlural>anarchistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>anarchiste</leaderTitle>
+    <factionIconPath>Icon/anarcho_communisme</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>nomfactionanarchistes</factionNameMaker>
+    <settlementNameMaker>nomcolonieanarchistes</settlementNameMaker>
+    <allowedCultures><li>anarchiste</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+    </disallowedMemes>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Geopol_Structure_OriginCommunism</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentLiberty</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_WealthEquality</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Egalitarian</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Leader</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_Elections_Required</li>
+      <li MayRequire="MortStrudel.MortIdeology">miHousingDistribution_MildEquality</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Anarchiste</li>
+    </backstoryCategories>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+<raidLootMaker>AnarchistesRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged & melee -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <Anarchiste_distance>8</Anarchiste_distance>
+          <Anarchiste_melee>5</Anarchiste_melee>
+	  <Anarchiste_molotov>1</Anarchiste_molotov>
+	<Anarchiste_leader>0.1</Anarchiste_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <Anarchiste_distance>8</Anarchiste_distance>
+          <Anarchiste_melee>5</Anarchiste_melee>
+	<Anarchiste_leader>0.1</Anarchiste_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Anarchiste_distance>8</Anarchiste_distance>
+        <Anarchiste_melee>5</Anarchiste_melee>
+	<Anarchiste_molotov>2</Anarchiste_molotov>
+	<Anarchiste_leader>1</Anarchiste_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/anarcho_communismetSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>AnarchistesRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Flake</li>
+            <li>Yayo</li>
+            <li>GoJuice</li>
+            <li>WakeUp</li>
+            <li>SmokeleafJoint</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+
+</Defs>

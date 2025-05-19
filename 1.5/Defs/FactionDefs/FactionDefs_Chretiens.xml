@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>chretiens</defName>
+    <label>Chrétiens</label>
+    <description>Les Chrétiens adhèrent à la religion issue de Jésus de Nazareth, le christianisme, et suivent son enseignement rapporté par les Évangiles.</description>
+    <pawnSingular>chrétien</pawnSingular>
+    <pawnsPlural>chrétiens</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>pape</leaderTitle>
+    <factionIconPath>Icon/chretiens</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>Chrétiens</fixedName>
+    <settlementNameMaker>nomcoloniechre</settlementNameMaker>
+    <allowedCultures><li>Chretienne</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Christianisme</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+    </requiredMemes>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Chretiens</li>
+    </backstoryCategories>
+    <baseTraderKinds>
+      <li>Base_chretiens</li>
+    </baseTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_chretiens</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_chretien</li>
+    </visitorTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <options>
+          <chretien_pretre>5</chretien_pretre>
+          <chretien_nonne>5</chretien_nonne>
+          <chretien_eveque>3</chretien_eveque>
+          <chretien_cardinal_mitre>2</chretien_cardinal_mitre>
+          <chretien_pape>1</chretien_pape>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <options>
+          <chretien_pretre>5</chretien_pretre>
+          <chretien_nonne>5</chretien_nonne>
+          <chretien_eveque>3</chretien_eveque>
+          <chretien_cardinal>2</chretien_cardinal>
+          <chretien_pape_mitre>1</chretien_pape_mitre>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+         <chretien_cardinal_mitre>1</chretien_cardinal_mitre>
+        </traders>
+        <carriers>
+          <Donkey>40</Donkey>
+          <Sheep>30</Sheep>
+          <Cow>30</Cow>
+        </carriers>
+        <guards>
+          <chretien_pretre>5</chretien_pretre>
+          <chretien_nonne>5</chretien_nonne>
+          <chretien_eveque>3</chretien_eveque>
+          <chretien_cardinal>2</chretien_cardinal>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <chretien_pretre>5</chretien_pretre>
+          <chretien_nonne>5</chretien_nonne>
+          <chretien_eveque>3</chretien_eveque>
+          <chretien_cardinal>1</chretien_cardinal>
+          <chretien_cardinal_mitre>1</chretien_cardinal_mitre>
+          <chretien_pape>1</chretien_pape>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <chretien_pretre>5</chretien_pretre>
+          <chretien_nonne>5</chretien_nonne>
+          <chretien_eveque>3</chretien_eveque>
+          <chretien_cardinal>1</chretien_cardinal>
+          <chretien_cardinal_mitre>1</chretien_cardinal_mitre>
+          <chretien_pape_mitre>1</chretien_pape_mitre>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/ChretiensSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>2</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

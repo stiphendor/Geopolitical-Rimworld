@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Kesa</defName>
+    <label>kesa</label>
+    <description>Le kesa est la robe des moines et moniales bouddhistes. Il s’agit à l’origine d’une bande de tissu teinte en ocre, constituée de plusieurs pièces assemblées. Elle se drape autour du corps, passant sous le bras droit, un pan reposant sur l'épaule gauche. Porter ce vêtement aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Kesa/display_Kesa</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+        <costList>
+           <Cloth>50</Cloth>
+        </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>0.5</Mass>
+        <Insulation_Cold>2.0</Insulation_Cold>
+        <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+	<PsychicSensitivity>-0.1</PsychicSensitivity>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>vetements_religieux</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Kesa/Kesa</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+        <li>Middle</li>
+        <li>OnSkin</li>
+      </layers>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_bouddhiste</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

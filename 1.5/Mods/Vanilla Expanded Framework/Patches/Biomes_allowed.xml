@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Anarchistes" or defName="Anarchistes_feministes" or defName="Anarchiste_communiste" or defName="Antifas" or defName="Skinhead"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="australia"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="bresil"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TropicalRainforest</li>
+                                <li>TropicalSwamp</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="britain"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>TemperateSwamp</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="canada"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>BorealForest</li>
+                                <li>Tundra</li>
+                                <li>ColdBog</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="chine"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>TemperateSwamp</li>
+                                <li>TropicalSwamp</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="chretiens"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>TemperateSwamp</li>
+                                <li>TropicalSwamp</li>
+                                <li>AridShrubland</li>
+                                <li>Desert</li>
+                                <li>BorealForest</li>
+                                <li>Tundra</li>
+                                <li>ColdBog</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="coree_du_nord" or defName="coree_du_sud"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="ecolos" or defName="ecolos_radicaux"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>BorealForest</li>
+                                <li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="KuKluxKlan"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="musulmans" or defName="terroristes_islamistes"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>ExtremeDesert</li>
+                                <li>Desert</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="femen"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="france"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>TemperateSwamp</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Gilets_jaunes"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="israel"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>Desert</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="juifs"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Mafia" or defName="Yakuzas"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="mexique"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>Desert</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Moines_bouddhistes"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+                                <li>TropicalSwamp</li>
+                                <li>AridShrubland</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="russie"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>BorealForest</li>
+                                <li>Tundra</li>
+                                <li>ColdBog</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="suede"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>BorealForest</li>
+                                <li>Tundra</li>
+                                <li>ColdBog</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="suisse"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>BorealForest</li>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="ukraine"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VFECore.FactionDefExtension">
+                            <allowedBiomes>
+                                <li>TemperateForest</li>
+                            </allowedBiomes>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>Advanced Biomes (Continued)</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Anarchistes" or defName="Anarchistes_feministes" or defName="Anarchiste_communiste" or defName="ukraine"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>Wasteland</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="australia" or defName="chretiens" or defName="ecolos" or defName="ecolos_radicaux" or defName="terroristes_islamistes" or defName="musulmans"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>Savanna</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="bresil"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>Savanna</li>
+                                <li>Wetland</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="france" or defName="mexique" or defName="Moines_bouddhistes" or defName="russie"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>Volcano</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="britain"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>Wetland</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>More Vanilla Biomes</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="australia"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>ZBiome_Grasslands</li>
+                                <li>ZBiome_Badlands</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="canada"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_Badlands</li>
+                                <li>ZBiome_AlpineMeadow</li>
+                                <li>ZBiome_GlacialShield</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="chine" or defName="chretiens" or defName="coree_du_nord" or defName="coree_du_sud" or defName="Gilets_jaunes" or defName="israel" or defName="juifs" or defName="ukraine"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>ZBiome_Grasslands</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="ecolos" or defName="ecolos_radicaux"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>ZBiome_Grasslands</li>
+                                <li>ZBiome_DesertOasis</li>
+                                <li>ZBiome_CloudForest</li>
+                                <li>ZBiome_AlpineMeadow</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="mexique"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_Badlands</li>
+                                <li>ZBiome_DesertOasis</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="terroristes_islamistes" or defName="musulmans"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_Sandbar_NoBeach</li>
+				<li>ZBiome_CoastalDunes</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="france"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>ZBiome_Grasslands</li>
+				<li>ZBiome_Marsh</li>
+				<li>ZBiome_CloudForest</li>
+                                <li>ZBiome_AlpineMeadow</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="Moines_bouddhistes"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_AlpineMeadow</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="britain"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_Marsh</li>
+				<li>ZBiome_Grasslands</li>
+				<li>ZBiome_CloudForest</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="russie" or defName="suede"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>ZBiome_GlacialShield</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="suisse"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>ZBiome_CloudForest</li>
+                                <li>ZBiome_AlpineMeadow</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>Biomes! Oasis</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="terroristes_islamistes" or defName="musulmans"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>BMT_ChromaticOasis</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>Biomes! Islands</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="canada" or defName="suede"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>BiomesIslands_BorealIsland</li>
+                                <li>BiomesIslands_BorealArchipelago</li>
+                                <li>BiomesIslands_TundraIsland</li>
+                                <li>BiomesIslands_TundraArchipelago</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="chine" or defName="coree_du_nord" or defName="coree_du_sud"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>BiomesIslands_TemperateIsland</li>
+				<li>BiomesIslands_TemperateArchipelago</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="chretiens"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>BiomesIslands_Atoll</li>
+				<li>BiomesIslands_TundraIsland</li>
+				<li>BiomesIslands_DesertArchipelago</li>
+				<li>BiomesIslands_DesertIsland</li>
+				<li>BiomesIslands_TemperateIsland</li>
+				<li>BiomesIslands_TemperateArchipelago</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="australia" or defName="terroristes_islamistes" or defName="musulmans" or defName="mexique"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>BiomesIslands_Atoll</li>
+				<li>BiomesIslands_DesertArchipelago</li>
+				<li>BiomesIslands_DesertIsland</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="france" or defName="britain"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+                                <li>BiomesIslands_Atoll</li>
+				<li>BiomesIslands_TemperateIsland</li>
+				<li>BiomesIslands_TemperateArchipelago</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>Biome Expansion: Redwood forest</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="chretiens"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>RedwoodForest</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Aspen</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="usa" or defName="canada" or defName="chretiens" or defName="france" or defName="Gilets_jaunes" or defName="suisse"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+			<li>RG_AspenForest</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Volcanic Ice Sheet [Discontinued]</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="russie"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>RG-VIS_VulcanicIceSheet</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Wastelands</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="ukraine"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>RG-W_Wasteland</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+        <mods>
+            <li>Winter Taiga Biome</li>
+        </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[defName="canada" or defName="russie" or defName="suede"]/modExtensions/li[@Class="VFECore.FactionDefExtension"]/allowedBiomes</xpath>
+                <value>
+				<li>WinterTaiga</li>
+                </value>
+            </li>
+                </operations>
+            </match>
+        </match>
+</Operation>
+
+
+
+</Patch>

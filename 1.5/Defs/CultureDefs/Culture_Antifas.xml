@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>antifa</defName>
+    <label>Antifasciste</label>
+    <description>Culture antifasciste.</description>
+    <pawnNameMaker>nom_int_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_int_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAntifa</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Antifa</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalantifa</festivalNameMaker>
+    <iconPath>Symbols/antifa/antifa</iconPath>
+    <allowedPlaceTags>
+    <li>OriginAntifa</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Antifa_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nomcolonieantifa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_antifa]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_antifa</keyword>
+          <path>Noms/colonie_antifa</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoAntifa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Antifascisme</li>
+        <li>r_ideoAdjective->antifasciste</li>
+        <li>r_memberName->Antifasciste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Antifa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Porte-Parole</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Antifa</defName>
+    <tags>
+      <li>OriginAntifa</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Ménilmontant</li>
+        <li>place_adjective->populaire</li>
+        <li>place_summary->quartier populaire</li>
+        <li>place_community->bar</li>
+        <li>place_powerCenter->local associatif</li>
+        <li>place_job->étudiant</li>
+        <li>place_personalWeapon->couteau</li>
+        <li>place_personalWeapon->poing américain</li>
+        <li>place_massWeapon->lynchage</li>
+        <li>place_foeLeader->homme politique d'extrême droite</li>
+        <li>place_foeSoldiers->fascistes</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalantifa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Antifa Fest</li>
+        <li>festivalName->Rassemblement contre le racisme</li>
+        <li>festivalName->Rassemblementn contre l'islamophobie</li>
+        <li>festivalName->Rassemblement contre les violences policières</li>
+        <li>festivalName->Rassemblement contre l'extrême-droite</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

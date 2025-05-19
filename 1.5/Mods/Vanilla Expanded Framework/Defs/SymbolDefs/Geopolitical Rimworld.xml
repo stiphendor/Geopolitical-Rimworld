@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Liberty_BlocksLimestone</defName>
+  <thing>Geopol_Liberty</thing>
+  <stuff>BlocksLimestone</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Corcovado_BlocksLimestone</defName>
+  <thing>Geopol_Corcovado</thing>
+  <stuff>BlocksLimestone</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Eiffel</defName>
+  <thing>Geopol_Eiffel</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Barre_fer_rouille</defName>
+  <thing>Geopol_Barre_fer_rouille</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_poing_americain</defName>
+  <thing>Geopol_poing_americain</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_couteau_papillon</defName>
+  <thing>Geopol_couteau_papillon</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Batte_de_baseball</defName>
+  <thing>Geopol_Batte_de_baseball</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_beretta_92c</defName>
+  <thing>Geopol_beretta_92c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Thompson</defName>
+  <thing>Geopol_Thompson</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_AK47c</defName>
+  <thing>Geopol_AK47c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_couteau_militaire</defName>
+  <thing>Geopol_couteau_militaire</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_glock_17c</defName>
+  <thing>Geopol_glock_17c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_HecateII</defName>
+  <thing>Geopol_HecateII</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Famas</defName>
+  <thing>Geopol_Famas</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Fnfal</defName>
+  <thing>Geopol_Fnfal</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_FN_M249c</defName>
+  <thing>Geopol_FN_M249c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_FN_MAG</defName>
+  <thing>Geopol_FN_MAG</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Blaser_LRS</defName>
+  <thing>Geopol_Blaser_LRS</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Thales_F90c</defName>
+  <thing>Geopol_Thales_F90c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_qsz_92c</defName>
+  <thing>Geopol_qsz_92c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_QBZ_95c</defName>
+  <thing>Geopol_QBZ_95c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_QBU_88c</defName>
+  <thing>Geopol_QBU_88c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_QBB_95c</defName>
+  <thing>Geopol_QBB_95c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_p226c</defName>
+  <thing>Geopol_p226c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_L85c</defName>
+  <thing>Geopol_L85c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_L129A1c</defName>
+  <thing>Geopol_L129A1c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_browning_9mm</defName>
+  <thing>Geopol_browning_9mm</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_C7A1c</defName>
+  <thing>Geopol_C7A1c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_C14Timberwolf</defName>
+  <thing>Geopol_C14Timberwolf</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_Masse</defName>
+  <thing>Geopol_tool_Masse</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_marteau</defName>
+  <thing>Geopol_tool_marteau</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_rateau</defName>
+  <thing>Geopol_tool_rateau</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_faux</defName>
+  <thing>Geopol_tool_faux</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_houe</defName>
+  <thing>Geopol_tool_houe</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_tool_faucille</defName>
+  <thing>Geopol_tool_faucille</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_K5u</defName>
+  <thing>Geopol_K5u</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_K2u</defName>
+  <thing>Geopol_K2u</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_K16u</defName>
+  <thing>Geopol_K16u</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_K14u</defName>
+  <thing>Geopol_K14u</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Ksp58c</defName>
+  <thing>Geopol_Ksp58c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_AK5c</defName>
+  <thing>Geopol_AK5c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_M82c</defName>
+  <thing>Geopol_M82c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_SIG550c</defName>
+  <thing>Geopol_SIG550c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_SakoTRG</defName>
+  <thing>Geopol_SakoTRG</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Qiang</defName>
+  <thing>Geopol_Qiang</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Wingchun</defName>
+  <thing>Geopol_Wingchun</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Jian</defName>
+  <thing>Geopol_Jian</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Dao</defName>
+  <thing>Geopol_Dao</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_nunchaku</defName>
+  <thing>Geopol_nunchaku</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_gun</defName>
+  <thing>Geopol_gun</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_TAR_21c</defName>
+  <thing>Geopol_TAR_21c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_G36Kc</defName>
+  <thing>Geopol_G36Kc</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_PSG1c</defName>
+  <thing>Geopol_PSG1c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Makarov</defName>
+  <thing>Geopol_Makarov</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_Dragunov</defName>
+  <thing>Geopol_Dragunov</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_AK74c</defName>
+  <thing>Geopol_AK74c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_HK416c</defName>
+  <thing>Geopol_HK416c</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Geopol_p320c</defName>
+  <thing>Geopol_p320c</thing>
+</KCSG.SymbolDef>
+
+
+</Defs>

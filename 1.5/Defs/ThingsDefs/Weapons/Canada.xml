@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_browning_9mm</defName>
+    <label>Pistolet Browning 9mm</label>
+    <description>Le Pistolet Browning 9 mm est utilisé par les officiers et les soldats des Forces armées. Il est produit en Inde.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/browning</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+	<weaponTags>
+     <li>Canada_pistolet</li>
+    </weaponTags>
+    <generateCommonality>0.1</generateCommonality>
+  </ThingDef>
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_C7A1c</defName>
+   <label>Fusil d'assaut C7A1</label>
+   <description>Le C7A1 est le fusil d'assaut de base des Forces armées canadiennes.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/C7A1</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Canada_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_C14Timberwolf</defName>
+    <label>Fusil de précision C14 Timberwolf</label>
+    <description>Le C14 Timberwolf est un fusil de sniper à verrou développé au Canada. Il s'agit du principal fusil de précision de l'armée canadienne.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/C14_Timberwolf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Canada_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>

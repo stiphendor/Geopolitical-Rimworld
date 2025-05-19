@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<african.label>African</african.label>
+<african.description>Human of African descent.</african.description>
+<african.tools.left_fist.label>left fist</african.tools.left_fist.label>
+<african.tools.right_fist.label>right fist</african.tools.right_fist.label>
+<african.tools.teeth.label>teeth</african.tools.teeth.label>
+<african.tools.head.label>head</african.tools.head.label>
+
+<antillais.label>Caribbean</antillais.label>
+<antillais.description>Human of Caribbean origin.</antillais.description>
+<antillais.tools.left_fist.label>left fist</antillais.tools.left_fist.label>
+<antillais.tools.right_fist.label>right fist</antillais.tools.right_fist.label>
+<antillais.tools.teeth.label>teeth</antillais.tools.teeth.label>
+<antillais.tools.head.label>head</antillais.tools.head.label>
+
+<arabic.label>Arab</arabic.label>
+<arabic.description>Human of Arab origin.</arabic.description>
+<arabic.tools.left_fist.label>left fist</arabic.tools.left_fist.label>
+<arabic.tools.right_fist.label>right fist</arabic.tools.right_fist.label>
+<arabic.tools.teeth.label>teeth</arabic.tools.teeth.label>
+<arabic.tools.head.label>head</arabic.tools.head.label>
+
+<asian.label>Asian</asian.label>
+<asian.description>Human of Asian descent.</asian.description>
+<asian.tools.left_fist.label>left fist</asian.tools.left_fist.label>
+<asian.tools.right_fist.label>right fist</asian.tools.right_fist.label>
+<asian.tools.teeth.label>teeth</asian.tools.teeth.label>
+<asian.tools.head.label>head</asian.tools.head.label>
+
+<caucasian.label>Caucasian</caucasian.label>
+<caucasian.description>Human of Caucasian descent, a term that generally defines people with white skin.</caucasian.description>
+<caucasian.tools.left_fist.label>left fist</caucasian.tools.left_fist.label>
+<caucasian.tools.right_fist.label>right fist</caucasian.tools.right_fist.label>
+<caucasian.tools.teeth.label>teeth</caucasian.tools.teeth.label>
+<caucasian.tools.head.label>head</caucasian.tools.head.label>
+
+<latino.label>Latin</latino.label>
+<latino.description>Human of Latin descent, a term generally used to refer to people of Latin American origin.</latino.description>
+<latino.tools.left_fist.label>left fist</latino.tools.left_fist.label>
+<latino.tools.right_fist.label>right fist</latino.tools.right_fist.label>
+<latino.tools.teeth.label>teeth</latino.tools.teeth.label>
+<latino.tools.head.label>head</latino.tools.head.label>
+
+</LanguageData>

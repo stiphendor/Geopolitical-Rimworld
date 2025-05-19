@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="GeopolBasePlayerPawnKind">
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <combatPower>30</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <initialWillRange>0~0</initialWillRange>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>450</min>
+      <max>750</max>
+    </apparelMoney>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_african</defName>
+    <label>coloniste</label>
+    <race>african</race>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_arabic</defName>
+    <label>coloniste</label>
+    <race>arabic</race>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_antillais</defName>
+    <label>coloniste</label>
+    <race>antillais</race>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_asian</defName>
+    <label>coloniste</label>
+    <race>asian</race>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_caucasian</defName>
+    <label>coloniste</label>
+    <race>caucasian</race>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GeopolBasePlayerPawnKind">
+    <defName>Colonist_latino</defName>
+    <label>coloniste</label>
+    <race>latino</race>
+  </PawnKindDef>
+
+
+</Defs>

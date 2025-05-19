@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_suede_gpb</defName>
+    <label>Gilet pare-balles suédois</label>
+    <description>Gilets pare-balles suédois.</description>
+    <graphicData>
+      <texPath>Apparel/Suede/Gpb/suede_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Suede/Gpb/suede_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_suede_uniforme</defName>
+    <label>Treillis suédois</label>
+    <description>Treillis suédois.</description>
+    <graphicData>
+      <texPath>Apparel/Suede/Treillis/preview_treillis_suede</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Suede/Treillis/treillis_suede</wornGraphicPath>
+      <tags>
+        <li>Suede</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_suede_casque</defName>
+    <label>Casque suédois</label>
+    <description>Casque suédois.</description>
+    <graphicData>
+      <texPath>Apparel/Suede/Casque/casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Suede/Casque/casque_suede</wornGraphicPath>
+      <tags>
+        <li>Suede</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Parka</defName>
+    <label>parka moderne</label>
+    <description>Une parka moderne synthétique permettant de rester au chaud même lors des hivers les plus rigoureux.</description>
+    <graphicData>
+      <texPath>Apparel/Suede/Parka/display_chest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>140</costStuffCount>
+    <stuffCategories>
+      <li>synthetic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>3.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Suede/Parka/chest</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>parka</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.86,0.74,0.01)</only>
+        </li>
+        <li>
+          <weight>3</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>3</weight>
+          <only>(0.47,0.28,0.51)</only>
+        </li>
+        <li>
+          <weight>3</weight>
+          <only>(0.23,0.78,0.96)</only>
+        </li>
+        <li>
+          <weight>3</weight>
+          <only>(0.49,0.23,0.12)</only>
+        </li>
+        <li>
+          <weight>3</weight>
+          <only>(0.49,0.23,0.12)</only>
+        </li>
+       <li>
+          <weight>3</weight>
+          <only>(0.95,0.95,0.95)</only>
+        </li>
+       <li>
+          <weight>3</weight>
+          <only>(0.71,0.05,0.05)</only>
+        </li>
+       <li>
+          <weight>3</weight>
+          <only>(0.99,0.49,0.01)</only>
+        </li>
+       <li>
+          <weight>3</weight>
+          <only>(0.87,0.48,0.79)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  
+</Defs>

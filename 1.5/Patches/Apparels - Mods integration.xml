@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+        <li>Erin's Cottage Collection</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CCot_Apparel_CottageSweater" or defName="CCot_Apparel_CottageHat"]/apparel</xpath>
+					<value>
+						   <tags><li>EcoloBasic</li></tags>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="CCot_Apparel_CottageHat" or defName="CCot_Apparel_RuffledDress" or defName="CCot_Apparel_CottageDress"]/apparel</xpath>
+					<value>
+						<gender>Female</gender>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="CCot_Apparel_RuffledDress" or defName="CCot_Apparel_CottageDress"]/apparel/layers</xpath>
+					<value>
+						      <layers><li>OnSkin</li></layers>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="CCot_Apparel_CottageSweater"]/stuffCategories</xpath>
+					<value>
+						          <stuffCategories><li>Fabric</li></stuffCategories>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+        <li>Tribal Warrior Set!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_WovenCap" or defName="Gunmar_Apparel_WovenMantle"]/apparel/tags</xpath>
+					<value>
+						   <li>EcoloBasic</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+        <li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VAE_Apparel_CasualTShirt" or defName="VAE_Apparel_Shorts" or defName="VAE_Apparel_Skirt" or defName="VAE_Apparel_Overalls" or defName="VAE_Apparel_Jeans" or defName="VAE_Apparel_TankTop" or defName="VAE_Apparel_Blouse" or defName="VAE_Apparel_Tunic"]/apparel/tags</xpath>
+					<value>
+						   <li>EcoloBasic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VAE_Apparel_CasualTShirt" or defName="VAE_Apparel_TankTop"]/apparel/tags</xpath>
+					<value>
+						   <li>Usa</li>
+						   <li>australien</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					     <xpath>/Defs/ThingDef[defName="VAE_Apparel_Trousers" or defName="VAE_Apparel_ShirtandTie"]/apparel/tags</xpath>
+					<value>
+					          <li>mafia</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+        <li>The Rimfather</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					     <xpath>/Defs/ThingDef[defName="RF_ShirtA"]/apparel</xpath>
+					<value>
+						<tags>
+					          <li>mafia</li>
+						</tags>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="RF_NBc"]/apparel</xpath>
+					<value>
+						<tags>
+						<li>mafia_casquette</li>
+						</tags>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

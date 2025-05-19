@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>cook_chogyeguksu</defName>
+		<label>cook chogyeguksu</label>
+		<description>Cook chogyeguksu.</description>
+		<jobString>Cooking chogyeguksu.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VCE_RawBuckwheat</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+        					<li>Meat_Chicken</li>
+					</thingDefs>
+        			</filter>
+        				<count>0.25</count>
+      			</li>
+			<li MayRequire="tidal.grainsandbrewing">
+				<filter>
+					<thingDefs>
+						<li>GAB_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>0.01</count>
+			</li>
+    </ingredients>
+		<products>
+			<Coree_du_nord_chogyeguksu>1</Coree_du_nord_chogyeguksu>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_coreedunord</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

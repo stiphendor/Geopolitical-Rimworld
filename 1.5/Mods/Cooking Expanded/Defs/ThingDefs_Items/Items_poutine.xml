@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealFineBase">
+    <defName>Canadian_poutine</defName>
+    <label>poutine</label>
+    <description>Poutine is a dish of Quebec cuisine composed, in its classic recipe, of three elements: fries, cheese curds and gravy.</description>
+    <graphicData>
+      <texPath>Meal/Poutine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AtePoutine</specialThoughtDirect>
+	</ingestible>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef ParentName="army_trader">
+    <defName>britain_army_trader</defName>
+    <label>commerçant militaire britannique</label>
+    <labelPlural>commerçants militaire britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_pistolet</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_melee">
+    <defName>britain_army_melee</defName>
+    <label>militaire britannique</label>
+    <labelPlural>militaires britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>couteau_militaire</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_ar">
+    <defName>britain_army_ar</defName>
+    <label>militaire britannique</label>
+    <labelPlural>militaires britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_fusil</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_ar">
+    <defName>britain_army_ar2</defName>
+    <label>militaire britannique</label>
+    <labelPlural>militaires britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_fusil</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_ar">
+    <defName>britain_army_ar3</defName>
+    <label>militaire britannique</label>
+    <labelPlural>militaires britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_fusil</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_medecin">
+    <defName>britain_army_medecin</defName>
+    <label>médecin militaire britannique</label>
+    <labelPlural>médecins militaire britannique</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_pistolet</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>5~10</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions> 
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="army_mg">
+    <defName>britain_army_mg</defName>
+    <label>militaire britannique</label>
+    <labelPlural>militaires britanniques</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_mitrailleuse</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions> 
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="army_sniper">
+    <defName>britain_army_sniper</defName>
+    <label>tireur de précision britannique</label>
+    <labelPlural>tireur de précision britannique</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <apparelRequired>
+	<li>Geopol_britain_uniforme</li>
+	<li>Geopol_britain_gpb</li>
+	<li>Geopol_britain_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_sniper</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions> 
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="chef">
+    <defName>britain_chef</defName>
+    <label>Roi du Royaume-Uni</label>
+    <labelMale>Roi du Royaume-Uni</labelMale>
+    <labelFemale>Reine du Royaume-Uni</labelFemale>
+    <labelPlural>Rois du Royaume-Uni</labelPlural>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <defaultFactionType>britain</defaultFactionType>
+    <minGenerationAge>80</minGenerationAge>
+    <maxGenerationAge>90</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Roi</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelRequired>
+	<li>Geopol_britain_tenue_reine</li>
+	<li>Geopol_britain_chapeau_reine</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="army_ar">
+    <defName>britain_guard</defName>
+    <label>soldat de la garde royale britannique</label>
+    <labelPlural>soldats de la garde royale britannique</labelPlural>
+    <defaultFactionType>britain</defaultFactionType>
+    <race>Human</race>
+    <fixedGender>Male</fixedGender>
+    <apparelRequired>
+	<li>Geopol_britain_garde_royal_tenue</li>
+	<li>Geopol_britain_garde_royal_casque</li>
+    </apparelRequired>
+    <weaponTags>
+     <li>Britain_fusil</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</Defs>

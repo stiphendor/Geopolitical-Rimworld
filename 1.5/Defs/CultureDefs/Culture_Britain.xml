@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>britannique</defName>
+    <label>Britannique</label>
+    <description>Culture britannique.</description>
+    <pawnNameMaker>nom_homme_uk</pawnNameMaker>
+    <pawnNameMakerFemale>nom_femme_uk</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoBritannique</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Britannique</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalsBritannique</festivalNameMaker>
+    <iconPath>Symbols/britain/united-kingdom</iconPath>
+    <allowedPlaceTags>
+    <li>OriginBritannique</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Soldat_beard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Britain_Beard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_homme_uk</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhuk] [nomuk]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhuk</keyword>
+          <path>Noms/prenom_m_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomuk</keyword>
+          <path>Noms/nom_uk</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_femme_uk</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfuk] [nomuk]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfuk</keyword>
+          <path>Noms/prenom_f_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomuk</keyword>
+          <path>Noms/nom_uk</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieuk</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_uk]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_uk</keyword>
+          <path>Noms/colonie_uk</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoBritannique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie britannique</li>
+        <li>r_ideoAdjective->britannique</li>
+        <li>r_memberName->Anglais</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Britannique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Reine</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Britannique</defName>
+    <tags>
+      <li>OriginBritannique</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Londres</li>
+        <li>place_adjective->londonien</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->pub</li>
+        <li>place_community->stade</li>
+        <li>place_community->la city</li>
+        <li>place_community->Westminster</li>
+        <li>place_powerCenter->palais de Buckingham</li>
+        <li>place_job->ouvrier</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraque</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->Napoléon</li>
+        <li>place_foeSoldiers->français</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalsBritannique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->New Year's day</li>
+        <li>festivalName->Saint Patrick</li>
+        <li>festivalName->Good Friday</li>
+        <li>festivalName->Easter monday</li>
+        <li>festivalName->Saint George's Day</li>
+        <li>festivalName->May Day Bank Holiday</li>
+        <li>festivalName->Spring Bank Holiday</li>
+        <li>festivalName->Christmas Day</li>
+        <li>festivalName->Boxing Day</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

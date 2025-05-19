@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<nomfactionanarchistes.rulePack.rulesStrings>
+	<li>name->[prefixfactionanarchiste] [nomfactionanarchiste]</li>
+	<li>name->[prefixfactionanarchiste2] [nomfactionanarchiste2]</li>
+	<li>name->[prefixfactionanarchiste3] [nomfactionanarchiste3]</li>
+</nomfactionanarchistes.rulePack.rulesStrings>
+
+<nomfactionmafia.rulePack.rulesStrings>
+	<li>name->[nomfactionmafia]</li>
+</nomfactionmafia.rulePack.rulesStrings>
+
+<faction_musulmans.rulePack.rulesStrings>
+	<li>name->[faction_muslim_prefix] [faction_muslim_nom]</li>
+</faction_musulmans.rulePack.rulesStrings>
+
+<faction_terroristes_islamistes.rulePack.rulesStrings>
+	<li>name->[faction_terroriste_islamiste_nom]</li>
+	<li>name->[faction_terroriste_islamiste_nom2]</li>
+</faction_terroristes_islamistes.rulePack.rulesStrings>
+
+<nomfactionyakuzas.rulePack.rulesStrings>
+	<li>name->[nomfactionyakuzas]</li>
+</nomfactionyakuzas.rulePack.rulesStrings>
+
+</LanguageData>

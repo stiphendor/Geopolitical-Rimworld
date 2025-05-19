@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_mexique_gpb</defName>
+    <label>Gilet pare-balles mexicain</label>
+    <description>Gilets pare-balles mexicain.</description>
+    <graphicData>
+      <texPath>Apparel/Mexique/Gpb/mexique_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Mexique/Gpb/mexique_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_mexicain</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_mexique_uniforme</defName>
+    <label>Treillis mexicain</label>
+    <description>Treillis mexicain.</description>
+    <graphicData>
+      <texPath>Apparel/Mexique/Treillis/preview_treillis_mexique</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Mexique/Treillis/treillis_mexique</wornGraphicPath>
+      <tags>
+        <li>Mexique</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_mexicain</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_mexique_casque</defName>
+    <label>Casque mexicain</label>
+    <description>Casque mexicain.</description>
+    <graphicData>
+      <texPath>Apparel/Mexique/Casque/casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Mexique/Casque/casque_mexique</wornGraphicPath>
+      <tags>
+        <li>Mexique</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_mexicain</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_mexique_sombrero</defName>
+    <label>Sombrero</label>
+    <description>Un chapeau mexicain traditionnel avec des bords assez larges permettant à ses utilisateurs de se protéger du soleil.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparel/Mexique/Sombrero/Sombrero</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+	  <li>Fabric</li>
+	  <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+	    <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mexique/Sombrero/Sombrero_Geo</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>Mexique_civil</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_mexicain</li>
+	<li>ComplexClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_mexique_poncho</defName>
+    <label>Poncho</label>
+    <description>Le poncho est un vêtement originaire d'Amérique du Nord (Mexique) et du Sud. Ample et de forme simple, il est apprécié par divers peuples montagnards pour la protection qu'il offre contre les intempéries.</description>
+    <graphicData>
+      <texPath>Apparel/Mexique/Poncho/display_poncho</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mexique/Poncho/Apparel</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Mexique_civil</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_mexicain</li>
+	<li>ComplexClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

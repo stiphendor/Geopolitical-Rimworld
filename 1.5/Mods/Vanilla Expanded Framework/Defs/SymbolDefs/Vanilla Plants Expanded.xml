@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>VCE_TreeAvocado</defName>
+  <thing>VCE_TreeAvocado</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_Tomato</defName>
+  <thing>VCE_Tomato</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_TreeMango</defName>
+  <thing>VCE_TreeMango</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_OrangeTree</defName>
+  <thing>VCE_OrangeTree</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_BananaTree</defName>
+  <thing>VCE_BananaTree</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_Pumpkin</defName>
+  <thing>VCE_Pumpkin</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_Pineapple</defName>
+  <thing>VCE_Pineapple</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_CherryTree</defName>
+  <thing>VCE_CherryTree</thing>
+</KCSG.SymbolDef>
+
+</Defs>

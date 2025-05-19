@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Geopol_Katana</defName>
+    <label>katana</label>
+    <description>Le Katana (かたな en Hiragana) est un sabre japonais, la lame est courbée avec un tranchant et elle mesure plus de 60 cm. Cette arme blanche était utilisée par les samouraïs lors de l'époque Edo notamment au Japon.</description>
+    <graphicData>
+      <texPath>Weapons/melee/yakuza/Yakuza_Katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>Katana</li>
+    </weaponTags>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <relicChance>1</relicChance>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <costList>
+      <Steel>80</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>poignée</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>pointe</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>lame</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Geopol_Batte_de_baseball</defName>
+    <label>Batte de baseball</label>
+    <description>La batte de baseball fut créée aux Etats-Unis pour être utilisée dans le jeu du même nom, cependant, son usage initial peut vite être détourné pour servir d'arme contondante.</description>
+    <graphicData>
+      <texPath>Weapons/melee/voyous/Baseball_Bat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+	<li>voyous</li>
+	<li>Giletjaune_weapon</li>
+	<li>Anarchiste_weapon</li>
+    </weaponTags>
+    <costList>
+      <Steel>80</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>poignée</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>tete</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Smithing</li>
+	<li>Geopol_research_usa</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>Geopol_Barre_fer_rouille</defName>
+    <label>Barre de fer rouillée</label>
+    <description>Une vieille barre de fer rouillée.</description>
+    <graphicData>
+      <texPath>Weapons/melee/voyous/Iron_bar_rust</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+	<li>voyous</li>
+	<li>Giletjaune_weapon</li>
+	<li>Anarchiste_weapon</li>
+    </weaponTags>
+    <costList>
+      <Steel>80</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>poignée</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>tete</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Smithing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Geopol_poing_americain</defName>
+    <label>Poing américain</label>
+    <description>Un coup-de-poing américain (parfois nommé « poing américain » par réduction) est une arme blanche contondante constituée d'une pièce de métal dans laquelle on passe les doigts. Lorsque l'on ferme le poing, la pièce de métal prolonge ainsi les excroissances des articulations osseuses.</description>
+    <graphicData>
+      <texPath>Weapons/melee/voyous/poing_americain</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>voyous</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>tete</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	<researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Geopol_couteau_papillon</defName>
+    <label>Couteau papillon</label>
+    <description>Couteau utilisé par les voyous. Il est léger et facile à manipuler.</description>
+   <graphicData>
+      <texPath>Weapons/melee/voyous/Knife_mafia</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>voyous</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>0.2</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>lame</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>pointe</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	<researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Geopol_couteau_oriental</defName>
+    <label>Couteau oriental</label>
+    <description>Un couteau oriental.</description>
+   <graphicData>
+      <texPath>Weapons/melee/terroristes/couteau_oriental</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>couteau_terroristes</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>0.2</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>lame</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>pointe</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Smithing</li>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

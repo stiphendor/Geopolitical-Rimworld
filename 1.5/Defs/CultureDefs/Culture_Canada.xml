@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Canadienne</defName>
+    <label>Canadienne</label>
+    <description>Culture canadienne.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCanada</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_canada</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalcanada</festivalNameMaker>
+    <pawnNameMaker>nom_canada_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_canada_f</pawnNameMakerFemale>
+    <iconPath>Symbols/canada/canada</iconPath>
+    <allowedPlaceTags>
+      <li>OriginCanada</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_canada_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhcanada] [nomcanada]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhcanada</keyword>
+          <path>Noms/prenom_m_canada</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomcanada</keyword>
+          <path>Noms/nom_canada</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_canada_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfcanada] [nomcanada]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfcanada</keyword>
+          <path>Noms/prenom_f_canada</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomcanada</keyword>
+          <path>Noms/nom_canada</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcoloniecanada</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_canada]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_canada</keyword>
+          <path>Noms/colonie_canada</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoCanada</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Canadienne</li>
+        <li>r_ideoAdjective->canadien</li>
+        <li>r_memberName->Canadien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Canada</defName>
+    <tags>
+      <li>OriginCanada</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Ottawa</li>
+        <li>place_adjective->canadien</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->chutes du Niagara</li>
+        <li>place_community->montagnes rocheuses</li>
+        <li>place_powerCenter->24, promenade Sussex</li>
+        <li>place_job->bûcheron</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader-> </li>
+        <li>place_foeSoldiers-> </li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_canada</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Premier ministre</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalcanada</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Nouvel An</li>
+        <li>festivalName->Saint-Patrick</li>
+        <li>festivalName->Vendredi Saint</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Fête de la Reine</li>
+        <li>festivalName->Journée des autochtones</li>
+        <li>festivalName->Fête du Canada</li>
+        <li>festivalName->Noël</li>
+        <li>festivalName->Boxing Day</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

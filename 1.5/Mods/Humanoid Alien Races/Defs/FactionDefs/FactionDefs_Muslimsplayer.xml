@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>muslimfactionplayer</defName>
+    <label>Colonie musulmane</label>
+    <description>Une colonie musulmane.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>muslim</basicMemberKind>
+    <pawnSingular>Musulman</pawnSingular>
+    <pawnsPlural>Musulmans</pawnsPlural>
+    <factionIconPath>Icon/Musulmans</factionIconPath>
+    <settlementTexturePath>Icon/MusulmansSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>faction_musulmans</factionNameMaker>
+    <settlementNameMaker>coloniemusulmans</settlementNameMaker>
+    <allowedCultures><li>musulmane</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Coran</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+    </requiredMemes>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Musulmans</li>
+    </backstoryCategories>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>TribalStart</li>
+      <li>TribalStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Leather_Camel</li>
+        <li>WoolSheep</li>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

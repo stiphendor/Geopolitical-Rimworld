@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>ecolos</defName>
+    <label>Écologistes</label>
+    <description>Un groupe d'écologistes militants pour la protection de l'environnement. Ce sont des partisans de la défense de la nature et de la qualité de l'environnement.</description>
+    <pawnSingular>écologiste</pawnSingular>
+    <pawnsPlural>écologistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>député</leaderTitle>
+    <factionIconPath>Icon/ecolos</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Écologistes</fixedName>
+    <settlementNameMaker>nomcolonieecolos</settlementNameMaker>
+    <allowedCultures><li>Ecologiste</li></allowedCultures>
+    <structureMemeWeights>
+      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Animist>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Disapproved</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Abhorrent</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Disapproved</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Abhorrent</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Ecolos</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_ecolo</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_ecolo</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_ecolo</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <Ecologiste1>1</Ecologiste1>
+	  <Ecologiste2>1</Ecologiste2>
+	  <Ecologiste3>1</Ecologiste3>
+	  <Ecologiste4>1</Ecologiste4>
+	  <Ecologiste5>1</Ecologiste5>
+	  <Ecologisteleader1>1</Ecologisteleader1>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+	  <Ecologistetrader1>1</Ecologistetrader1>
+        </traders>
+        <carriers>
+          <Alpaca>25</Alpaca>
+          <Donkey>25</Donkey>
+          <Goat>25</Goat>
+          <Sheep>25</Sheep>
+        </carriers>
+        <guards>
+	  <Ecologiste1>1</Ecologiste1>
+	  <Ecologiste2>1</Ecologiste2>
+	  <Ecologiste3>1</Ecologiste3>
+	  <Ecologiste4>1</Ecologiste4>
+	  <Ecologiste5>1</Ecologiste5>
+	  <Ecologisteleader1>1</Ecologisteleader1>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <Ecologiste1>1</Ecologiste1>
+	  <Ecologiste2>1</Ecologiste2>
+	  <Ecologiste3>1</Ecologiste3>
+	  <Ecologiste4>1</Ecologiste4>
+	  <Ecologiste5>1</Ecologiste5>
+	  <Ecologisteleader1>1</Ecologisteleader1>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+	  <Ecologiste1>1</Ecologiste1>
+	  <Ecologiste2>1</Ecologiste2>
+	  <Ecologiste3>1</Ecologiste3>
+	  <Ecologiste4>1</Ecologiste4>
+	  <Ecologiste5>1</Ecologiste5>
+	  <Ecologisteleader1>1</Ecologisteleader1>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/EcoloSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>5</configurationListOrderPriority>
+  </FactionDef>
+
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>ecolos_radicaux</defName>
+    <label>Ecologistes radicaux</label>
+    <description>Un groupe d'écologistes radicaux. Défendant l'environnement à l'instar des écologistes classiques, les radicaux se distinguent par leur prosélytisme et leur capacité à user de la violence pour imposer leurs idées.
+Ils vont également plus loin dans leur combat en faveur des droits des animaux, refusant de les utiliser d'une quelquonque manière, que ce soit en les mangeant ou en portant du cuir ou de la fourrure.</description>
+    <pawnSingular>écologiste radical</pawnSingular>
+    <pawnsPlural>écologistes radicaux</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>chef</leaderTitle>
+    <factionIconPath>Icon/ecolos_radicaux</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Écologistes radicaux</fixedName>
+    <settlementNameMaker>nomcolonieecolosradicaux</settlementNameMaker>
+    <allowedCultures><li>Ecologiste_radicale</li></allowedCultures>
+    <structureMemeWeights>
+      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Animist>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ViolentConversion</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Disapproved</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Abhorrent</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Disapproved</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Abhorrent</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Ecolos</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_ecolo_radical</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_ecolo_radical</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_ecolo_radical</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <Ecologiste_radical1>1</Ecologiste_radical1>
+	  <Ecologiste_radical2>1</Ecologiste_radical2>
+	  <Ecologiste_radical3>1</Ecologiste_radical3>
+	  <Ecologiste_radical4>1</Ecologiste_radical4>
+	  <Ecologiste_radical5>1</Ecologiste_radical5>
+	  <Ecologiste_radical_leader1>1</Ecologiste_radical_leader1>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+	  <Ecologiste_radical_trader1>1</Ecologiste_radical_trader1>
+        </traders>
+        <carriers>
+          <Alpaca>25</Alpaca>
+          <Donkey>25</Donkey>
+          <Goat>25</Goat>
+          <Sheep>25</Sheep>
+        </carriers>
+        <guards>
+	  <Ecologiste_radical1>1</Ecologiste_radical1>
+	  <Ecologiste_radical2>1</Ecologiste_radical2>
+	  <Ecologiste_radical3>1</Ecologiste_radical3>
+	  <Ecologiste_radical4>1</Ecologiste_radical4>
+	  <Ecologiste_radical5>1</Ecologiste_radical5>
+	  <Ecologiste_radical_leader1>1</Ecologiste_radical_leader1>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <Ecologiste_radical1>1</Ecologiste_radical1>
+	  <Ecologiste_radical2>1</Ecologiste_radical2>
+	  <Ecologiste_radical3>1</Ecologiste_radical3>
+	  <Ecologiste_radical4>1</Ecologiste_radical4>
+	  <Ecologiste_radical5>1</Ecologiste_radical5>
+	  <Ecologiste_radical_leader1>1</Ecologiste_radical_leader1>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+	  <Ecologiste_radical1>1</Ecologiste_radical1>
+	  <Ecologiste_radical2>1</Ecologiste_radical2>
+	  <Ecologiste_radical3>1</Ecologiste_radical3>
+	  <Ecologiste_radical4>1</Ecologiste_radical4>
+	  <Ecologiste_radical5>1</Ecologiste_radical5>
+	  <Ecologiste_radical_leader1>1</Ecologiste_radical_leader1>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/EcoloSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>5</configurationListOrderPriority>
+  </FactionDef>
+
+
+</Defs>

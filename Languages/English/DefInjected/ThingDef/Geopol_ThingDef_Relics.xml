@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Geopol_RelicBible.label>Holy Bible</Geopol_RelicBible.label>
+<Geopol_RelicBible.description>Holy book of christians</Geopol_RelicBible.description>
+
+<Geopol_Relicbouddhisme.label>Vinaya Pitaka</Geopol_Relicbouddhisme.label>
+<Geopol_Relicbouddhisme.description>Holy book of buddhists.</Geopol_Relicbouddhisme.description>
+
+<Geopol_Reliccoran.label>Koran</Geopol_Reliccoran.label>
+<Geopol_Reliccoran.description>Holy book of muslims.</Geopol_Reliccoran.description>
+
+<Geopol_Relictorah.label>Torah</Geopol_Relictorah.label>
+<Geopol_Relictorah.description>Holy book of the jews.</Geopol_Relictorah.description>
+
+
+</LanguageData>

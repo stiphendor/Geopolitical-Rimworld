@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <KCSG.SettlementLayoutDef>
+    <defName>Geopol_Israel_Base</defName>
+    <settlementSize>142,142</settlementSize>
+    <avoidBridgeable>true</avoidBridgeable>
+    <avoidMountains>true</avoidMountains>
+    <centerBuildings>
+      <centerSize>122,122</centerSize>
+      <allowedStructures>
+        <li>
+          <count>1~1</count>
+          <tag>energie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>batterie</tag>
+        </li>
+        <li MayRequire="VanillaExpanded.VFEPower">
+          <count>1~1</count>
+          <tag>energie_nucleaire</tag>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <count>1~1</count>
+          <tag>ecole</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>prison</tag>
+        </li>
+        <li>
+          <count>2~3</count>
+          <tag>chambre</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>coffre_fort</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>hopitaux</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>armurerie_israel</tag>
+        </li>
+      </allowedStructures>
+    </centerBuildings>
+
+    <peripheralBuildings>
+      <allowedStructures>
+        <li MayRequire="vanillaexpanded.vplantse">
+          <count>1~2</count>
+          <tag>champs_tomates</tag>
+        </li>
+        <li MayRequire="vanillaexpanded.vplantse">
+          <count>2~4</count>
+          <tag>champs_oranges</tag>
+        </li>
+        <li MayRequire="vanillaexpanded.vplantsemore">
+          <count>1~2</count>
+          <tag>champs_avocat</tag>
+        </li>
+        <li MayRequire="vanillaexpanded.vplantsemore">
+          <count>1~2</count>
+          <tag>champs_mangues</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>grange</tag>
+        </li>
+      </allowedStructures>
+    </peripheralBuildings>
+
+<roadOptions>
+      <addMainRoad>true</addMainRoad>
+      <mainRoadCount>4</mainRoadCount>
+      <mainRoadDef>Concrete</mainRoadDef>
+      <mainRoadWidth>4</mainRoadWidth>
+      <addLinkRoad>true</addLinkRoad>
+      <linkRoadDef>PavedTile</linkRoadDef>
+      <linkRoadWidth>2</linkRoadWidth>
+</roadOptions>
+
+<defenseOptions>
+      <addEdgeDefense>true</addEdgeDefense>
+      <addSandbags>true</addSandbags>
+      <addTurrets>true</addTurrets>
+      <cellsPerTurret>20</cellsPerTurret>
+      <allowedTurretsDefs>
+        <li>Turret_MiniTurret</li>
+        <li MayRequire="VanillaExpanded.VFESecurity">VFES_Turret_MilitaryTurret</li>
+        <li MayRequire="VanillaExpanded.VFESecurity">VFES_Turret_Searchlight</li>
+      </allowedTurretsDefs>
+      <addMortars>true</addMortars>
+      <cellsPerMortar>60</cellsPerMortar>
+      <allowedMortarsDefs>
+        <li>Turret_Mortar</li>
+      </allowedMortarsDefs>
+</defenseOptions>
+
+  </KCSG.SettlementLayoutDef>
+</Defs>

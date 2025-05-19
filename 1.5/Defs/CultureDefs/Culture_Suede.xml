@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Suedoise</defName>
+    <label>Suédoise</label>
+    <description>Culture suédoise.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSuede</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_suede</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalsuede</festivalNameMaker>
+    <pawnNameMaker>nom_suede_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_suede_f</pawnNameMakerFemale>
+    <iconPath>Symbols/suede/suede</iconPath>
+    <allowedPlaceTags>
+      <li>Originsuede</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_suede_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhsuede] [nomsuede]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhsuede</keyword>
+          <path>Noms/prenom_m_suede</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomsuede</keyword>
+          <path>Noms/nom_suede</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_suede_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfsuede] [nomsuede]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfsuede</keyword>
+          <path>Noms/prenom_f_suede</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomsuede</keyword>
+          <path>Noms/nom_suede</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonie_suede</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_suede]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_suede</keyword>
+          <path>Noms/colonie_suede</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoSuede</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Suédoise</li>
+        <li>r_ideoAdjective->suédois</li>
+        <li>r_memberName->Suédois</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>suede</defName>
+    <tags>
+      <li>Originsuede</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Stockholm</li>
+        <li>place_adjective->suédois</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->Avicii Arena</li>
+        <li>place_community->Gamla stan</li>
+        <li>place_powerCenter->Palais royal de Stockholm</li>
+        <li>place_job->pêcheur</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->président russe</li>
+        <li>place_foeSoldiers->soldats russes</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_suede</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Roi</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalsuede</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Nouvel An</li>
+        <li>festivalName->Epiphanie</li>
+        <li>festivalName->Vendredi Saint</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Fête nationale suédoise</li>
+        <li>festivalName->Midsommarafton</li>
+        <li>festivalName->Midsommardagen</li>
+        <li>festivalName->Noël</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

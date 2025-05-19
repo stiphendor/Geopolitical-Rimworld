@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>Geopol_Activiste</defName>
+		<title>Activiste</title>
+		<titleShort>Activiste</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a décidé de dédié sa vie à défendre les causes en lesquelles {PAWN_pronoun} croit.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+			<li>Ecolos</li>
+			<li>Femen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Artiste</defName>
+		<title>Artiste</title>
+		<titleShort>Artiste</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] est convaincu d'avoir un talent artistique. Pour l'aider à trouver l'inspiration, {PAWN_pronoun} a tendance à consommer diverses drogues.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+			<li>Ecolos</li>
+			<li>Femen</li>
+			<li>France</li>
+		</spawnCategories>
+		<skillGains>
+			<Artistic>4</Artistic>
+		</skillGains>
+		<forcedTraits>
+			<DrugDesire>2</DrugDesire>
+		</forcedTraits>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Bagarreur</defName>
+		<title>Bagarreur</title>
+		<titleShort>Bagarreur</titleShort>
+		<titleFemale>Bagarreuse</titleFemale>
+		<titleShortFemale>Bagarreuse</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] aime se battre, c'est plus fort qu{PAWN_gender ? e lui : 'elle}, cela l'a rendu plus fort mais a aussi occasionné quelques dégâts sur son cerveau à cause des coups qu'{PAWN_gender ? il : elle} a reçu.</baseDesc>
+		<spawnCategories>
+			<li>Antifa</li>
+			<li>Skinhead</li>
+		</spawnCategories>
+		<skillGains>
+	        <Melee>3</Melee>
+		<Intellectual>-3</Intellectual>
+		</skillGains>
+	<requiredWorkTags>
+		<li>Violent</li>
+	</requiredWorkTags>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Banquier</defName>
+		<title>Banquier</title>
+		<titleShort>Banquier</titleShort>
+		<titleFemale>Banquière</titleFemale>
+		<titleShortFemale>Banquière</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a passé sa vie à gérer l'argent des autres, cela l'a rendu doué dans l'art de négocier les prix.</baseDesc>
+		<spawnCategories>
+			<li>Juifs</li>
+			<li>Suisse</li>
+		</spawnCategories>
+		<skillGains>
+		<Artistic>-3</Artistic>
+		<Social>3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Boulanger</defName>
+		<title>Boulanger</title>
+		<titleShort>Boulanger</titleShort>
+		<titleFemale>Boulangère</titleFemale>
+		<titleShortFemale>Boulangère</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a pris l'habitude de se lever tous les matins à 3h pour fabriquer du pain. {PAWN_pronoun} est deven{PAWN_gender ? u : ue} spécialiste dans la préparation de baguettes.</baseDesc>
+		<spawnCategories>
+			<li>France</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>3</Cooking>
+			<Crafting>1</Crafting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Chocolatier</defName>
+		<title>Chocolatier</title>
+		<titleShort>Chocolatier</titleShort>
+		<titleFemale>Chocolatière</titleFemale>
+		<titleShortFemale>Chocolatière</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] est spécialisé dans la fabrication de friandises à base de chocolat.</baseDesc>
+		<spawnCategories>
+			<li>Suisse</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>3</Cooking>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Chomeur</defName>
+		<title>Chômeur</title>
+		<titleShort>Chômeur</titleShort>
+		<titleFemale>Chômeuse</titleFemale>
+		<titleShortFemale>Chômeuse</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a perdu son emploi il y a bien longtemps et n'en a jamais retrouvé. A force de passer ses journées sur son canapé sans activité, cela a ramolli le cerveau de [PAWN_nameDef].</baseDesc>
+		<spawnCategories>
+			<li>Skinhead</li>
+			<li>Gilet_jaunes</li>
+		</spawnCategories>
+		<skillGains>
+		<Intellectual>-3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Etudiant</defName>
+		<title>Etudiant</title>
+		<titleShort>Etudiant</titleShort>
+		<titleFemale>Etudiante</titleFemale>
+		<titleShortFemale>Etudiante</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] étudie à l'université. {PAWN_pronoun} passe ses journées réfléchir, et n'a jamais appris à se servir de ses mains.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+		<Intellectual>3</Intellectual>
+		</skillGains>
+	<workDisables>
+		<li>ManualSkilled</li>
+	</workDisables>
+	</BackstoryDef>
+
+
+	<BackstoryDef>
+		<defName>Geopol_Croyant</defName>
+		<title>Croyant</title>
+		<titleShort>Croyant</titleShort>
+		<titleFemale>Croyante</titleFemale>
+		<titleShortFemale>Croyante</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] vit avant tout pour servir son Dieu.</baseDesc>
+		<spawnCategories>
+			<li>Bouddhistes</li>
+			<li>Chretiens</li>
+			<li>Juifs</li>
+			<li>Musulmans</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Hooligan</defName>
+		<title>Hooligan</title>
+		<titleShort>Hooligan</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] va au stade tous les week-ends, non pas pour apprécier le match mais plutôt pour se battre avec les supporters adverses.</baseDesc>
+		<spawnCategories>
+			<li>Skinhead</li>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>-5</Intellectual>
+			<Melee>3</Melee>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<forcedTraits>
+			<Brawler>0</Brawler>
+		</forcedTraits>
+		<disallowedTraits>
+			<Kind>0</Kind>
+		</disallowedTraits>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Journaliste</defName>
+		<title>Journaliste indépendant</title>
+		<titleShort>Journaliste indépendant</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] se prend pour un journaliste. Malgré le fait qu'{PAWN_pronoun} ne dispose d'aucun diplôme dans la profession ni de carte de presse, {PAWN_pronoun} aime se rendre dans les manifestations avec son appareil photo à l'affut de la moindre bavure policière.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>3</Social>
+		        <Melee>-3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Libraire</defName>
+		<title>Libraire</title>
+		<titleShort>Libraire</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] aime passer son temps à lire des livres, {PAWN_pronoun} en a donc logiquement fait son métier. Cela l'empêche d'avoir du temps pour faire du sport.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>3</Intellectual>
+		        <Melee>-5</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Ouvrier</defName>
+		<title>Ouvrier</title>
+		<titleShort>Ouvrier</titleShort>
+		<titleFemale>Ouvrière</titleFemale>
+		<titleShortFemale>Ouvrière</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a travaillé toute sa vie dans une usine à faire des tâches répétitives.</baseDesc>
+		<spawnCategories>
+			<li>Chine</li>
+			<li>Skinhead</li>
+		</spawnCategories>
+		<skillGains>
+		<Construction>2</Construction>
+		<Crafting>2</Crafting>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Constructing</li>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	<workDisables>
+		<li>Intellectual</li>
+	</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Sociologue</defName>
+		<title>Sociologue</title>
+		<titleShort>Sociologue</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a étudié les phénomènes et comportements sociaux. {PAWN_objective}-même ne sait pas trop pourquoi.</baseDesc>
+		<spawnCategories>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Squatteur</defName>
+		<title>Squatteur</title>
+		<titleShort>Squatteur</titleShort>
+		<titleFemale>Squatteuse</titleFemale>
+		<titleShortFemale>Squatteuse</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a pris l'habitude de vivre dans des logements qui ne lui appartenaient pas. {PAWN_pronoun} a dû apprendre à effectuer des réparations {PAWN_objective}-même dans les biens qu'{PAWN_pronoun} occupait, mais ne comprend pas le concept de nettoyage.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+		</spawnCategories>
+		<skillGains>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<possessions>
+			<SmokeleafJoint>2</SmokeleafJoint>
+		</possessions>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Sreet_Medic</defName>
+		<title>Street Medic</title>
+		<titleShort>Street Medic</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] passe presque tout son temps libre déguis{PAWN_gender ? é : ée} en médecin militaire lors de manifestations de voie publique pour se précipiter au secours des personnes blessées par la police.</baseDesc>
+		<spawnCategories>
+			<li>Anarchiste</li>
+			<li>Antifa</li>
+		</spawnCategories>
+		<skillGains>
+			<Medicine>1</Medicine>
+		</skillGains>
+		<possessions>
+			<MedicineIndustrial>3</MedicineIndustrial>
+		</possessions>
+	</BackstoryDef>
+
+
+
+
+
+	<BackstoryDef>
+		<defName>Geopol_Dictateur</defName>
+		<title>Dictateur</title>
+		<titleShort>Dictateur</titleShort>
+		<titleFemale>Dictatrice</titleFemale>
+		<titleShortFemale>Dictatrice</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>Après avoir pris le pouvoir dans son pays, [PAWN_nameDef] ne l'a jamais rendu. {PAWN_pronoun} détient tous les pouvoirs, et dirige d'une main de fer.</baseDesc>
+		<spawnCategories>
+			<li>Dictateur</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Crafting</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+		</workDisables>
+		<skillGains>
+		<Melee>5</Melee>
+		</skillGains>
+		<disallowedTraits>
+			<Kind>0</Kind>
+		</disallowedTraits>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_President</defName>
+		<title>Président</title>
+		<titleShort>Président</titleShort>
+		<titleFemale>Présidente</titleFemale>
+		<titleShortFemale>Présidente</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a été élu présiden{PAWN_gender ? t : te} de son pays. Cela prouve ses grandes capacités sociales et intellectuelles, mais {PAWN_pronoun} n'acceptera plus de faire les tâches ingrates comme nettoyer ou transporter des objets.</baseDesc>
+		<spawnCategories>
+			<li>President</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workDisables>
+		<skillGains>
+		<Intellectual>10</Intellectual>
+		<Social>15</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Roi</defName>
+		<title>Roi</title>
+		<titleShort>Roi</titleShort>
+		<titleFemale>Reine</titleFemale>
+		<titleShortFemale>Reine</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>Membre de la famille royale, [PAWN_nameDef] a finit par être couronn{PAWN_gender ? é : ée} à la mort de son prédecesseur. N'ayant jamais eu à travailler de sa vie, {PAWN_pronoun} sera incapable d'effectuer la moindre tâche avec ses mains.</baseDesc>
+		<spawnCategories>
+			<li>Roi</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Constructing</li>
+			<li>Cooking</li>
+			<li>Crafting</li>
+			<li>Firefighting</li>
+			<li>Hauling</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<skillGains>
+		<Intellectual>5</Intellectual>
+		<Social>10</Social>
+		</skillGains>
+	</BackstoryDef>
+
+
+
+
+
+	<BackstoryDef>
+		<defName>Geopol_Pretre</defName>
+		<title>Prêtre</title>
+		<titleShort>Prêtre</titleShort>
+		<titleFemale>Prêtre</titleFemale>
+		<titleShortFemale>Prêtre</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] a décidé de dédier sa vie à Dieu et à la religion chrétienne.</baseDesc>
+		<spawnCategories>
+			<li>Pretre</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Eveque</defName>
+		<title>Evêque</title>
+		<titleShort>Evêque</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] est dignitaire de l'église chrétienne, {PAWN_pronoun} a été choisi et consacré par le pape pour être responsable d'un diocèse. Cette responsabilité a eu tendance à {PAWN_gender ? le : la} rendre cupide. {PAWN_pronoun} n'est pas dou{PAWN_gender ? é : ée} pour se battre, et refuse de travailler à toute tâche qu'{PAWN_pronoun} juge dégradante.</baseDesc>
+		<spawnCategories>
+			<li>Eveque</li>
+		</spawnCategories>
+	<skillGains>
+		<Social>2</Social>
+	        <Melee>-5</Melee>
+	        <Shooting>-5</Shooting>
+	</skillGains>
+	<forcedTraits>
+		<Greedy>0</Greedy>
+	</forcedTraits>
+	<workDisables>
+		<li>ManualDumb</li>
+		<li>ManualSkilled</li>
+	</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Cardinal</defName>
+		<title>Cardinal</title>
+		<titleShort>Cardinal</titleShort>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] est un haut dignitaire de l'Église catholique, {PAWN_pronoun} a été choisi par le pape et est charg{PAWN_gender ? é : ée} de l'assister. Cette responsabilité a eu tendance à {PAWN_gender ? le : la} rendre cupide. {PAWN_pronoun} n'est pas dou{PAWN_gender ? é : ée} pour se battre, et refuse de travailler à toute tâche qu'{PAWN_pronoun} juge dégradante.</baseDesc>
+		<spawnCategories>
+			<li>Cardinal</li>
+		</spawnCategories>
+	<skillGains>
+		<Social>3</Social>
+	        <Melee>-7</Melee>
+	        <Shooting>-7</Shooting>
+	</skillGains>
+	<forcedTraits>
+		<Greedy>0</Greedy>
+	</forcedTraits>
+	<workDisables>
+		<li>ManualDumb</li>
+		<li>ManualSkilled</li>
+	</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Geopol_Pape</defName>
+		<title>Pape</title>
+		<titleShort>Pape</titleShort>
+		<titleFemale>Papesse</titleFemale>
+		<titleShortFemale>Papesse</titleShortFemale>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDesc>[PAWN_nameDef] est l'évêque de Rome, chef de l'Église catholique et le chef d'État monarchique du Vatican. Souhaitant la paix entre les peuples, [PAWN_nameDef] n'a jamais appris à utiliser la violence.</baseDesc>
+		<spawnCategories>
+			<li>Pape</li>
+		</spawnCategories>
+	<skillGains>
+		<Social>5</Social>
+	        <Melee>-10</Melee>
+	        <Shooting>-10</Shooting>
+	</skillGains>
+	</BackstoryDef>
+</Defs>

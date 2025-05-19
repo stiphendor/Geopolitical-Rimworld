@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>RH2_BarrackBed_WoodLog_South</defName>
+  <thing>RH2_BarrackBed</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RH2_OfficerDoubleBed_WoodLog_South</defName>
+  <thing>RH2_OfficerDoubleBed</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RH2_LampEndTable_WoodLog_South</defName>
+  <thing>RH2_LampEndTable</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RH2_DoubleWardrobe_WoodLog_North</defName>
+  <thing>RH2_DoubleWardrobe</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+</Defs>

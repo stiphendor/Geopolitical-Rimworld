@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>mexique</defName>
+    <label>Mexique</label>
+    <description>Situé entre les États-Unis et l'Amérique centrale, le Mexique est un pays réputé pour ses plages du Pacifique et du golfe du Mexique, ainsi que pour ses paysages variés - entre montagnes, déserts et jungles. Il est pourvu de ruines anciennes comme Teotihuacan et la cité maya de Chichén Itzá ainsi que de villes datant de l'époque coloniale espagnole. Le Mexique est également un pays dangereux où de nombreux cartels sévissent pour la domination du trafic de drogue.</description>
+    <pawnSingular>mexicain</pawnSingular>
+    <pawnsPlural>mexicains</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>président</leaderTitle>
+    <factionIconPath>Icon/mexico</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>Mexique</fixedName>
+    <settlementNameMaker>nomcoloniemexique</settlementNameMaker>
+    <allowedCultures><li>Mexicaine</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Christianisme</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_PartyLife</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Cowboys</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Mexique</li>
+    </backstoryCategories>
+    <baseTraderKinds>
+      <li>Base_mexique</li>
+    </baseTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_mexique</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_mexique</li>
+    </visitorTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-10</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <mexico_army_melee>3</mexico_army_melee>
+          <mexico_army_ar>10</mexico_army_ar>
+          <mexico_army_medecin>2</mexico_army_medecin>
+          <mexico_army_mg>3</mexico_army_mg>
+          <mexico_army_sniper>2</mexico_army_sniper>
+          <mexico_chef>0.01</mexico_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <mexico_army_trader>1</mexico_army_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+        </carriers>
+        <guards>
+          <mexico_army_melee>2</mexico_army_melee>
+          <mexico_army_ar>8</mexico_army_ar>
+          <mexico_army_medecin>2</mexico_army_medecin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <mexicain_civil>10</mexicain_civil>
+          <mexico_chef>1</mexico_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <mexicain_civil>5</mexicain_civil>
+          <mexico_army_melee>3</mexico_army_melee>
+          <mexico_army_ar>10</mexico_army_ar>
+          <mexico_army_medecin>2</mexico_army_medecin>
+          <mexico_army_mg>3</mexico_army_mg>
+          <mexico_army_sniper>2</mexico_army_sniper>
+          <mexico_chef>1</mexico_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/MexiqueSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

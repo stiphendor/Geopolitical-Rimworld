@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef ParentName="Base">
+    <defName>Base_chine</defName>
+    <stockGenerators>
+
+
+<!-- Ressources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>8000~30000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>100~200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>5000~8000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>500~800</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>150~300</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>28~66</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>20~70</countRange>
+      </li>
+
+
+<!-- Textiles -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>800~1200</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>800~1200</totalPriceRange>
+      </li>
+
+
+<!-- Food -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories><li>EggsFertilized</li></excludedCategories>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>5~10</countRange>
+      </li>
+      <li MayRequire="tidal.grainsandbrewing" Class="StockGenerator_SingleDef">
+        <thingDef>GAB_RawMillet</thingDef>
+        <countRange>50~100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chinese_Canard_Laque</thingDef>
+        <countRange>10~30</countRange>
+      </li>
+
+<!-- Implants -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+
+<!-- Apparels -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_uniforme</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_gpb</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_casque</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+
+
+<!-- Weapons -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_qsz_92c</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBZ_95c</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBB_95c</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBU_88c</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_couteau_militaire</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>MortarShell</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>20~40</countRange>
+      </li>
+
+
+<!-- Body Parts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyParts</categoryDef>
+        <countRange>5~20</countRange>
+      </li>
+     <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsNatural</categoryDef>
+        <countRange>5~20</countRange>
+      </li>
+
+
+<!-- Buildings -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <thingDefCountRange>6~15</thingDefCountRange>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Television</tradeTag>
+        <thingDefCountRange>5~10</thingDefCountRange>
+        <countRange>1~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Telescope</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_book_chine</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
+
+<!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalChine</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~4</kindCountRange>
+        <countRange>3~8</countRange>
+      </li>
+
+
+<!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Wood</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Medicine</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Component</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+
+  <TraderKindDef ParentName="Caravan">
+    <defName>Caravan_chine</defName>
+    <label>Commerçant chinois</label>
+    <stockGenerators>
+
+<!-- Ressources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>4000~10000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>20~80</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>1000~2000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>100~200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>20~40</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>5~13</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>4~14</countRange>
+      </li>
+
+
+<!-- Textiles -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>160~240</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>160~240</totalPriceRange>
+      </li>
+
+
+<!-- Food -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chinese_Canard_Laque</thingDef>
+        <countRange>5~10</countRange>
+      </li>
+
+
+<!-- Apparels -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_uniforme</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_gpb</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_chine_casque</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+
+
+<!-- Weapons -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_qsz_92c</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBZ_95c</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBB_95c</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_QBU_88c</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_couteau_militaire</thingDef>
+        <countRange>0~5</countRange>
+      </li>
+
+
+<!-- Body Parts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyParts</categoryDef>
+        <thingDefCountRange>4~8</thingDefCountRange>
+      </li>
+     <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsNatural</categoryDef>
+        <thingDefCountRange>4~8</thingDefCountRange>
+      </li>
+
+
+<!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalChine</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~2</kindCountRange>
+        <countRange>1~5</countRange>
+      </li>
+      
+<!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Wood</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Medicine</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Component</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+  <TraderKindDef ParentName="Visitor">
+    <defName>Visitor_chine</defName>
+    <label>visiteur chinois</label>
+    <stockGenerators>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>200~500</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chinese_Canard_Laque</thingDef>
+        <countRange>-2~1</countRange>
+      </li>
+     
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Medicine</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Component</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+
+</Defs>

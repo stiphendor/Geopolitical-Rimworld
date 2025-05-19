@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Antifas</defName>
+    <label>Antifascistes</label>
+    <description>Situé à l'ultra gauche de l'échiquier politique, les antifascistes mettent en avant la lutte physique contre les groupuscules d'extrême droite. Opérant généralement dans l'anonymat et sans structure formelle, cette mouvance se caractérise notamment par des manifestations et des actions violentes. Son combat s'est peu à peu étendu à l'anticapitalisme, la lutte contre le racisme, l'homophobie ou les violences policières.</description>
+    <pawnSingular>antifasciste</pawnSingular>
+    <pawnsPlural>antifascistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>leader</leaderTitle>
+    <factionIconPath>Icon/antifa</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Antifas</fixedName>
+    <settlementNameMaker>nomcolonieantifa</settlementNameMaker>
+    <allowedCultures><li>antifa</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_WealthEquality</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Egalitarian</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">Slavery_Disapproved</li>
+      <li MayRequire="MortStrudel.MortIdeology">Slavery_Horrible</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Antifa</li>
+    </backstoryCategories>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Leather_Plain</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Redskin_melee_1>3</Redskin_melee_1>
+          <Redskin_melee_2>3</Redskin_melee_2>
+          <Antifa_melee_1>3</Antifa_melee_1>
+          <Antifa_melee_2>3</Antifa_melee_2>
+          <Antifa_melee_3>3</Antifa_melee_3>
+          <Antifa_leader>1</Antifa_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Redskin_melee_1>3</Redskin_melee_1>
+          <Redskin_melee_2>3</Redskin_melee_2>
+          <Antifa_melee_1>3</Antifa_melee_1>
+          <Antifa_melee_2>3</Antifa_melee_2>
+          <Antifa_melee_3>3</Antifa_melee_3>
+          <Antifa_leader>1</Antifa_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Redskin_melee_1>3</Redskin_melee_1>
+          <Redskin_melee_2>3</Redskin_melee_2>
+          <Antifa_melee_1>3</Antifa_melee_1>
+          <Antifa_melee_2>3</Antifa_melee_2>
+          <Antifa_melee_3>3</Antifa_melee_3>
+          <Antifa_leader>1</Antifa_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/AntifaSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Skinhead</defName>
+    <label>Skinheads</label>
+    <description>Les skinheads d'extrême droite valorisent le nationalisme, le néofascisme, le néonazisme, ainsi que la ratonnade, l'antisémitisme, l'homophobie, le racisme, la discrimination, l'anticommunisme de manière ultraviolente, allant de l'action de rue à la lutte armée.</description>
+    <pawnSingular>skinhead</pawnSingular>
+    <pawnsPlural>skinheads</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>leader</leaderTitle>
+    <categoryTag>Skinhead</categoryTag>
+    <factionIconPath>Icon/skinheads</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Skinheads</fixedName>
+    <settlementNameMaker>nomcolonieuk</settlementNameMaker>
+    <allowedCultures><li>skinhead</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophobia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Skinhead</li>
+    </backstoryCategories>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Leather_Plain</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Skinhead_melee>10</Skinhead_melee>
+          <Skinhead_leader>1</Skinhead_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Skinhead_melee>10</Skinhead_melee>
+          <Skinhead_leader>1</Skinhead_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Skinhead_melee>10</Skinhead_melee>
+          <Skinhead_leader>1</Skinhead_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/SkinheadsSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>KuKluxKlan</defName>
+    <label>Ku Klux Klan</label>
+    <description>Un groupe suprémaciste blanc.</description>
+    <pawnSingular>Klan</pawnSingular>
+    <pawnsPlural>Klans</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Grand sorcier impérial</leaderTitle>
+    <factionIconPath>Icon/Klan</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Ku Klux Klan</fixedName>
+    <settlementNameMaker>nomcolonies_klan</settlementNameMaker>
+    <allowedCultures><li>klan</li></allowedCultures>
+    <structureMemeWeights>
+      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">klan</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+      <li MayRequire="AP.Slaveholding">AP_Slaveholding_Meme</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophobia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Usa</li>
+    </backstoryCategories>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged & melee -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	  <klan_melee>10</klan_melee>
+	  <klan_gun>3</klan_gun>
+	  <klan_pompe>2</klan_pompe>
+	  <klan_chef>1</klan_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <klan_melee>10</klan_melee>
+	  <klan_gun>3</klan_gun>
+	  <klan_pompe>2</klan_pompe>
+	  <klan_chef>1</klan_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	  <klan_melee>10</klan_melee>
+	  <klan_gun>3</klan_gun>
+	  <klan_pompe>2</klan_pompe>
+	  <klan_chef>1</klan_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/KlanSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>terroristes_islamistes</defName>
+    <label>Terroristes islamistes</label>
+    <description>Un groupe terroriste islamiste.</description>
+    <pawnSingular>Terroriste islamiste</pawnSingular>
+    <pawnsPlural>Terroristes islamistes</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Calife</leaderTitle>
+    <factionIconPath>Icon/Terroristes_islamistes</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <factionNameMaker>faction_terroristes_islamistes</factionNameMaker>
+    <settlementNameMaker>colonie_terroristes_islamistes</settlementNameMaker>
+    <allowedCultures><li>islamisme_radical</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Coran</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Iconoclast</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
+    </requiredMemes>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_Musulmans</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Musulmans</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>0</min>
+      <max>65</max>
+    </allowedArrivalTemperatureRange>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Leather_Camel</li>
+        <li>WoolSheep</li>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>90</commonality>
+        <options>
+          <terroriste_army_ar>10</terroriste_army_ar>
+          <terroriste_melee>5</terroriste_melee>
+          <terroriste_army_mg>2</terroriste_army_mg>
+          <terroriste_army_sniper>2</terroriste_army_sniper>
+          <terroriste_chef>0.01</terroriste_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <terroriste_melee>10</terroriste_melee>
+          <terroriste_femme>10</terroriste_femme>
+          <terroriste_chef>0.01</terroriste_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <terroriste_army_trader>1</terroriste_army_trader>
+        </traders>
+        <carriers>
+          <Dromedary>100</Dromedary>
+        </carriers>
+        <guards>
+          <terroriste_army_ar>7</terroriste_army_ar>
+          <terroriste_melee>5</terroriste_melee>
+          <terroriste_army_mg>3</terroriste_army_mg>
+        </guards>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <terroriste_army_ar>10</terroriste_army_ar>
+          <terroriste_melee>5</terroriste_melee>
+          <terroriste_army_mg>2</terroriste_army_mg>
+          <terroriste_army_sniper>2</terroriste_army_sniper>
+          <terroriste_femme>5</terroriste_femme>
+          <terroriste_chef>1</terroriste_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/Terroristes_islamistesSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>4</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

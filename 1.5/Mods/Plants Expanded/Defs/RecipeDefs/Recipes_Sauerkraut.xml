@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Allemagne_Sauerkraut</defName>
+		<label>cook Sauerkraut</label>
+		<description>cook Sauerkraute.</description>
+		<jobString>cooking Sauerkraut.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VCE_RawCabbage</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+			        <filter>
+        				<categories>
+        					<li>MeatRaw</li>
+				        </categories>
+			        </filter>
+				        <count>0.25</count>
+			</li>
+			<li>
+        			<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+					</thingDefs>
+			        </filter>
+				        <count>0.15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Allemagne_choucroute>1</Allemagne_choucroute>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_allemagne</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

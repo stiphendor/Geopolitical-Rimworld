@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_granite_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Door_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,DiningChair_WoodLog_East,Table1x2c_WoodLog_North,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Bed_WoodLog_South,EndTable_WoodLog_South,.,Dresser_WoodLog_South,.,StandingLamp,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_granite</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_granite_2</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,EndTable_WoodLog_North,DoubleBed_WoodLog_North,.,EndTable_WoodLog_North,StandingLamp,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,Door_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Armchair_Cloth_South,.,.,ElectricStove_North,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_granite</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_granite_3</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Bed_WoodLog_North,.,StandingLamp,.,Bed_WoodLog_North,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,Couch_Cloth_South,.,.,Dresser_WoodLog_South,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Door_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_granite</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_bois_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,Table1x2c_WoodLog_East,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,DiningChair_WoodLog_South,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Bed_WoodLog_South,EndTable_WoodLog_South,.,StandingLamp,.,AnimalBed_Cloth,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_bois</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_bois_2</defName>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Bed_WoodLog_East,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,WallLamp_West,.,.,Door_WoodLog</li>
+      <li>Wall_WoodLog,.,DiningChair_WoodLog_North,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,ElectricStove_North,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_bois</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_bois_3</defName>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,Couch_Cloth_North,.,.,.,EndTable_WoodLog_West,Wall_WoodLog</li>
+      <li>Door_WoodLog,.,.,.,.,.,DoubleBed_WoodLog_West,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,StandingLamp,.,Dresser_WoodLog_South,.,.,EndTable_WoodLog_West,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_bois</li>
+    <li>chambre</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_suede_1</defName>
+  <isStorage>true</isStorage>
+  <layouts>
+    <li>
+      <li>LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,.,LTS_PathC_WoodLog_South,.,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,.,.,.,.,.,LTS_PathC_WoodLog_South,.,.,.,.,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_SimpleSingleDoorTwo_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,LTS_Vidja_Steel,.,.,.,.,.,.,LTS_Vidja_Steel,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,.,.,.,.,.,.,.,.,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,.,.,LTS_BearRug_Leather_Plain_West,.,.,LTS_Stockholm_WoodLog_West,LTS_RugCarpet_Cloth_North,LTS_Havsta_WoodLog_West,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,LTS_HemnesDouble_WoodLog_East,.,.,.,LTS_Kivik_Cloth_East,.,.,.,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,LTS_Vidja_Steel,.,.,LTS_HyllisS_Steel_South,.,.,.,LTS_Vidja_Steel,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,LTS_StoneBrickWall_BlocksLimestone,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,LTS_Hedge_WoodLog</li>
+      <li>LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog,LTS_Hedge_WoodLog</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,LTS_ArchStone_BlocksLimestone_North,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,LTS_TableTelevision_West,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,LTS_PlankFloor,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_suede</li>
+    <li>chambre_calcaire</li>
+    <li>chambre</li>
+  </tags>
+  <modRequirements>
+    <li>limetreesnake.furnishing</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>chambre_suede_2</defName>
+  <isStorage>true</isStorage>
+  <layouts>
+    <li>
+      <li>LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_LargeOrnateFenceGate_WoodLog_North,.,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,.,.,.,.,.,LTS_AtlasWoodCover_WoodLog,LTS_AtlasWoodCover_WoodLog,.,.,.,.,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_DoubleDoor_WoodLog_North,.,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,LTS_Vidja_Steel,.,.,.,.,.,RB_RusticWall_WoodLog,.,LTS_HemnesSingle_WoodLog_West,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,.,.,.,.,.,.,RB_RusticWall_WoodLog,.,LTS_IdanasN_WoodLog_West,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,.,LTS_WoolViscouseLCarpet_Cloth_East,.,LTS_StockholmSofa_Cloth_West,.,.,VFEArch_SingleDoor_WoodLog,.,LTS_Astrid_Steel,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,LTS_TableTelevision_East,.,.,.,.,.,RB_RusticWall_WoodLog,.,LTS_IdanasN_WoodLog_West,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,LTS_Vidja_Steel,.,.,LTS_Malsjo_WoodLog_South,LTS_Malsjo_WoodLog_South,LTS_Malsjo_WoodLog_South,RB_RusticWall_WoodLog,.,LTS_HemnesSingle_WoodLog_West,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,RB_RusticWall_WoodLog,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,LTS_OrnateFence_WoodLog</li>
+      <li>LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog,LTS_OrnateFence_WoodLog</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,LTS_Havsta_WoodLog_East,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,LTS_ChevronParquet,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>chambre_suede</li>
+    <li>chambre_bois</li>
+    <li>chambre</li>
+  </tags>
+  <modRequirements>
+    <li>limetreesnake.furnishing</li>
+    <li>rebuild.cotr.doorsandcorners</li>
+    <li>vanillaexpanded.vfearchitect</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>dortoir_granite_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Door_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,StandingLamp,Table1x2c_WoodLog_East,.,Table1x2c_WoodLog_East,.,.,.,.,Table1x2c_WoodLog_East,.,Table1x2c_WoodLog_East,.,StandingLamp,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,DiningChair_WoodLog_South,DiningChair_WoodLog_South,DiningChair_WoodLog_South,DiningChair_WoodLog_South,.,.,.,DiningChair_WoodLog_South,DiningChair_WoodLog_South,DiningChair_WoodLog_South,DiningChair_WoodLog_South,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Bed_WoodLog_South,.,Bed_WoodLog_South,WallLamp_WoodLog_North,Bed_WoodLog_South,.,Bed_WoodLog_South,.,Bed_WoodLog_South,WallLamp_WoodLog_North,Bed_WoodLog_South,.,Bed_WoodLog_South,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite</li>
+    <li>TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,TileGranite,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>dortoir</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+</Defs>

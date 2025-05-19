@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="HatBase">
+    <defName>Geopol_capirote</defName>
+    <label>Capirote</label>
+    <description>Un capirote est un chapeau pointu en forme de cône utilisé en Espagne, initialement par certains flagellants, aujourd'hui par les pénitents durant les processions de la Semaine sainte.
+Les costumes du Ku Klux Klan reprennent le capirote pour se couvrir la tête, les rendant ainsi anonymes. Ironiquement, la capirote est d'origine catholique, alors que le Ku Klux Klan, mouvement prônant la suprématie blanche protestante, est anti-catholique.</description>
+    <graphicData>
+      <texPath>Apparel/Klan/preview_Capirote</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <costList>
+	<Cloth>40</Cloth>
+    </costList>
+    <thingCategories Inherit='False'>
+      <li>Headgear</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1250</WorkToMake>
+      <Mass>0.1</Mass>
+      <Insulation_Cold>2</Insulation_Cold>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	<SocialImpact>-0.2</SocialImpact>
+	<SuppressionPower>0.2</SuppressionPower>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Klan/Capirote</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_Klan_robe</defName>
+    <label>Robe du Klansman</label>
+    <description>Caractéristique la plus marquante et la plus connue du Ku Klux Klan, la tenue est composée d'une tunique blanche de coton dont l'insigne du Klan est présente au niveau de la poitrine gauche, d'une cape également en coton, et d'une ceinture en corde nouée autour de la taille.</description>
+    <graphicData>
+      <texPath>Apparel/Klan/robe/display_klan_dress</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <costList>
+	<Cloth>80</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.75</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Klan/robe/klan_dress</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+  </ThingDef>
+
+
+</Defs>

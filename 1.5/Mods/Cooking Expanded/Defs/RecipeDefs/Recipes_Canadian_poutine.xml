@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Canadian_poutine</defName>
+		<label>cook poutine</label>
+		<description>cook poutine.</description>
+		<jobString>cooking poutine.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+    <ingredients>
+	<li>
+        	<filter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+			</thingDefs>
+        	</filter>
+        		<count>0.25</count>
+	</li>
+	<li>
+		<filter>
+			<categories>
+				<li>VCE_Cheese</li>
+			</categories>
+		</filter>
+			<count>0.3</count>
+	</li>
+      	<li>
+        	<filter>
+        		<categories>
+        		    <li>MeatRaw</li>
+        		</categories>
+        	</filter>
+        		<count>0.1</count>
+      </li>
+    </ingredients>
+		<products>
+			<Canadian_poutine>1</Canadian_poutine>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_canada</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

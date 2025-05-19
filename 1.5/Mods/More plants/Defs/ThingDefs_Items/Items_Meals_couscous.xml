@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealLavishBase">
+	<defName>Muslim_couscous</defName>
+	<label>Couscous</label>
+	<description>Couscous is a Maghreb dish consisting of semolina served with meat, vegetables and broth.</description>
+	<graphicData>
+		<texPath>Meal/Couscous</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AteCouscous</specialThoughtDirect>
+	</ingestible>
+</ThingDef>
+
+</Defs>

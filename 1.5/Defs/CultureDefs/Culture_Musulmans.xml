@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>musulmane</defName>
+    <label>Musulmane</label>
+    <description>Culture musulmane.</description>
+    <pawnNameMaker>nom_musulman_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_musulman_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoIslam</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityIslam</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Musulman</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalIslamic</festivalNameMaker>
+    <iconPath>Symbols/musulmans/musulmans</iconPath>
+    <allowedPlaceTags>
+      <li>OriginMusulmans</li>
+    </allowedPlaceTags>
+    <thingStyleCategories>
+      <li>
+        <category>Islamic</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+    <styleItemTags>
+      <li>
+        <tag>Musulmans_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Musulmans_beard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>NamerDeityIslam</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->Allah</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_musulman_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_h_musulman] [nom_musulman]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_h_musulman</keyword>
+          <path>Noms/prenom_h_musulman</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_musulman</keyword>
+          <path>Noms/nom_musulman</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_musulman_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_f_musulman] [nom_musulman]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_f_musulman</keyword>
+          <path>Noms/prenom_f_musulman</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_musulman</keyword>
+          <path>Noms/nom_musulman</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoIslam</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Islam</li>
+        <li>r_ideoAdjective->Islamique</li>
+        <li>r_memberName->Musulman</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix->Al</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Musulman</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Émir</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalIslamic</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName(p=3)->Ramadan</li>
+        <li>festivalName->Laylat al-Qadr</li>
+        <li>festivalName->Aïd al-Fitr </li>
+        <li>festivalName->Aïd el-Adha</li>
+        <li>festivalName->Aïd el-Kebir</li>
+        <li>festivalName->Raʼs as-Sana</li>
+        <li>festivalName->Jalsa Salana</li>
+        <li>festivalName->Achoura</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Musulmans</defName>
+    <tags>
+      <li>OriginMusulmans</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->La Mecque</li>
+        <li>place_adjective->saint</li>
+        <li>place_summary->ville sainte</li>
+        <li>place_community->Abraj Al Bait Towers</li>
+        <li>place_community->Mosquée Al-Haram</li>
+        <li>place_powerCenter->la Kaaba</li>
+        <li>place_job->marchand</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->conversion forcée</li>
+        <li>place_foeLeader->Sheitan</li>
+        <li>place_foeSoldiers->djinns</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>coloniemusulmans</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_musulmane_nom]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_musulmane_nom</keyword>
+          <path>Noms/colonie_musulmane_nom</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>faction_musulmans</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[faction_muslim_prefix] [faction_muslim_nom]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>faction_muslim_prefix</keyword>
+          <path>Noms/faction_muslim_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>faction_muslim_nom</keyword>
+          <path>Noms/faction_muslim_nom</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

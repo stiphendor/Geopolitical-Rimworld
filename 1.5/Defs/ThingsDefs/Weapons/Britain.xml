@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_p226c</defName>
+    <label>Pistolet SIG Sauer P226</label>
+    <description>Le pistolet SIG Sauer 226 est un pistolet semi-automatique en dotation dans l'armée Britannique sous le nom de L105A2. SIG Sauer est le représentant aux États-Unis de la société de manufacture d’armes à feu Swiss Arms, pour la distribution et commercialisation de leurs armes.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/P226</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+	<weaponTags>
+     <li>Britain_pistolet</li>
+     <li>Canada_pistolet</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_usa</li>
+	<li>BlowbackOperation</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_L85c</defName>
+   <label>Fusil d'assaut L85</label>
+   <description>Le SA 80 est une famille d'armes à feu britanniques bullpup de calibre 5,56 mm OTAN. Elle comprend le fusil d'assaut L85 qui remplace depuis 1987 la variante L1A1 du FN FAL en tant qu'arme principale des Forces armées britanniques.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/L85</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Britain_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_grandebretagne</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+  
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_L129A1c</defName>
+    <label>Fusil de précision 129A1</label>
+    <description>Le L129A1 est un fusil de précision en service dans les Forces armées britanniques. Fabriqué aux États-Unis par Lewis Machine and Tool Company, c'est un dérivé de l'AR-10.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/L129A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Britain_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_usa</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>

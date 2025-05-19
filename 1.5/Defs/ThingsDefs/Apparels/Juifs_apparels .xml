@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_Juif_chapeau</defName>
+    <label>Chapeau juif</label>
+    <description>Un chapeau traditionel porté par les hommes juifs.</description>
+    <graphicData>
+      <texPath>Apparel/Juifs/Chapeau/Chapeau</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+        <costList>
+           <Cloth>25</Cloth>
+        </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.3</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+      <equippedStatOffsets>
+          <SocialImpact>0.05</SocialImpact>
+      </equippedStatOffsets>
+    <thingCategories>
+      <li>couvre_chef_religieux</li>
+    </thingCategories>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Juifs/Chapeau/Chapeau_juif</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>juifs</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_juif</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_Juif_schtreimel</defName>
+    <label>Schtreimel</label>
+    <description>Le schtreimel est un chapeau de fourrure porté par de nombreux Juifs, plus particulièrement par des membres de groupes hassidiques, pendant le shabbat, les fêtes religieuses et autres célébrations. Porter ce couvre-chef aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Juifs/Schtreimel/preview_Schtreimel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>0.3</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+      <equippedStatOffsets>
+          <SocialImpact>0.05</SocialImpact>
+	<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+	<PsychicSensitivity>-0.2</PsychicSensitivity>
+      </equippedStatOffsets>
+    <thingCategories>
+      <li>couvre_chef_religieux</li>
+    </thingCategories>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Juifs/Schtreimel/Schtreimel</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>juifs_schtreimel</li>
+      </tags>
+	<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_juif</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_Juif_Kippa</defName>
+    <label>Kippa</label>
+    <description>Coiffe traditionelle juive. Porter ce couvre-chef aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Juifs/Kippa/preview_kippa</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+      <equippedStatOffsets>
+          <SocialImpact>0.05</SocialImpact>
+	<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+	<PsychicSensitivity>-0.1</PsychicSensitivity>
+      </equippedStatOffsets>
+    <thingCategories>
+      <li>couvre_chef_religieux</li>
+    </thingCategories>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Juifs/Kippa/kippa</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>juifs</li>
+      </tags>
+	<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_juif</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Juif_tenue_homme</defName>
+    <label>tenue juive (homme)</label>
+    <description>Tenue traditionnelle juive portée par les hommes.</description>
+    <graphicData>
+      <texPath>Apparel/Juifs/Tenue/preview_Tenue_juive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+        <costList>
+           <Cloth>80</Cloth>
+        </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2800</WorkToMake>
+      <Mass>0.75</Mass>
+        <Insulation_Cold>5.0</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+          <SocialImpact>0.05</SocialImpact>
+          <TradePriceImprovement>0.05</TradePriceImprovement>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>vetements_religieux</li>
+    </thingCategories>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Juifs/Tenue/Tenue</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+       <li>juifs</li>
+      </tags>
+	<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_juif</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Juif_tenue_femme</defName>
+    <label>tenue juive (femme)</label>
+    <description>Tenue portée par les femmes juives.</description>
+    <graphicData>
+      <texPath>Apparel/Juifs/Tenue Femme/preview_tenue_femme_juive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+        <costList>
+           <Cloth>80</Cloth>
+        </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2800</WorkToMake>
+      <Mass>0.75</Mass>
+        <Insulation_Cold>5.0</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>vetements_religieux</li>
+    </thingCategories>
+    <apparel>
+     <gender>Female</gender>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Juifs/Tenue Femme/tenue_femme_juive</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+       <li>juifs</li>
+      </tags>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_juif</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

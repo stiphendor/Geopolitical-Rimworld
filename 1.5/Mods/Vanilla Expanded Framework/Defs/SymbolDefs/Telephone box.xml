@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>CAT_Phonebox_Comms_North</defName>
+  <thing>CAT_Phonebox_Comms</thing>
+</KCSG.SymbolDef>
+
+</Defs>

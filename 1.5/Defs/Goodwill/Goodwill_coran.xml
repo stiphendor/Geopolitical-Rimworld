@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GoodwillSituationDef>
+    <defName>Coran_MaleSupremacy</defName>
+    <label>Islam et patriarcat</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>MaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_OriginIslamic</defName>
+    <label>Islam et structure islamique</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Structure_OriginIslamic</otherMeme>
+    <naturalGoodwillOffset>20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Nudism</defName>
+    <label>Islam et nudisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Nudism</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_HighLife</defName>
+    <label>Islam et psychédélisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>HighLife</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_FemaleSupremacy</defName>
+    <label>Islam et matriarcat</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>FemaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_OriginHindu</defName>
+    <label>Islam et structure hindoue</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Structure_OriginHindu</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_OriginBuddhist</defName>
+    <label>Islam et structure bouddhiste</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Structure_OriginBuddhist</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_OriginChristian</defName>
+    <label>Islam et structure chrétienne</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Structure_OriginChristian</otherMeme>
+    <naturalGoodwillOffset>-50</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_Ideological</defName>
+    <label>Islam et structure idéologique</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Structure_Ideological</otherMeme>
+    <naturalGoodwillOffset>-50</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Structure_Communism</defName>
+    <label>Islam et structure communiste</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Geopol_Structure_OriginCommunism</otherMeme>
+    <naturalGoodwillOffset>-50</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Coran</defName>
+    <label>Tous deux musulmans</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Coran</otherMeme>
+    <naturalGoodwillOffset>50</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Christianisme</defName>
+    <label>Islam et Christianisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Christianisme</otherMeme>
+    <naturalGoodwillOffset>-50</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Boudhisme</defName>
+    <label>Islam et Boudhisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Boudhisme</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Coran_Judaisme</defName>
+    <label>Islam et Judaisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Coran</meme>
+    <otherMeme>Judaisme</otherMeme>
+    <naturalGoodwillOffset>-100</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+
+</Defs>

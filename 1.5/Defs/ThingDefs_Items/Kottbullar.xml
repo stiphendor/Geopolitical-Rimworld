@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef ParentName="MealCooked">
+	<defName>Suede_Kottbullar</defName>
+	<label>Kottbullar</label>
+	<description>Köttbullar is a traditional Swedish recipe, popularized around the world by a famous furniture brand. These are meatballs, accompanied by mashed potatoes and lingonberry jam.</description>
+	<graphicData>
+		<texPath>Meal/Kottbullar</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<specialThoughtDirect>WF_AteKottbullar</specialThoughtDirect>
+		</ingestible>
+</ThingDef>
+
+
+</Defs>

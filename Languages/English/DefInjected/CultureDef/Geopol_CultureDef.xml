@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<anarchiste.label>anarchiste</anarchiste.label>
+<anarchiste.description>anarchist culture.</anarchiste.description>
+
+<antifa.label>Antifascist</antifa.label>
+<antifa.description>Antifascist culture.</antifa.description>
+
+<Australienne.label>Australian</Australienne.label>
+<Australienne.description>Australian culture.</Australienne.description>
+
+<bouddhiste.label>Buddhist</bouddhiste.label>
+<bouddhiste.description>Buddhist culture.</bouddhiste.description>
+
+<Bresilienne.label>Brazilian</Bresilienne.label>
+<Bresilienne.description>Brazilian culture.</Bresilienne.description>
+
+<britannique.label>British</britannique.label>
+<britannique.description>British culture.</britannique.description>
+
+<Canadienne.label>Canadian</Canadienne.label>
+<Canadienne.description>Canadian culture.</Canadienne.description>
+
+<Chinoise.label>Chinese</Chinoise.label>
+<Chinoise.description>Chinese culture.</Chinoise.description>
+
+<Chretienne.label>Christian</Chretienne.label>
+<Chretienne.description>Christian culture.</Chretienne.description>
+
+<Nord-Coreenne.label>North Korean</Nord-Coreenne.label>
+<Nord-Coreenne.description>North Korean culture.</Nord-Coreenne.description>
+
+<Coreenne.label>South Korean</Coreenne.label>
+<Coreenne.description>South Korean culture.</Coreenne.description>
+
+<Ecologiste.label>Ecologist</Ecologiste.label>
+<Ecologiste.description>Ecological culture.</Ecologiste.description>
+
+<Ecologiste_radicale.label>Radical ecologist</Ecologiste_radicale.label>
+<Ecologiste_radicale.description>Radical ecologist culture.</Ecologiste_radicale.description>
+
+<femen.label>Femen</femen.label>
+<femen.description>Femen's culture.</femen.description>
+
+<Francaise.label>French</Francaise.label>
+<Francaise.description>French culture.</Francaise.description>
+
+<Francaisegj.label>yellow vests</Francaisegj.label>
+<Francaisegj.description>yellow vests culture.</Francaisegj.description>
+
+<Israelienne.label>Israeli</Israelienne.label>
+<Israelienne.description>Israeli culture.</Israelienne.description>
+
+<Juive.label>Jewish</Juive.label>
+<Juive.description>Jewish culture.</Juive.description>
+
+<klan.label>klan</klan.label>
+<klan.description>Ku klux klan culture.</klan.description>
+
+<mafia_italienne.label>Italian Mafia</mafia_italienne.label>
+<mafia_italienne.description>Italian Mafia culture.</mafia_italienne.description>
+
+<Mexicaine.label>Mexican</Mexicaine.label>
+<Mexicaine.description>Mexican culture.</Mexicaine.description>
+
+<musulmane.label>Muslim</musulmane.label>
+<musulmane.description>Muslim culture.</musulmane.description>
+
+<Russe.label>Russian</Russe.label>
+<Russe.description>Russian culture.</Russe.description>
+
+<skinhead.label>Skinhead</skinhead.label>
+<skinhead.description>Ultra-right skinhead culture.</skinhead.description>
+
+<Suedoise.label>Swedish</Suedoise.label>
+<Suedoise.description>Swedish culture.</Suedoise.description>
+
+<Suisse.label>Swiss</Suisse.label>
+<Suisse.description>Swiss culture.</Suisse.description>
+
+<islamisme_radical.label>Radical Islamism</islamisme_radical.label>
+<islamisme_radical.description>Radical Islamic culture.</islamisme_radical.description>
+
+<Ukrainienne.label>Ukrainian</Ukrainienne.label>
+<Ukrainienne.description>Ukrainian culture.</Ukrainienne.description>
+
+<Americaine.label>American</Americaine.label>
+<Americaine.description>American culture.</Americaine.description>
+
+<yakuza.label>Yakuza</yakuza.label>
+<yakuza.description>Yakuza culture.</yakuza.description>
+
+</LanguageData>

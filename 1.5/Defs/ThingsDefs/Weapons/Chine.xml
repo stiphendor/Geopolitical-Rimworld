@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_qsz_92c</defName>
+    <label>Pistolet QSZ 92</label>
+    <description>Le QSZ-92 (chinois : 92式手槍) est un pistolet chinois semi-automatique conçu par Norinco. Il est en service dans l'armée chinoise depuis la fin des années 1990.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/qsz92</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+	<weaponTags>
+     <li>Chine_pistolet</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li>BlowbackOperation</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_QBZ_95c</defName>
+   <label>Fusil d'assaut QBZ-95</label>
+   <description>Le QBZ-95 (en chinois : 95式自动步枪, 95 Shì Zìdòng Bùqiāng soit « fusil automatique modèle 95 ») est un fusil d'assaut conçu et fabriqué par l'Industrie de l'armement de la République populaire de Chine.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/QBZ95</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Chine_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+  
+  <ThingDef ParentName="Geopol_machine_gun">
+    <defName>Geopol_QBB_95c</defName>
+    <label>Mitrailleuse QBB 95</label>
+    <description>Le QBB-95 (Type 95) est une mitrailleuse chinoise légère de soutien conçue par Norinco.</description>
+    <graphicData>
+      <texPath>Weapons/Mitrailleuses/QBB95</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Chine_mitrailleuse</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_QBU_88c</defName>
+    <label>Fusil de précision QBU 88</label>
+    <description>Le QBU-88, aussi nommé Type 88, est un fusil de précision chinois dérivé du fusil d'assaut QBZ-95.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/QBU88</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Chine_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>

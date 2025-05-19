@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealFineBase">
+	<defName>russia_blinis</defName>
+	<label>Blinis</label>
+	<description>Blinis are small, thick patties that are usually topped with smoked salmon or caviar, but can also be garnished with other ingredients like avocado, peppers or berries. They are often served in connection with ritual or religious holidays.</description>
+	<graphicData>
+		<texPath>Meal/Blinis</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AteBlinis</specialThoughtDirect>
+	</ingestible>
+</ThingDef>
+
+
+</Defs>

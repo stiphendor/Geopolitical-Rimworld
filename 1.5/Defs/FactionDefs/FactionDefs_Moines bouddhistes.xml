@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Moines_bouddhistes</defName>
+    <label>Moines bouddhistes</label>
+    <description>Un groupe de moines bouddhistes.</description>
+    <pawnSingular>moine bouddhiste</pawnSingular>
+    <pawnsPlural>moines bouddhistes</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Dalaï-lama</leaderTitle>
+    <factionIconPath>Icon/Bouddhists</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <fixedName>Moines Bouddhistes</fixedName>
+    <settlementNameMaker>nomcoloniebouddhistes</settlementNameMaker>
+    <allowedCultures><li>bouddhiste</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophobia</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Boudhisme</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_WealthEquality</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <visitorTraderKinds>
+      <li>Visitor_bouddhiste</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Bouddhistes</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>0</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	<Bouddhiste_art_martiaux>5</Bouddhiste_art_martiaux>
+	<Bouddhiste_saber>1</Bouddhiste_saber>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+         <Bouddhiste_trader>1</Bouddhiste_trader>
+        </traders>
+        <carriers>
+          <Yak>1</Yak>
+        </carriers>
+        <guards>
+	<Bouddhiste_art_martiaux>5</Bouddhiste_art_martiaux>
+	<Bouddhiste_saber>1</Bouddhiste_saber>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	<Bouddhiste_art_martiaux>5</Bouddhiste_art_martiaux>
+	<Bouddhiste_agricole>5</Bouddhiste_agricole>
+	<Bouddhiste_saber>1</Bouddhiste_saber>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Bouddhiste_art_martiaux>5</Bouddhiste_art_martiaux>
+	<Bouddhiste_agricole>5</Bouddhiste_agricole>
+	<Bouddhiste_saber>3</Bouddhiste_saber>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/BouddhistsSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>2</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

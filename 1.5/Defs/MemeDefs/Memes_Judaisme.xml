@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>Judaisme</defName>
+    <label>Judaisme</label>
+    <description>Le judaïsme est la première des trois grandes religions monothéistes à avoir professé la foi en un Dieu unique, qui s’est révélé pour la première fois au patriarche hébreu Abraham. C'est la religion des Juifs, ainsi que la théologie, la loi et les traditions culturelles du peuple juif.</description>
+    <iconPath>Memes/torah</iconPath>
+    <groupDef>Misc</groupDef>
+    <exclusionTags>
+	<li>JudaismeIslamic</li>
+	<li>JudaismeChristian</li>
+	<li>JudaismeHindu</li>
+	<li>JudaismeBuddhist</li>
+	<li>JudaismeAnimist</li>
+	<li>JudaismeTheistAbstract</li>
+	<li>JudaismeIdeological</li>
+	<li>JudaismeArchist</li>
+	<li>JudaismeNudism</li>
+	<li>JudaismeFemaleSupremacy</li>
+	<li>JudaismeAnimalPersonhood</li>
+	<li>JudaismeTranshumanist</li>
+	<li>JudaismeHighLife</li>
+	<li>JudaismeIndividualism</li>
+    </exclusionTags>
+    <impact>3</impact>
+    <renderOrder>999</renderOrder>
+    <selectOneOrNone>
+      <noneChance>0</noneChance>
+      <preceptThingPairs>
+        <li>
+          <precept>ApparelDesired_Strong_Subordinate</precept>
+          <thing>Geopol_Juif_chapeau</thing>
+        </li>
+        <li>
+          <precept>ApparelDesired_Soft_Subordinate</precept>
+          <thing>Geopol_Juif_Kippa</thing>
+        </li>
+        <li>
+          <precept>ApparelDesired_Strong_Subordinate</precept>
+          <thing>Geopol_Juif_tenue_homme</thing>
+        </li>
+        <li>
+          <precept>ApparelDesired_Soft_Subordinate</precept>
+          <thing>Geopol_Juif_tenue_femme</thing>
+        </li>
+      </preceptThingPairs>
+    </selectOneOrNone>
+    <requireOne>
+      <li>
+      <li>Apostasy_Horrible</li>
+      </li>
+      <li>
+        <li>BodyMod_Abhorrent</li>
+        <li>BodyMod_Disapproved</li>
+      </li>
+      <li>
+        <li>Charity_Essential</li>
+      </li>
+      <li>
+        <li>DrugUse_MedicalOnly</li>
+      </li>
+      <li>
+      <li>Lovin_SpouseOnly_Strict</li>
+      </li>
+      <li>
+        <li>MarriageName_AlwaysMans</li>
+      </li>
+      <li>
+        <li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+      </li>
+      <li>
+        <li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+      </li>
+      <li MayRequire="VanillaExpanded.VMemesE">
+      <li>VME_Proselytizing_Never</li>
+      </li>
+      <li MayRequire="VanillaExpanded.VMemesE">
+	<li>Apostasy_Despicable</li>
+      </li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeLeaderNoun->Grand-rabbin</li>
+        <li>memeMoralist->Rabbin</li>
+	<li>memeConcept->Judaisme</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li>
+        <ideoName>Judaisme</ideoName>
+        <adjective>juif</adjective>
+        <member>Juif</member>
+      </li>
+    </symbolPacks>
+    <agreeableTraits>
+      <li>DislikesWomen</li>
+    </agreeableTraits>
+    <disagreeableTraits>
+      <li>Bisexual</li>
+      <li>Gay</li>
+    </disagreeableTraits>
+  </MemeDef>
+
+
+</Defs>

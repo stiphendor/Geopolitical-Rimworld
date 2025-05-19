@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef Name="Base" Abstract="True">
+    <stockGenerators>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Medicine</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>MortarShells</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Techprints</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyParts</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Weapons</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Apparel</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Buildings</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+      
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+      </li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+
+  <TraderKindDef Name="Caravan" Abstract="True">
+    <stockGenerators>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Medicine</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>MortarShells</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Techprints</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyParts</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Weapons</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Apparel</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Buildings</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+      </li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+
+  <TraderKindDef Name="Visitor" Abstract="True">
+    <stockGenerators>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Medicine</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Weapons</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Apparel</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+      </li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+</Defs>

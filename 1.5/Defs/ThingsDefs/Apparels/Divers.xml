@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- Black Suit -->
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>Geopol_Costume_cravate_noir</defName>
+        <label>Costume cravate noir</label>
+        <description>Un costume cravate de couleur noire, porté par toute personne attentive à renvoyer une image sérieuse d'elle. Porter ce vêtement aidera à être pris au sérieux lors de négociations notamment commerciales.</description>
+        <graphicData>
+        <texPath>Apparel/Black_suit/Costume_noir</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.90</drawSize>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+            <costList>
+	       <Cloth>100</Cloth>
+            </costList>
+	    <thingCategories>
+	      <li>ApparelMisc</li>
+	    </thingCategories>
+        <statBases>
+        <MaxHitPoints>120</MaxHitPoints>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>0.3</Mass>
+        <Insulation_Cold>8.0</Insulation_Cold>
+        <EquipDelay>3</EquipDelay>
+        </statBases>
+            <equippedStatOffsets>
+                <SocialImpact>0.25</SocialImpact>
+	        <TradePriceImprovement>0.05</TradePriceImprovement>
+		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        <apparel>
+        <bodyPartGroups>
+            <li>Torso</li>
+            <li>Shoulders</li>
+            <li>Arms</li>
+            <li>Legs</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Apparel/Black_suit/Black_Suit</wornGraphicPath>
+        <layers>
+            <li>OnSkin</li>
+        </layers>
+        <tags>
+            <li>costume</li>
+        </tags>
+        <defaultOutfitTags>
+            <li>Worker</li>
+        </defaultOutfitTags>
+        </apparel>
+	<recipeMaker>
+	        <researchPrerequisites>
+			<li>ComplexClothing</li>
+			<li MayRequire="VanillaExpanded.VAPPE">VAE_FormalWear</li>
+	        </researchPrerequisites>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+    </ThingDef>
+
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>Geopol_Costume_cravate_mafieux</defName>
+        <label>Costume cravate de mafieux</label>
+        <description>Un costume cravate entièrement noir qui vous donnera une allure de parrain de la mafia. Porter ce vêtement aidera à être pris au sérieux lors de négociations notamment commerciales.</description>
+        <graphicData>
+        <texPath>Apparel/Mafia/Costume parrain/suit</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+            <costList>
+	       <Cloth>100</Cloth>
+            </costList>
+	    <thingCategories>
+	      <li>ApparelMisc</li>
+	    </thingCategories>
+        <statBases>
+        <MaxHitPoints>120</MaxHitPoints>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>0.3</Mass>
+        <Insulation_Cold>8.0</Insulation_Cold>
+        <EquipDelay>3</EquipDelay>
+        </statBases>
+            <equippedStatOffsets>
+                <SocialImpact>0.25</SocialImpact>
+	        <TradePriceImprovement>0.05</TradePriceImprovement>
+		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        <apparel>
+        <bodyPartGroups>
+            <li>Torso</li>
+            <li>Shoulders</li>
+            <li>Arms</li>
+            <li>Legs</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Apparel/Mafia/Costume parrain/Apparel</wornGraphicPath>
+        <layers>
+            <li>OnSkin</li>
+        </layers>
+        <tags>
+            <li>costume_parrain</li>
+        </tags>
+        <defaultOutfitTags>
+            <li>Worker</li>
+        </defaultOutfitTags>
+        </apparel>
+	<recipeMaker>
+	        <researchPrerequisites>
+			<li>ComplexClothing</li>
+			<li MayRequire="VanillaExpanded.VAPPE">VAE_FormalWear</li>
+	        </researchPrerequisites>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+    </ThingDef>
+
+
+ <!-- Gilet Jaune -->
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>Geopol_Gilet_Jaune</defName>
+        <label>Gilet de haute visibilité</label>
+        <description>Un gilet de haute visibilité. Considéré comme équipement de protection individuelle, destiné à améliorer la visibilité d'une personne évoluant en bordure de chaussée en situation dangereuse ou sur un chantier, le gilet de haute visibilité est devenu le symbole d'un mouvement de protestation, le « mouvement des Gilets jaunes » et est utilisé comme élément de reconnaissance par ses adeptes.</description>
+        <graphicData>
+        <texPath>Apparel/Yellow_Vest/Gilet_Jaune</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.50</drawSize>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+            <costList>
+	        <Cloth>30</Cloth>
+            </costList>
+        <thingCategories>
+        <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+        <MaxHitPoints>60</MaxHitPoints>
+        <WorkToMake>1000</WorkToMake>
+        <Mass>0.1</Mass>
+        <Insulation_Cold>1</Insulation_Cold>
+        <EquipDelay>1</EquipDelay>
+        </statBases>
+            <equippedStatOffsets>
+		<HuntingStealth>-0.40</HuntingStealth>
+                <SocialImpact>-0.2</SocialImpact>
+		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        <apparel>
+        <bodyPartGroups>
+            <li>Torso</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Apparel/Yellow_Vest/Yellow_Vest</wornGraphicPath>
+        <layers>
+            <li>Shell</li>
+        </layers>
+        <tags>
+            <li>gilet_jaune</li>
+        </tags>
+        <defaultOutfitTags>
+            <li>Worker</li>
+        </defaultOutfitTags>
+        </apparel>
+	<recipeMaker>
+	        <researchPrerequisites>
+			<li MayRequire="VanillaExpanded.VAPPE">VAE_WorkAttire</li>
+	        </researchPrerequisites>
+	</recipeMaker>
+    </ThingDef>
+  
+</Defs>

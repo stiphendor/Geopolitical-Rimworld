@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>RB_ReinforcedGlassWall_Steel</defName>
+  <thing>RB_ReinforcedGlassWall</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RB_OverwallArmor_Steel</defName>
+  <thing>RB_OverwallArmor</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RB_FloorLamp_Steel</defName>
+  <thing>RB_FloorLamp</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RB_CellWall_Steel</defName>
+  <thing>RB_CellWall</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="Gun_Autopistol"]/weaponTags</xpath>
+	<value>
+      <li>Pistolet_criminels</li>
+	</value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Mafia</defName>
+    <label>Mafia Italienne</label>
+    <description>Une mafia est une organisation criminelle dont les activités sont soumises à une direction collégiale occulte et qui repose sur une stratégie d’infiltration de la société civile et des institutions. On parle également de système mafieux. Les membres sont appelés « mafieux » (sans distinction de nombre), ou parfois « mafiosi », d’après le nom italien (au singulier : « mafioso »).</description>
+    <pawnSingular>mafieux</pawnSingular>
+    <pawnsPlural>mafieux</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>parrain</leaderTitle>
+    <factionIconPath>Icon/mafia</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>nomfactionmafia</factionNameMaker>
+    <settlementNameMaker>nomcoloniemafia</settlementNameMaker>
+    <allowedCultures><li>mafia_italienne</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentAuthority</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_LeaderMonarchy</li>
+      <li MayRequire="MortStrudel.MortIdeology">Slavery_Disapproved</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Mafia</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_Mafia</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Mafia</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Mafia</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	<Mafia_melee>5</Mafia_melee>
+	<Mafia_fusil>3</Mafia_fusil>
+	<Mafia_pompe>2</Mafia_pompe>
+	<Mafia_molotov>1</Mafia_molotov>
+	<Mafia_leader>1</Mafia_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Mafia_trader>1</Mafia_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+        </carriers>
+        <guards>
+        <Mafia_melee>2</Mafia_melee>
+	<Mafia_pompe>2</Mafia_pompe>
+        <Mafia_fusil>2</Mafia_fusil>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+        <Mafia_trader>1</Mafia_trader>
+        <Mafia_melee>2</Mafia_melee>
+	<Mafia_pompe>2</Mafia_pompe>
+        <Mafia_fusil>2</Mafia_fusil>
+	<Mafia_leader>1</Mafia_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Mafia_melee>5</Mafia_melee>
+	<Mafia_fusil>5</Mafia_fusil>
+	<Mafia_pompe>5</Mafia_pompe>
+	<Mafia_molotov>1</Mafia_molotov>
+	<Mafia_leader>1</Mafia_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/MafiaSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>5</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>3</configurationListOrderPriority>
+  </FactionDef>
+
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Yakuzas</defName>
+    <label>Yakuzas</label>
+    <description>Les Yakuzas sont membres d'un groupe du crime organisé Japonais. Ils seraient la plus grande organisation de crime organisé sans être pour autant secrète. Ainsi, les clans ont généralement pignon sur rue, la plupart du temps sous couvert d'une structure légale de type associatif.</description>
+    <pawnSingular>yakuza</pawnSingular>
+    <pawnsPlural>yakuzas</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>oyabun</leaderTitle>
+    <factionIconPath>Icon/yakuza</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>nomfactionyakuzas</factionNameMaker>
+    <allowedCultures><li>yakuza</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Shintaoism</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentAuthority</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_LeaderMonarchy</li>
+      <li MayRequire="MortStrudel.MortIdeology">Slavery_Disapproved</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Mafia</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_Yakuzas</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Yakuza</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Yakuzas</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	<Yakuza_melee>5</Yakuza_melee>
+	<Yakuza_sabre>3</Yakuza_sabre>
+	<Yakuza_pistolet>2</Yakuza_pistolet>
+	<Yakuza_molotov>1</Yakuza_molotov>
+	<Yakuza_leader>1</Yakuza_leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Yakuza_trader>1</Yakuza_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+        </carriers>
+        <guards>
+        <Yakuza_melee>2</Yakuza_melee>
+	<Yakuza_pistolet>2</Yakuza_pistolet>
+        <Yakuza_sabre>2</Yakuza_sabre>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+        <Yakuza_trader>1</Yakuza_trader>
+        <Yakuza_melee>2</Yakuza_melee>
+	<Yakuza_pistolet>2</Yakuza_pistolet>
+        <Yakuza_sabre>2</Yakuza_sabre>
+	<Yakuza_leader>1</Yakuza_leader>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<Yakuza_melee>5</Yakuza_melee>
+	<Yakuza_sabre>5</Yakuza_sabre>
+	<Yakuza_pistolet>5</Yakuza_pistolet>
+	<Yakuza_molotov>1</Yakuza_molotov>
+	<Yakuza_leader>1</Yakuza_leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/YakuzaSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>4</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>3</configurationListOrderPriority>
+  </FactionDef>
+</Defs>

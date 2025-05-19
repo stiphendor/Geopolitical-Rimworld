@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>Boudhisme</defName>
+    <label>Bouddhisme</label>
+    <description>Le bouddhisme est une religion et une philosophie dont les origines se situent en Inde aux vie – ve siècles av. J.-C. à la suite de l'éveil de Siddhartha Gautama à Bodhgaya et de la diffusion de son enseignement.</description>
+    <iconPath>Memes/bouddhisme</iconPath>
+    <groupDef>Misc</groupDef>
+    <veneratedAnimalsCountOffset>1</veneratedAnimalsCountOffset>
+    <exclusionTags>
+	<li>BuddhismChristian</li>
+	<li>BuddhismHindu</li>
+	<li>BuddhismIslamic</li>
+	<li>BuddhismAnimist</li>
+	<li>BuddhismTheistEmbodied</li>
+	<li>BuddhismTheistAbstract</li>
+	<li>BuddhismIdeological</li>
+	<li>BuddhismArchist</li>
+	<li>BuddhismHighLife</li>
+	<li>BuddhismIndividualism</li>
+	<li>BuddhismRaider</li>
+    </exclusionTags>
+    <requiredRituals>
+      <li>
+        <precept>DateRitualConsumable</precept>
+        <pattern>CelebrationSkyLanterns</pattern>
+      </li>
+    </requiredRituals>
+    <impact>3</impact>
+    <renderOrder>999</renderOrder>
+    <preferredWeaponClasses>
+      <noble>Melee</noble>
+      <despised>Ranged</despised>
+    </preferredWeaponClasses>
+    <requireOne>
+      <li>
+        <li>AutonomousWeapons_Prohibited</li>
+      </li>
+      <li>
+        <li>Comfort_Ignored</li>
+      </li>
+      <li>
+        <li>Charity_Important</li>
+        <li>Charity_Essential</li>
+      </li>
+      <li>
+	<li>Execution_Abhorrent</li>
+	<li>Execution_Horrible</li>
+      </li>
+      <li>
+      <li>Pain_Idealized</li>
+      </li>
+      <li>
+      <li>Lovin_Prohibited</li>
+      </li>
+      <li>
+      <li>RoughLiving_Welcomed</li>
+      </li>
+      <li MayRequire="VanillaExpanded.VMemesE"><li>VME_Elders_Respected</li></li>
+      <li MayRequire="VanillaExpanded.VMemesE"><li>VME_Leader_Moralist</li></li>
+      <li MayRequire="VanillaExpanded.VMemesE"><li>VME_Pain_DontCare</li></li>
+      <li MayRequire="VanillaExpanded.VMemesE"><li>VME_Raiding_Abhorrent</li></li>
+      <li MayRequire="VanillaExpanded.VMemesE"><li>VME_Recreation_Disapproved</li></li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeLeaderNoun->Dalaï-lama</li>
+        <li>memeMoralist->Bodhisattva</li>
+        <li>memeConcept->méditation</li>
+        <li>memeConcept->éveil</li>
+        <li>memeConcept->morale</li>
+        <li>memeConcept->éthique</li>
+        <li>memeConcept->bienveillance</li>
+        <li>memeConcept->compassion</li>
+        <li>memeConcept->altruisme</li>
+        <li>memeConcept->équanimité</li>
+	<li>memeAdjective->éthique</li>
+	<li>memeAdjective->bienveillant</li>
+	<li>memeAdjective->compatissant</li>
+	<li>memeAdjective->altruiste</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li>
+        <ideoName>Bouddhisme</ideoName>
+	<adjective>bouddhique</adjective>
+        <member>bouddhiste</member>
+      </li>
+    </symbolPacks>
+    <agreeableTraits>
+      <li>Kind</li>
+      <li>Masochist</li>
+      <li>Asexual</li>
+      <li>Ascetic</li>
+    </agreeableTraits>
+    <disagreeableTraits>
+	<li>Wimp</li>
+	<li>Jealous</li>
+	<li>Cannibal</li>
+	<li>Abrasive</li>
+    </disagreeableTraits>
+  </MemeDef>
+
+
+</Defs>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginChristian"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginChristian"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismChristian</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginChristian"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismChristian</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismHindu</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismHindu</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismIslamic</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismIslamic</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Animist"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Animist"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismAnimist</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Animist"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismAnimist</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismTheistEmbodied</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismTheistEmbodied</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismTheistAbstract</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismTheistAbstract</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Ideological"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Ideological"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismIdeological</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Ideological"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismIdeological</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Archist"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Archist"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismArchist</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Archist"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismArchist</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Raider"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Raider"]</xpath>
+   <value>
+     <exclusionTags><li>BuddhismRaider</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Raider"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismRaider</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="HighLife"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismHighLife</li>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="Individualist"]/exclusionTags</xpath>
+   <value>
+     <li>BuddhismIndividualism</li>
+  </value>
+</Operation>
+
+</Patch>

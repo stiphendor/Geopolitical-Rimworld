@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeIslamic</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginIslamic"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeIslamic</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeHindu</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginHindu"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeHindu</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_OriginBuddhist"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginBuddhist"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeBuddhist</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_OriginBuddhist"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeBuddhist</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Animist"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Animist"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeAnimist</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Animist"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeAnimist</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeTheistEmbodied</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistEmbodied"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeTheistEmbodied</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeTheistAbstract</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_TheistAbstract"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeTheistAbstract</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Ideological"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Ideological"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeIdeological</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Ideological"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeIdeological</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Structure_Archist"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Archist"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeArchist</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Structure_Archist"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeArchist</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="Nudism"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Nudism"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeNudism</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="Nudism"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeNudism</li>
+  </value>
+    </match>
+</Operation>
+
+
+<Operation Class="PatchOperationConditional">
+<xpath>/Defs/MemeDef[defName="FemaleSupremacy"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="FemaleSupremacy"]</xpath>
+   <value>
+     <exclusionTags><li>ChristianismeFemaleSupremacy</li></exclusionTags>
+  </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/MemeDef[defName="FemaleSupremacy"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeFemaleSupremacy</li>
+  </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="AnimalPersonhood"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeAnimalPersonhood</li>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="Transhumanist"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeTranshumanist</li>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="HighLife"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeHighLife</li>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/MemeDef[defName="Individualist"]/exclusionTags</xpath>
+   <value>
+     <li>ChristianismeIndividualism</li>
+  </value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Suisse</defName>
+    <label>Suisse</label>
+    <description>Culture suisse.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSuisse</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Suisse</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalSuisse</festivalNameMaker>
+    <pawnNameMaker>nom_suisse_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_suisse_f</pawnNameMakerFemale>
+    <iconPath>Symbols/suisse/suisse</iconPath>
+    <allowedPlaceTags>
+      <li>OriginSuisse</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Soldat_beard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_suisse_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_m_suisse] [nom_suisse]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_m_suisse</keyword>
+          <path>Noms/prenom_m_suisse</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_suisse</keyword>
+          <path>Noms/nom_suisse</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_suisse_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_f_suisse] [nom_suisse]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_f_suisse</keyword>
+          <path>Noms/prenom_f_suisse</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_suisse</keyword>
+          <path>Noms/nom_suisse</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonie_suisse</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_suisse]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_suisse</keyword>
+          <path>Noms/colonie_suisse</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoSuisse</defName>
+    <rulePack>
+      <rulesStrings>
+	<li>r_ideoName->Idéologie suisse</li>
+        <li>r_ideoAdjective->Suisse</li>
+        <li>r_memberName->Suisse</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Suisse</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Président de la confédération</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Suisse</defName>
+    <tags>
+      <li>OriginSuisse</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Genève</li>
+        <li>place_adjective->genevois</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->bijouterie</li>
+        <li>place_powerCenter->Banque</li>
+        <li>place_job->banquier</li>
+        <li>place_job->chocolatier</li>
+        <li>place_job->horloger</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->sanctions financières</li>
+        <li>place_foeLeader-> </li>
+        <li>place_foeSoldiers-> </li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalSuisse</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Jour de l'an</li>
+        <li>festivalName->Vendredi Saint</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Fête du travail</li>
+        <li>festivalName->Ascension</li>
+        <li>festivalName->Pentecôte</li>
+        <li>festivalName->Fête nationale Suisse</li>
+        <li>festivalName->Noël</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

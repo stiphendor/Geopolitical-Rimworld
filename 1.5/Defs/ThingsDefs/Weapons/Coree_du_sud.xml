@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_K5u</defName>
+    <label>Pistolet K5</label>
+    <description>La série Daewoo Precision Industries K5 ou K5/DP51 est un pistolet semi-automatique 9 × 19 mm produit en Corée du Sud. Il est principalement porté par des officiers commissionnés de l'armée sud-coréenne.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/K5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+	<weaponTags>
+     <li>Corée_du_sud_pistolet</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_coreedusud</li>
+	<li>BlowbackOperation</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_K2u</defName>
+   <label>Fusil d'assaut K2C1</label>
+   <description>Le K2 est le fusil d'assaut de l'armée sud-coréenne. Il est entré en service en 1984.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/K2</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+   <weaponTags>
+     <li>Corée_du_sud_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_coreedusud</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+  
+  <ThingDef ParentName="Geopol_machine_gun">
+    <defName>Geopol_K16u</defName>
+    <label>Mitrailleuse K16</label>
+    <description>ST Motiv K12 est une mitrailleuse OTAN de 7,62 × 51 mm fabriquée par ST Daewoo pour remplacer la mitrailleuse M60 des forces armées de la République de Corée. Le XK12 a été présenté pour la première fois au public en 2009, lors du Salon international de l'aérospatiale et de la défense ADEX de Séoul.</description>
+    <graphicData>
+      <texPath>Weapons/Mitrailleuses/K16</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Corée_du_sud_mitrailleuse</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_coreedusud</li>
+	<li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_K14u</defName>
+    <label>Fusil de précision K14</label>
+    <description>Le ST Motiv K14 est un fusil de précision à verrou .308 Winchester développé par ST Motiv, et est le fusil de précision standard des forces armées de la République de Corée.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/K14</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Corée_du_sud_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_coreedusud</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>
+

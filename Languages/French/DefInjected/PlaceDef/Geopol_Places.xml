@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+	<Anarchiste.placeRules.rulesStrings>
+<li>place_name->Ménilmontant</li>
+<li>place_adjective->populaire</li>
+<li>place_summary->quartier populaire</li>
+<li>place_community->bar</li>
+<li>place_community->local occupé</li>
+<li>place_powerCenter->squat</li>
+<li>place_job->sans emploi</li>
+<li>place_personalWeapon->couteau</li>
+<li>place_personalWeapon->matraque</li>
+<li>place_massWeapon->lynchage</li>
+<li>place_foeLeader->homme politique</li>
+<li>place_foeSoldiers->policiers</li>
+	</Anarchiste.placeRules.rulesStrings>
+
+
+	<Antifa.placeRules.rulesStrings>
+<li>place_name->la Sorbonne</li>
+<li>place_adjective->populaire</li>
+<li>place_summary->université</li>
+<li>place_community->bar</li>
+<li>place_powerCenter->local associatif</li>
+<li>place_job->étudiant</li>
+<li>place_personalWeapon->couteau</li>
+<li>place_personalWeapon->poing américain</li>
+<li>place_massWeapon->lynchage</li>
+<li>place_foeLeader->homme politique d'extrême droite</li>
+<li>place_foeSoldiers->fascistes</li>
+	</Antifa.placeRules.rulesStrings>
+
+
+	<Australie.placeRules.rulesStrings>
+<li>place_name->Sydney</li>
+<li>place_adjective->sydnéens</li>
+<li>place_summary->capitale</li>
+<li>place_community->opéra</li>
+<li>place_community->harbour bridge</li>
+<li>place_powerCenter->Government House</li>
+<li>place_job->délinquant</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->chinois</li>
+<li>place_foeSoldiers->chinois</li>
+	</Australie.placeRules.rulesStrings>
+
+
+	<Place_Buddhism.placeRules.rulesStrings>
+<li>place_name->Lumbini</li>
+<li>place_adjective->lumbinien</li>
+<li>place_summary->village situé sur le territoire du Népal</li>
+<li>place_community->pagode</li>
+<li>place_community->temple</li>
+<li>place_community->montagne</li>
+<li>place_powerCenter->pagode</li>
+<li>place_job->Bhikshu</li>
+<li>place_job->éveillé</li>
+<li>place_job->voyageur</li>
+<li>place_personalWeapon->regards</li>
+<li>place_personalWeapon->langues</li>
+<li>place_massWeapon->tentation</li>
+<li>place_foeLeader->Māra</li>
+<li>place_foeSoldiers->filles de Māra</li>
+	</Place_Buddhism.placeRules.rulesStrings>
+
+
+	<Bresil.placeRules.rulesStrings>
+<li>place_name->Rio</li>
+<li>place_adjective->brésilien</li>
+<li>place_summary->capitale</li>
+<li>place_community-> plage de Copacabana</li>
+<li>place_community->Statue du Christ Rédempteur</li>
+<li>place_powerCenter->Palais du Planalto</li>
+<li>place_job->militaire</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->trafiquant</li>
+<li>place_foeSoldiers->narco-trafiquants</li>
+	</Bresil.placeRules.rulesStrings>
+
+
+	<Britannique.placeRules.rulesStrings>
+<li>place_name->Londres</li>
+<li>place_adjective->londonien</li>
+<li>place_summary->capitale</li>
+<li>place_community->pub</li>
+<li>place_community->stade</li>
+<li>place_community->la city</li>
+<li>place_community->Westminster</li>
+<li>place_powerCenter->palais de Buckingham</li>
+<li>place_job->ouvrier</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraque</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Napoléon</li>
+<li>place_foeSoldiers->français</li>
+	</Britannique.placeRules.rulesStrings>
+
+
+	<Canada.placeRules.rulesStrings>
+<li>place_name->Ottawa</li>
+<li>place_adjective->canadien</li>
+<li>place_summary->capitale</li>
+<li>place_community->chutes du Niagara</li>
+<li>place_community->montagnes rocheuses</li>
+<li>place_powerCenter->24, promenade Sussex</li>
+<li>place_job->bûcheron</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader-> </li>
+<li>place_foeSoldiers-> </li>
+	</Canada.placeRules.rulesStrings>
+
+
+	<Chine.placeRules.rulesStrings>
+<li>place_name->Pékin</li>
+<li>place_adjective->pékinois</li>
+<li>place_summary->capitale</li>
+<li>place_community->Mausolée de Mao Zedong</li>
+<li>place_community->place Tian'anment</li>
+<li>place_community->Temple de Confucius</li>
+<li>place_powerCenter->Cité interdite</li>
+<li>place_job->tisseur</li>
+<li>place_job->masseur</li>
+<li>place_job->membre du parti communiste</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->américain</li>
+<li>place_foeSoldiers->américains</li>
+	</Chine.placeRules.rulesStrings>
+
+
+	<Chretiens.placeRules.rulesStrings>
+<li>place_name->Vatican</li>
+<li>place_adjective->cité</li>
+<li>place_summary->ville sainte</li>
+<li>place_community->colline du Vatican</li>
+<li>place_community->Résidence Sainte-Marthe</li>
+<li>place_community->Scala Santa</li>
+<li>place_powerCenter->Palais apostolique</li>
+<li>place_job->charpentier</li>
+<li>place_personalWeapon->foi</li>
+<li>place_personalWeapon->prières</li>
+<li>place_massWeapon->tentation</li>
+<li>place_foeLeader->Diable</li>
+<li>place_foeSoldiers->démons</li>
+	</Chretiens.placeRules.rulesStrings>
+
+
+	<Coree_du_nord.placeRules.rulesStrings>
+<li>place_name->Pyongyang</li>
+<li>place_adjective->magnifique</li>
+<li>place_summary->capitale</li>
+<li>place_community->tour du Juche</li>
+<li>place_community->Palais du Soleil Kumsusan</li>
+<li>place_community->Arc de triomphe de Kim Il-sung</li>
+<li>place_community->Arche de la Réunification</li>
+<li>place_powerCenter->Résidence Ryongsong</li>
+<li>place_job->communiste</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Syngman Rhee</li>
+<li>place_foeSoldiers->sud-coréens</li>
+	</Coree_du_nord.placeRules.rulesStrings>
+
+
+	<SouthKorea.placeRules.rulesStrings>
+<li>place_name->Séoul</li>
+<li>place_adjective->séouliens</li>
+<li>place_summary->ville sud-coréenne</li>
+<li>place_community->porte de Gwanghwa</li>
+<li>place_community->marché traditionnel d'Insadong</li>
+<li>place_community->Seoul Tower</li>
+<li>place_powerCenter->Gangnam</li>
+<li>place_job->ingénieur</li>
+<li>place_job->game designer</li>
+<li>place_job->marchand</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Kim Il-sung</li>
+<li>place_foeSoldiers->nord-coréens</li>
+	</SouthKorea.placeRules.rulesStrings>
+
+
+	<Ecolo.placeRules.rulesStrings>
+<li>place_name->Greenworld</li>
+<li>place_adjective->greenworlding</li>
+<li>place_summary->monde fleuri</li>
+<li>place_community->ferme</li>
+<li>place_community->éco-quartier</li>
+<li>place_community->hameau</li>
+<li>place_powerCenter->village</li>
+<li>place_job->fermier</li>
+<li>place_job->conseiller en gestion environnemental</li>
+<li>place_job->responsable qualité environnement</li>
+<li>place_job->ingénieur d'études en énergies renouvelables</li>
+<li>place_job->chef de projet climat</li>
+<li>place_personalWeapon->masses</li>
+<li>place_personalWeapon->tronçonneuses</li>
+<li>place_massWeapon->pesticides</li>
+<li>place_foeLeader->grand industriel</li>
+<li>place_foeSoldiers->employés industriels</li>
+	</Ecolo.placeRules.rulesStrings>
+
+
+	<Femen.placeRules.rulesStrings>
+<li>place_name->Kiev</li>
+<li>place_adjective->capitale</li>
+<li>place_summary->ville Ukrainienne</li>
+<li>place_community->université</li>
+<li>place_powerCenter->université</li>
+<li>place_job->étudiante</li>
+<li>place_job->sociologue</li>
+<li>place_job->artiste</li>
+<li>place_personalWeapon->poing</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->patriarcat</li>
+<li>place_foeLeader->leader patricarcal</li>
+<li>place_foeSoldiers->hommes mysogines</li>
+	</Femen.placeRules.rulesStrings>
+
+
+	<France.placeRules.rulesStrings>
+<li>place_name->Paris</li>
+<li>place_adjective->parisien</li>
+<li>place_summary->ville lumière</li>
+<li>place_community->bistrot</li>
+<li>place_community->restaurant</li>
+<li>place_community->Tour Eiffel</li>
+<li>place_community->cathédrale Notre-Dame</li>
+<li>place_powerCenter->Palais de l'Elysée</li>
+<li>place_job->boulanger</li>
+<li>place_job->cuisinier</li>
+<li>place_job->styliste</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->foeleader</li>
+<li>place_foeSoldiers->foesoldiers</li>
+	</France.placeRules.rulesStrings>
+
+
+	<OriginGiletsJaunes.placeRules.rulesStrings>
+<li>place_name->Saint-Etienne</li>
+<li>place_adjective->Stéphanois</li>
+<li>place_summary->ville oubliée par le gouvernement</li>
+<li>place_community->rond-point</li>
+<li>place_community->bar</li>
+<li>place_community->usine</li>
+<li>place_powerCenter->rond-point</li>
+<li>place_job->chômeur</li>
+<li>place_job->travailleur précaire</li>
+<li>place_job->sans emploi</li>
+<li>place_personalWeapon->matraque</li>
+<li>place_personalWeapon->pierres</li>
+<li>place_massWeapon->taxes</li>
+<li>place_foeLeader->Président de la République</li>
+<li>place_foeSoldiers->policiers</li>
+	</OriginGiletsJaunes.placeRules.rulesStrings>
+
+
+	<Israel.placeRules.rulesStrings>
+<li>place_name->Jérusalem</li>
+<li>place_adjective->saint</li>
+<li>place_summary->ville sainte</li>
+<li>place_community->Mont des Oliviers</li>
+<li>place_community->synagogue</li>
+<li>place_powerCenter->Mur des Lamentations</li>
+<li>place_job->sioniste</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Mahmoud Abbas</li>
+<li>place_foeSoldiers->palestiniens</li>
+	</Israel.placeRules.rulesStrings>>
+
+
+	<Klan.placeRules.rulesStrings>
+<li>place_name->Tennessee</li>
+<li>place_adjective->populaire</li>
+<li>place_summary->état sudiste</li>
+<li>place_community->bar</li>
+<li>place_powerCenter->local secret</li>
+<li>place_job->ouvrier</li>
+<li>place_personalWeapon->couteau</li>
+<li>place_personalWeapon->pistolet</li>
+<li>place_massWeapon->lynchage</li>
+<li>place_foeLeader->abolitionniste</li>
+<li>place_foeSoldiers->afro-américains</li>
+	</Klan.placeRules.rulesStrings>
+
+
+	<Camorra.placeRules.rulesStrings>
+<li>place_name->Sicile</li>
+<li>place_adjective->sicilien</li>
+<li>place_summary->archipel Italienne</li>
+<li>place_community->bar</li>
+<li>place_community->casino</li>
+<li>place_community->maison close</li>
+<li>place_powerCenter->villa</li>
+<li>place_job->homme de main</li>
+<li>place_job->récolteur de dettes</li>
+<li>place_job->consigliere</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->procès</li>
+<li>place_foeLeader->commissaire de police</li>
+<li>place_foeSoldiers->carabiniers</li>
+	</Camorra.placeRules.rulesStrings>
+
+
+	<mexique.placeRules.rulesStrings>
+<li>place_name->Mexico</li>
+<li>place_adjective->mexicain</li>
+<li>place_summary->capitale</li>
+<li>place_community->Paseo de la Reforma</li>
+<li>place_community->Monument à la Révolution</li>
+<li>place_powerCenter->Palais national</li>
+<li>place_job->policier corrompu</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->machette</li>
+<li>place_massWeapon->cocaïne</li>
+<li>place_foeLeader->traficant de drogue</li>
+<li>place_foeSoldiers->narco-trafiquants</li>
+	</mexique.placeRules.rulesStrings>
+
+
+	<Musulmans.placeRules.rulesStrings>
+<li>place_name->La Mecque</li>
+<li>place_adjective->saint</li>
+<li>place_summary->ville sainte</li>
+<li>place_community->Abraj Al Bait Towers</li>
+<li>place_community->Mosquée Al-Haram</li>
+<li>place_powerCenter->la Kaaba</li>
+<li>place_job->marchand</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->conversion forcée</li>
+<li>place_foeLeader->Sheitan</li>
+<li>place_foeSoldiers->djinns</li>
+	</Musulmans.placeRules.rulesStrings>
+
+
+	<Russie.placeRules.rulesStrings>
+<li>place_name->Moscou</li>
+<li>place_adjective->moscovite</li>
+<li>place_summary->capitale</li>
+<li>place_community->place rouge</li>
+<li>place_community->cathédrale du Christ-Sauveur</li>
+<li>place_community->cathédrale basile-le-Bienheureux</li>
+<li>place_community->tour Ostankino</li>
+<li>place_powerCenter->Kremlin</li>
+<li>place_job->espion</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->président des Etats-Unis</li>
+<li>place_foeSoldiers->soldats américains</li>
+	</Russie.placeRules.rulesStrings>
+
+
+	<Skinhead.placeRules.rulesStrings>
+<li>place_name->Quartier ouvrier</li>
+<li>place_adjective->populaire</li>
+<li>place_summary->ville ouvrière</li>
+<li>place_community->bar</li>
+<li>place_community->stade</li>
+<li>place_powerCenter->local</li>
+<li>place_job->ouvrier</li>
+<li>place_personalWeapon->couteau</li>
+<li>place_personalWeapon->poing américain</li>
+<li>place_massWeapon->lynchage</li>
+<li>place_foeLeader->homme politique d'extrême gauche</li>
+<li>place_foeSoldiers->antifascistes</li>
+	</Skinhead.placeRules.rulesStrings>
+
+
+
+	<suede.placeRules.rulesStrings>
+<li>place_name->Stockholm</li>
+<li>place_adjective->suédois</li>
+<li>place_summary->capitale</li>
+<li>place_community->Avicii Arena</li>
+<li>place_community->Gamla stan</li>
+<li>place_powerCenter->Palais royal de Stockholm</li>
+<li>place_job->pêcheur</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->président russe</li>
+<li>place_foeSoldiers->soldats russes</li>
+	</suede.placeRules.rulesStrings>
+
+
+	<Suisse.placeRules.rulesStrings>
+<li>place_name->Genève</li>
+<li>place_adjective->genevois</li>
+<li>place_summary->capitale</li>
+<li>place_community->bijouterie</li>
+<li>place_powerCenter->Banque</li>
+<li>place_job->banquier</li>
+<li>place_job->chocolatier</li>
+<li>place_job->horloger</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->sanctions financières</li>
+<li>place_foeLeader-> </li>
+<li>place_foeSoldiers-> </li>
+	</Suisse.placeRules.rulesStrings>
+
+
+
+	<Ukraine.placeRules.rulesStrings>
+<li>place_name->Kiev</li>
+<li>place_adjective->ukrainien</li>
+<li>place_summary->capitale</li>
+<li>place_community->Cathédrale Saint-Nicolas de Kiev</li>
+<li>place_community->Tour de télévision de Kiev</li>
+<li>place_community->Cathédrale Sainte-Sophie de Kiev</li>
+<li>place_powerCenter->Palais Mariinsky</li>
+<li>place_job->acteur</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Vladimir Poutine</li>
+<li>place_foeSoldiers->soldats russes</li>
+	</Ukraine.placeRules.rulesStrings>
+
+
+	<USA.placeRules.rulesStrings>
+<li>place_name->Washington D.C</li>
+<li>place_adjective->washingtonien</li>
+<li>place_summary->capitale</li>
+<li>place_community->diner</li>
+<li>place_community->George Town</li>
+<li>place_community->Capitole</li>
+<li>place_community->Lincoln Memorial</li>
+<li>place_powerCenter->Maison Blanche</li>
+<li>place_job->catcheur</li>
+<li>place_job->garagiste</li>
+<li>place_job->joueur de football</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->arme nucléaire</li>
+<li>place_foeLeader->Vladimir Poutine</li>
+<li>place_foeSoldiers->soldats russes</li>
+	</USA.placeRules.rulesStrings>
+
+
+	<Yakuza.placeRules.rulesStrings>
+<li>place_name->Tokyo</li>
+<li>place_adjective->tokyoite</li>
+<li>place_summary->ville japonaise</li>
+<li>place_community->bar</li>
+<li>place_community->casino</li>
+<li>place_community->maison close</li>
+<li>place_powerCenter->villa</li>
+<li>place_job->homme de main</li>
+<li>place_job->sumo</li>
+<li>place_job->saiko-komon</li>
+<li>place_personalWeapon->fusils</li>
+<li>place_personalWeapon->matraques</li>
+<li>place_massWeapon->procès</li>
+<li>place_foeLeader->commissaire de police</li>
+<li>place_foeSoldiers->policiers</li>
+	</Yakuza.placeRules.rulesStrings>
+
+  
+</LanguageData>

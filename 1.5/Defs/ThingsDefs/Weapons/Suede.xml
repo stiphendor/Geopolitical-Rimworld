@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_AK5c</defName>
+   <label>Fusil d'assaut AK5</label>
+   <description>Le fusil d'assaut Ak5 est la version suédoise du FN FNC ayant subi certaines modifications, principalement pour l'adapter au climat scandinave. L'Ak5 est réglementaire dans l'armée suédoise depuis 1985 en remplacement de l'AK4.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/AK5</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Suede_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+  
+  <ThingDef ParentName="Geopol_machine_gun">
+    <defName>Geopol_Ksp58c</defName>
+    <label>Mitrailleuse KSP 58</label>
+    <description>Le Ksp 58 ( suédois : Kulspruta 58 ) est une variante suédoise de la mitrailleuse polyvalente belge FN MAG qui est actuellement fabriquée par la société suédoise Carl Gustafs Stads Gevärsfaktori et a été adoptée par les forces armées suédoises en 1958.</description>
+    <graphicData>
+      <texPath>Weapons/Mitrailleuses/Ksp58</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Suede_mitrailleuse</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>

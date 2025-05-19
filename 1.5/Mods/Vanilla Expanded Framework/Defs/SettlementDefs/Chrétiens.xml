@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <KCSG.SettlementLayoutDef>
+    <defName>Geopol_Chretiens_Base</defName>
+    <settlementSize>142,142</settlementSize>
+    <avoidBridgeable>true</avoidBridgeable>
+    <centerBuildings>
+      <centerSize>92,92</centerSize>
+      <allowedStructures>
+        <li>
+          <count>1~1</count>
+          <tag>energie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>batterie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>eglise</tag>
+        </li>        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <count>1~1</count>
+          <tag>ecole</tag>
+        </li>
+        <li>
+          <count>1~2</count>
+          <tag>dortoir</tag>
+        </li>
+      </allowedStructures>
+    </centerBuildings>
+
+  </KCSG.SettlementLayoutDef>
+</Defs>

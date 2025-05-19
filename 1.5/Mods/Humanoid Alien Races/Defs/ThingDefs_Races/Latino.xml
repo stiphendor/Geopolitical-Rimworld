@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>latino</defName>
+    <label>Latino</label>
+    <description>Humain d'origine latine, terme généralement utilisé pour désigner les personnes originaires de l'Amérique latine.</description>
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+	<maleGenderProbability>0.5</maleGenderProbability>
+        <alienPartGenerator>
+	<colorChannels Inherit="False">
+		<li>
+		<name>skin</name>
+		<first Class="ColorGenerator_Options">
+		<options>
+		<li>
+			<weight>20</weight>
+			<only>RGB(0.858, 0.534, 0.406, 1.0)</only>
+		</li>
+		<li>
+			<weight>20</weight>
+			<only>RGB(0.786, 0.564, 0.458, 1.0)</only>
+		</li>
+		<li>
+			<weight>20</weight>
+			<only>RGB(0.734, 0.474, 0.374, 1.0)</only>
+		</li>
+		<li>
+			<weight>20</weight>
+			<only>RGB(0.782, 0.546, 0.444, 1.0)</only>
+		</li>
+		<li>
+			<weight>20</weight>
+			<only>RGB(0.726, 0.498, 0.402, 1.0)</only>
+		</li>
+		</options>
+		</first>
+		<second Class="ColorGenerator_Single">
+			<color>RGBA(1.0, 1.0, 1.0, 1.0)</color>
+		</second>
+		</li>
+		<li>                           
+		<name>hair</name>
+		<first Class="ColorGenerator_Options">
+		 <options><!--Hair Colors--> 
+		<li>					
+			<weight>20</weight>
+			<only>RGBA(0.106, 0.096, 0.102, 1.0)</only>
+		</li>
+		<li>					
+			<weight>20</weight>
+			<only>RGBA(0.186, 0.168, 0.174, 1.0)</only>
+		</li>
+		<li>					
+			<weight>20</weight>
+			<only>RGBA(0.104, 0.066, 0.058, 1.0)</only>
+		</li>
+		</options>
+		</first>
+		<second Class="ColorGenerator_Single">
+		<color>RGBA(1.0, 1.0, 1.0, 1.0)</color>
+		</second>
+		</li>
+	</colorChannels>
+        </alienPartGenerator>
+      </generalSettings>
+	<raceRestriction>
+		<blackEndoCategories>
+			<li>Melanin</li>
+			<li>HairColor</li>
+		</blackEndoCategories>
+	</raceRestriction>
+    </alienRace>
+</AlienRace.ThingDef_AlienRace>
+
+</Defs>

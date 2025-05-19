@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<anarchiste.label>Anarchiste</anarchiste.label>
+<anarchiste.description>Culture anarchiste.</anarchiste.description>
+
+<antifa.label>Antifasciste</antifa.label>
+<antifa.description>Culture antifasciste.</antifa.description>
+
+<Australienne.label>Australienne</Australienne.label>
+<Australienne.description>Culture australienne.</Australienne.description>
+
+<bouddhiste.label>Bouddhiste</bouddhiste.label>
+<bouddhiste.description>Culture bouddhiste.</bouddhiste.description>
+
+<Bresilienne.label>Bresilienne</Bresilienne.label>
+<Bresilienne.description>Culture Brésilienne.</Bresilienne.description>
+
+<britannique.label>Britannique</britannique.label>
+<britannique.description>Culture britannique.</britannique.description>
+
+<Canadienne.label>Canadienne</Canadienne.label>
+<Canadienne.description>Culture canadienne.</Canadienne.description>
+
+<Chinoise.label>Chinoise</Chinoise.label>
+<Chinoise.description>Culture chinoise.</Chinoise.description>
+
+<Chretienne.label>Chrétienne</Chretienne.label>
+<Chretienne.description>Culture Chrétienne.</Chretienne.description>
+
+<Nord-Coreenne.label>Nord-Coréenne</Nord-Coreenne.label>
+<Nord-Coreenne.description>Culture nord-coréenne.</Nord-Coreenne.description>
+
+<Coreenne.label>Sud-Coréenne</Coreenne.label>
+<Coreenne.description>Culture sud-coréenne.</Coreenne.description>
+
+<Ecologiste.label>écologiste</Ecologiste.label>
+<Ecologiste.description>Culture écologiste.</Ecologiste.description>
+
+<Ecologiste_radicale.label>écologiste radicale</Ecologiste_radicale.label>
+<Ecologiste_radicale.description>Culture écologiste radicale.</Ecologiste_radicale.description>
+
+<femen.label>Femen</femen.label>
+<femen.description>Culture des Femen.</femen.description>
+
+<Francaise.label>Française</Francaise.label>
+<Francaise.description>Culture française.</Francaise.description>
+
+<Francaisegj.label>Francaise (Gilets jaunes)</Francaisegj.label>
+<Francaisegj.description>Culture française (gilets jaunes).</Francaisegj.description>
+
+<Israelienne.label>Israëlienne</Israelienne.label>
+<Israelienne.description>Culture Israëlienne.</Israelienne.description>
+
+<Juive.label>Juive</Juive.label>
+<Juive.description>Culture juive.</Juive.description>
+
+<klan.label>klan</klan.label>
+<klan.description>Culture du ku klux klan.</klan.description>
+
+<mafia_italienne.label>Mafia Italienne</mafia_italienne.label>
+<mafia_italienne.description>Culture de la Mafia italienne.</mafia_italienne.description>
+
+<Mexicaine.label>Mexicaine</Mexicaine.label>
+<Mexicaine.description>Culture Mexicaine.</Mexicaine.description>
+
+<musulmane.label>Musulmane</musulmane.label>
+<musulmane.description>Culture musulmane.</musulmane.description>
+
+<Russe.label>Russe</Russe.label>
+<Russe.description>Culture Russe.</Russe.description>
+
+<skinhead.label>Skinhead</skinhead.label>
+<skinhead.description>Culture skinhead d'ultra droite.</skinhead.description>
+
+<Suedoise.label>Suédoise</Suedoise.label>
+<Suedoise.description>Culture suédoise.</Suedoise.description>
+
+<Suisse.label>Suisse</Suisse.label>
+<Suisse.description>Culture suisse.</Suisse.description>
+
+<islamisme_radical.label>Islamisme radical</islamisme_radical.label>
+<islamisme_radical.description>Culture islamique radicale.</islamisme_radical.description>
+
+<Ukrainienne.label>Ukrainienne</Ukrainienne.label>
+<Ukrainienne.description>Culture Ukrainienne.</Ukrainienne.description>
+
+<Americaine.label>Américaine</Americaine.label>
+<Americaine.description>Culture américaine.</Americaine.description>
+
+<yakuza.label>Yakuza</yakuza.label>
+<yakuza.description>Culture des Yakuzas.</yakuza.description>
+
+</LanguageData>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_MaleSupremacy</defName>
+    <label>Judaisme et patriarcat</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>MaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_OriginIslamic</defName>
+    <label>Judaisme et structure islamique</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Structure_OriginIslamic</otherMeme>
+    <naturalGoodwillOffset>-100</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Nudism</defName>
+    <label>Judaisme et nudisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Nudism</otherMeme>
+    <naturalGoodwillOffset>-05</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_HighLife</defName>
+    <label>Judaisme et psychédélisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>HighLife</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_FemaleSupremacy</defName>
+    <label>Judaisme et matriarcat</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>FemaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_OriginHindu</defName>
+    <label>Judaisme et structure hindoue</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Structure_OriginHindu</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_OriginBuddhist</defName>
+    <label>Judaisme et structure bouddhiste</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Structure_OriginBuddhist</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_OriginChristian</defName>
+    <label>Judaisme et structure chrétienne</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Structure_OriginChristian</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_Ideological</defName>
+    <label>Judaisme et structure idéologique</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Structure_Ideological</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Structure_Communism</defName>
+    <label>Judaisme et structure communiste</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Geopol_Structure_OriginCommunism</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Judaisme</defName>
+    <label>Tous deux juifs</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Judaisme</otherMeme>
+    <naturalGoodwillOffset>200</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Bouddhisme</defName>
+    <label>Judaisme et Bouddhisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Boudhisme</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Christianisme</defName>
+    <label>Judaisme et Christianisme</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Christianisme</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>Judaisme_Coran</defName>
+    <label>Judaisme et Islam</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Judaisme</meme>
+    <otherMeme>Coran</otherMeme>
+    <naturalGoodwillOffset>-100</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+
+</Defs>

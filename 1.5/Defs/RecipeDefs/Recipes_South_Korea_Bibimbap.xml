@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_South_Korea_Bibimbap</defName>
+		<label>cook Bibimbap</label>
+		<description>cook Bibimbap.</description>
+		<jobString>cooking Bibimbap.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+					<count>0.15</count>
+			</li>
+			<li>
+			        <filter>
+					<categories>
+        					<li>MeatRaw</li>
+        				</categories>
+        			</filter>
+        				<count>0.15</count>
+      			</li>
+			<li>
+			        <filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+        				</categories>
+        			</filter>
+        				<count>0.25</count>
+			</li>
+			<li>
+			        <filter>
+			        <customSummary>vegetables (see meal description)</customSummary>
+					<thingDefs>
+						<li>RawFungus</li>
+						<li MayRequire="KYD.Zucchini">KYD_RawZucchini</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawCarrot</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBeans</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawCucumber</li>
+						<li MayRequire="zal.braziliancrops">KIT_Carrots</li>
+					</thingDefs>
+        			</filter>
+        				<count>0.15</count>
+      </li>
+    </ingredients>
+		<products>
+			<South_Korea_Bibimbap>1</South_Korea_Bibimbap>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_coreedusud</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

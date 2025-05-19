@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>usa</defName>
+    <label>Etats-Unis</label>
+    <description>Les États-Unis sont un pays constitué de 50 états et couvrant une vaste portion de l'Amérique du Nord, avec l'Alaska au nord-ouest et Hawaï étendant la présence du pays dans l'océan Pacifique.</description>
+    <pawnSingular>américain</pawnSingular>
+    <pawnsPlural>américains</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>président</leaderTitle>
+    <categoryTag>Usa</categoryTag>
+    <factionIconPath>Icon/usa</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+	<fixedName>États-Unis</fixedName>
+    <settlementNameMaker>nomcolonieetats_unis</settlementNameMaker>
+    <allowedCultures><li>Americaine</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Cowboys</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Usa</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_usa</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_usa</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_usa</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Leather_Plain</li>
+	<li>Leather_Light</li>
+	<li>Leather_Heavy</li>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <usa_army_melee>3</usa_army_melee>
+          <usa_army_ar>4</usa_army_ar>
+          <usa_army_ar2>1</usa_army_ar2>
+          <usa_army_ar3>4</usa_army_ar3>
+          <usa_army_ar4>1</usa_army_ar4>
+          <usa_army_medecin>2</usa_army_medecin>
+          <usa_army_mg>3</usa_army_mg>
+          <usa_army_sniper>2</usa_army_sniper>
+          <usa_chef>0.01</usa_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <usa_army_trader>1</usa_army_trader>
+        </traders>
+        <carriers>
+          <Horse>50</Horse>
+          <Bison>50</Bison>
+        </carriers>
+        <guards>
+          <usa_army_melee>2</usa_army_melee>
+          <usa_army_ar>7</usa_army_ar>
+          <usa_army_ar2>1</usa_army_ar2>
+          <usa_army_ar3>1</usa_army_ar3>
+          <usa_army_ar4>1</usa_army_ar4>
+          <usa_army_medecin>2</usa_army_medecin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <usa_civil>10</usa_civil>
+          <usa_chef>1</usa_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <usa_civil>5</usa_civil>
+          <usa_army_melee>3</usa_army_melee>
+          <usa_army_ar>7</usa_army_ar>
+          <usa_army_ar2>1</usa_army_ar2>
+          <usa_army_ar3>1</usa_army_ar3>
+          <usa_army_ar4>1</usa_army_ar4>
+          <usa_army_medecin>2</usa_army_medecin>
+          <usa_army_mg>3</usa_army_mg>
+          <usa_army_sniper>2</usa_army_sniper>
+          <usa_chef>1</usa_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/usasettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

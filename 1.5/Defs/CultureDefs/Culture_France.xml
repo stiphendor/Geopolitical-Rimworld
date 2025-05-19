@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Francaise</defName>
+    <label>Française</label>
+    <description>Culture française.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoFrance</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Fra</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalFra</festivalNameMaker>
+    <pawnNameMaker>nom_france_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_france_f</pawnNameMakerFemale>
+    <iconPath>Symbols/france/france</iconPath>
+    <allowedPlaceTags>
+      <li>OriginFrance</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>3</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Soldat_beard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>France_beard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_france_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhfra] [nomfra]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhfra</keyword>
+          <path>Noms/prenom_m_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfra</keyword>
+          <path>Noms/nom_fra</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_france_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomffra] [nomfra]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomffra</keyword>
+          <path>Noms/prenom_f_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfra</keyword>
+          <path>Noms/nom_fra</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nomcoloniefra</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_fra]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_fra</keyword>
+          <path>Noms/colonie_fra</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoFrance</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Française</li>
+        <li>r_ideoAdjective->français</li>
+        <li>r_memberName->Français</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>France</defName>
+    <tags>
+      <li>OriginFrance</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Paris</li>
+        <li>place_adjective->parisien</li>
+        <li>place_summary->ville lumière</li>
+        <li>place_community->bistrot</li>
+        <li>place_community->restaurant</li>
+        <li>place_community->Tour Eiffel</li>
+        <li>place_community->cathédrale Notre-Dame</li>
+        <li>place_powerCenter->Palais de l'Elysée</li>
+        <li>place_job->boulanger</li>
+        <li>place_job->cuisinier</li>
+        <li>place_job->styliste</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->foeleader</li>
+        <li>place_foeSoldiers->foesoldiers</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Fra</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Président</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalFra</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Nouvel an</li>
+        <li>festivalName->Fête des Rois</li>
+        <li>festivalName->Saint-Valentin</li>
+        <li>festivalName->Mardi Gras</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Fête du travail</li>
+        <li>festivalName->Fête de la musique</li>
+        <li>festivalName->Fête nationale</li>
+        <li>festivalName->Réveillon</li>
+        <li>festivalName->Noël</li>
+        <li>festivalName->Saint-sylvestre</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

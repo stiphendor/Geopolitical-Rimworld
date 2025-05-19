@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>Geopolitical Rimworld</name>
+<author>Qux</author>
+	<packageId>Qux.geopolitical.rimworld</packageId>
+	<supportedVersions><li>1.5</li></supportedVersions>
+<description>
+Geopolitical Rimworld.
+
+Countries :
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Israël
+- Mexico
+- North Korea
+- South Korea
+- Russia
+- Sweden
+- Switzerland
+- United Kingdom
+- Usa
+- Ukraine
+
+Politics :
+- Ecologists
+
+Religious :
+- Buddhists monks
+- Christians
+- Muslims
+- Jewish
+
+Extremists :
+- Anarchists
+- Anarcho-Communists
+- Anarcho-Feminists
+- Antifascists
+- Radical ecologists
+- Femen
+- Ku Klux Klan
+- Skinheads
+- Terrorists Islamists
+- Yellow Vests
+
+Mafias :
+- Italians mafiosi
+- Yakuzas
+
+Planned :
+- Cartels
+- Vor v zakone
+- Wagner mercenaries
+
+Highly recommended mods :
+Humanoid Alien Races (https://steamcommunity.com/sharedfiles/filedetails/?id=839005762)
+Vanilla Ideology Expanded - Memes and Structures (https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500)
+Alpha Memes
+
+Credits :
+
+Icons : Becris, Freepik, Smashicons, Konkapp, cowi, Roundicons from flaticon.com, nightwolfdezines from vecteezy.com for sak yant tatoos
+All Patreon's donators.
+I really want to thank each person mentioned because without you I would never have been able to complete this work, thank you again.
+</description>
+  <modDependencies>
+		<li>
+		<packageId>Ludeon.RimWorld.Ideology</packageId>
+		<displayName>Ideology</displayName>
+		</li>
+  </modDependencies>
+  <loadAfter>
+		<li>Ludeon.RimWorld.Ideology</li>
+  </loadAfter>
+</ModMetaData>

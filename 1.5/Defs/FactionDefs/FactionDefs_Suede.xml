@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>suede</defName>
+    <label>Suède</label>
+    <description>La Suède est un pays scandinave composé de milliers d'îles côtières et lacs intérieurs, ainsi que de vastes forêts boréales et de montagnes glaciaires. Ses villes principales sont toutes côtières : Stockholm, la capitale située à l'est du pays, ainsi que Göteborg et Malmö au sud-ouest. Stockholm est construite sur 14 îles. Elle comprend plus de 50 ponts, une vieille ville médiévale, Gamla stan, des palais royaux et des musées comme celui à ciel ouvert de Skansen.</description>
+    <pawnSingular>suédois</pawnSingular>
+    <pawnsPlural>suédois</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>roi</leaderTitle>
+    <factionIconPath>Icon/suede</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>Suède</fixedName>
+    <settlementNameMaker>nomcolonie_suede</settlementNameMaker>
+    <allowedCultures><li>Suedoise</li></allowedCultures>
+    <structureMemeWeights>
+      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Structure_Norse</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentLiberty</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Egalitarian</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_WealthEquality</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_LeaderAnarchy</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_DrugUse_Allowed</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Suede</li>
+    </backstoryCategories>
+    <baseTraderKinds>
+      <li>Base_suede</li>
+    </baseTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_suede</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_suede</li>
+    </visitorTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-60</min>
+      <max>30</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <sweden_army_melee>3</sweden_army_melee>
+          <sweden_army_ar>10</sweden_army_ar>
+          <sweden_army_medecin>2</sweden_army_medecin>
+          <sweden_army_mg>3</sweden_army_mg>
+          <sweden_army_sniper>2</sweden_army_sniper>
+          <sweden_chef>0.01</sweden_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <sweden_army_trader>1</sweden_army_trader>
+        </traders>
+        <carriers>
+          <Caribou>1</Caribou>
+          <Elk>1</Elk>
+        </carriers>
+        <guards>
+          <sweden_army_melee>2</sweden_army_melee>
+          <sweden_army_ar>8</sweden_army_ar>
+          <sweden_army_medecin>2</sweden_army_medecin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <sweden_civil>10</sweden_civil>
+          <sweden_chef>1</sweden_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <sweden_civil>5</sweden_civil>
+          <sweden_army_melee>3</sweden_army_melee>
+          <sweden_army_ar>10</sweden_army_ar>
+          <sweden_army_medecin>2</sweden_army_medecin>
+          <sweden_army_mg>3</sweden_army_mg>
+          <sweden_army_sniper>2</sweden_army_sniper>
+          <sweden_chef>1</sweden_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/SuedeSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

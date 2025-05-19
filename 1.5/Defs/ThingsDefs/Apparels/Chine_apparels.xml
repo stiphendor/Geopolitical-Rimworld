@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_chine_gpb</defName>
+    <label>Gilet pare-balles chinois</label>
+    <description>Gilets pare-balles chinois.</description>
+    <graphicData>
+      <texPath>Apparel/Chine/Gpb/chine_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Chine/Gpb/chine_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_chine_uniforme</defName>
+    <label>Treillis chinois</label>
+    <description>Treillis chinois.</description>
+    <graphicData>
+      <texPath>Apparel/Chine/Treillis/preview_Treillis_chine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Chine/Treillis/treillis_chine</wornGraphicPath>
+      <tags>
+        <li>Chine</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_chine_casque</defName>
+    <label>Casque chinois</label>
+    <description>Casque chinois.</description>
+    <graphicData>
+      <texPath>Apparel/Chine/Casque/chine_casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Chine/Casque/casque_chine</wornGraphicPath>
+      <tags>
+        <li>Chine</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_chine</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+  
+</Defs>

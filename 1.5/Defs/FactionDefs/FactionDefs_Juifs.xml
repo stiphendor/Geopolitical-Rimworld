@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>juifs</defName>
+    <label>Juifs</label>
+    <description>Les Juifs sont les membres d’un peuple lié à sa propre religion, le judaïsme et, au sens large du terme, à une appartenance ethnique même non religieuse.</description>
+    <pawnSingular>juif</pawnSingular>
+    <pawnsPlural>juifs</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>grand rabbin</leaderTitle>
+    <factionIconPath>Icon/Juifs</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>Juifs</fixedName>
+    <settlementNameMaker>nomcolonieisr</settlementNameMaker>
+    <allowedCultures><li>Juive</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Sarg.AlphaMemes">AM_Structure_Jewish</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Judaisme</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+    </requiredMemes>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Juifs</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_juifs</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_juifs</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_juifs</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <juif_homme>7</juif_homme>
+          <juif_femme>3</juif_femme>
+          <juif_chef>1</juif_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <juif_trader>1</juif_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+        </carriers>
+        <guards>
+          <juif_homme>7</juif_homme>
+          <juif_femme>3</juif_femme>
+          <juif_chef>1</juif_chef>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <juif_homme>7</juif_homme>
+          <juif_femme>3</juif_femme>
+          <juif_chef>1</juif_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <juif_homme>7</juif_homme>
+          <juif_femme>3</juif_femme>
+          <juif_chef>1</juif_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/IsraelSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>2</configurationListOrderPriority>
+  </FactionDef>
+
+
+</Defs>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- Hotels -->
+<KCSG.StructureLayoutDef>
+  <defName>hotel_vanilla_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,Armchair_Cloth_North,.,Armchair_Cloth_North,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Armchair_Cloth_East,.,.,.,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,Armchair_Cloth_South,.,Armchair_Cloth_South,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,Armchair_Cloth_North,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,DoubleBed_WoodLog_East,.,.,.,.,Door_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,StandingLamp,.,.,.,Dresser_WoodLog_South,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,StandingLamp,.,.,.,Armchair_Cloth_North,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,Door_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,DoubleBed_WoodLog_East,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,Dresser_WoodLog_South,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,Armchair_Cloth_North,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,Door_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,DoubleBed_WoodLog_East,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,StandingLamp,.,Dresser_WoodLog_South,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,.,.,Armchair_Cloth_North,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,Door_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,DoubleBed_WoodLog_East,.,.,.,.,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,EndTable_WoodLog_East,.,StandingLamp,.,Dresser_WoodLog_South,Wall_WoodLog,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>hotel_vanilla</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>hotel_furn_exp_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Door_WoodLog,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,StandingLamp,.,.,.,.,.,.,.,.,StandingLamp,.,.,.,.,.,.,.,.,StandingLamp,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Table_1x1c_WoodLog,.,.,Table_Wardrobe_WoodLog_West,Wall_WoodLog,.,.,.,.,Table_1x1c_WoodLog,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Seat_SquareChair_WoodLog_South,.,.,.,Wall_WoodLog,Table_Wardrobe_WoodLog_East,.,.,.,Seat_SquareChair_WoodLog_South,Wall_WoodLog,Table_Wardrobe_WoodLog_East,.,.,.,Wall_WoodLog,Table_Wardrobe_WoodLog_East,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,Wall_WoodLog,.,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,.,.,.,.,Wall_WoodLog,.,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Table_LightEndTable_WoodLog_South,.,Bed_DoubleErgonomic_WoodLog_South,Table_LightEndTable_WoodLog_South,Wall_WoodLog,.,Table_LightEndTable_WoodLog_South,.,Bed_DoubleErgonomic_WoodLog_South,Table_LightEndTable_WoodLog_South,Wall_WoodLog,Table_LightEndTable_WoodLog_South,.,Bed_DoubleErgonomic_WoodLog_South,Table_LightEndTable_WoodLog_South,Wall_WoodLog,Table_LightEndTable_WoodLog_South,Bed_Ergonomic_WoodLog_South,.,Wall_BlocksGranite</li>
+      <li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetBurgundy,CarpetGreenPine</li>
+    <li>CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine,CarpetGreenPine</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>hotel_furn_exp</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>hotel_boris</defName>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,RH2_DoubleWardrobe_WoodLog_North,.,.,.,Wall_WoodLog,RH2_DoubleWardrobe_WoodLog_North,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,RH2_DoubleWardrobe_WoodLog_North,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,Wall_WoodLog,.,.,.,.,Wall_WoodLog</li>
+      <li>Wall_WoodLog,RH2_LampEndTable_WoodLog_South,.,RH2_OfficerDoubleBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog,RH2_LampEndTable_WoodLog_South,.,RH2_OfficerDoubleBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog,.,RH2_BarrackBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog,.,RH2_BarrackBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog,.,RH2_BarrackBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog,RH2_LampEndTable_WoodLog_South,.,RH2_OfficerDoubleBed_WoodLog_South,RH2_LampEndTable_WoodLog_South,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+    </li>
+    <li>
+      <li>.,.,.,.,Lighting_MURWallLight_North,.,.,.,.,.,Lighting_MURWallLight_North,.,.,.,.,.,.,.,Lighting_MURWallLight_North,.,.,.,.,Lighting_MURWallLight_North,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+    <li>CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk,CarpetDusk</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>hotel_boris</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+</Defs>

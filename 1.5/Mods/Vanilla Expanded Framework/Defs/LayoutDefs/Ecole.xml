@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- Ecole -->
+
+<KCSG.StructureLayoutDef>
+  <defName>ecole_1</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Door_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,StandingLamp,DiningChair_WoodLog_North,DiningChair_WoodLog_North,.,.,.,DiningChair_WoodLog_North,DiningChair_WoodLog_North,StandingLamp,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,Table1x2c_WoodLog_East,.,.,.,.,Table1x2c_WoodLog_East,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,DiningChair_WoodLog_North,DiningChair_WoodLog_North,.,.,.,DiningChair_WoodLog_North,DiningChair_WoodLog_North,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,Table1x2c_WoodLog_East,.,.,.,.,Table1x2c_WoodLog_East,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,.,.,.,SchoolDesk_WoodLog_South,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,.,.,.,DiningChair_WoodLog_South,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,StandingLamp,.,.,.,Blackboard_WoodLog_South,.,.,Bookcase_WoodLog_South,StandingLamp,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>ecole</li>
+    <li>service_publique</li>
+  </tags>
+  <modRequirements>
+    <li>ludeon.rimworld.biotech</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>ecole_2</defName>
+  <layouts>
+    <li>
+      <li>Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,StandingLamp,DiningChair_WoodLog_East,.,DiningChair_WoodLog_East,.,.,.,.,StandingLamp,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,DiningChair_WoodLog_East,SchoolDesk_WoodLog_East,DiningChair_WoodLog_East,SchoolDesk_WoodLog_East,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,DiningChair_WoodLog_East,.,DiningChair_WoodLog_East,.,.,.,SchoolDesk_WoodLog_West,DiningChair_WoodLog_West,Blackboard_WoodLog_West,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,DiningChair_WoodLog_East,SchoolDesk_WoodLog_East,DiningChair_WoodLog_East,SchoolDesk_WoodLog_East,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,BabyDecoration_WoodLog,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,StandingLamp,ToyBox_WoodLog,ToyBox_WoodLog,.,.,.,.,Bookcase_WoodLog_South,StandingLamp,Wall_BlocksLimestone</li>
+      <li>Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Door_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,CarpetRed,CarpetRed,CarpetRed,CarpetRed,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,CarpetRed,CarpetRed,CarpetRed,CarpetRed,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,CarpetRed,CarpetRed,CarpetRed,CarpetRed,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+    <li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>ecole</li>
+    <li>service_publique</li>
+  </tags>
+  <modRequirements>
+    <li>ludeon.rimworld.biotech</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+</Defs>

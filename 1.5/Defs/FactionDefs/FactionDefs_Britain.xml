@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>britain</defName>
+    <label>Royaume-Uni</label>
+    <description>Le Royaume-Uni est un État qui comprend l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord. Sa capitale et plus grande ville est Londres.</description>
+    <pawnSingular>britannique</pawnSingular>
+    <pawnsPlural>britanniques</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>reine d'Angleterre</leaderTitle>
+    <categoryTag>Britain</categoryTag>
+    <factionIconPath>Icon/united-kingdom</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>Royaume-Uni</fixedName>
+    <settlementNameMaker>nomcolonieuk</settlementNameMaker>
+    <allowedCultures><li>britannique</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="VanillaExpanded.VMemesE,Ludeon.RimWorld.Royalty">VME_Royal</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Aristocratic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+      <li MayRequire="Sarg.AlphaMemes,VanillaExpanded.VBrewE">AM_TeaPrimacy</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Britain</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_royaume-uni</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_royaume-uni</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_royaume-uni</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <britain_army_melee>3</britain_army_melee>
+          <britain_army_ar>7</britain_army_ar>
+          <britain_army_ar2>2</britain_army_ar2>
+          <britain_army_ar3>1</britain_army_ar3>
+          <britain_army_medecin>2</britain_army_medecin>
+          <britain_army_mg>3</britain_army_mg>
+          <britain_army_sniper>2</britain_army_sniper>
+          <britain_chef>0.01</britain_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <britain_army_trader>1</britain_army_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+        </carriers>
+        <guards>
+          <britain_army_melee>2</britain_army_melee>
+          <britain_army_ar>7</britain_army_ar>
+          <britain_army_ar2>1</britain_army_ar2>
+          <britain_army_ar3>1</britain_army_ar3>
+          <britain_army_medecin>2</britain_army_medecin>
+          <britain_army_mg>2</britain_army_mg>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <britain_guard>2</britain_guard>
+          <britain_chef>1</britain_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <britain_army_melee>1</britain_army_melee>
+          <britain_army_ar>1</britain_army_ar>
+          <britain_army_ar2>1</britain_army_ar2>
+          <britain_army_ar3>1</britain_army_ar3>
+          <britain_army_medecin>1</britain_army_medecin>
+          <britain_army_mg>1</britain_army_mg>
+          <britain_army_sniper>1</britain_army_sniper>
+          <britain_guard>10</britain_guard>
+          <britain_chef>1</britain_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/usasettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+  <Operation Class="PatchOperationFindMod">
+        <mods>
+		  <li>Tree Chopping Speed Stat</li>
+        </mods>
+			<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">					
+					<xpath>Defs/ThingDef[defName="Geopol_tool_hache"]/equippedStatOffsets/PlantWorkSpeed</xpath>					
+					<value>  
+						<VBY_TreeChopWorkSpeed>0.33</VBY_TreeChopWorkSpeed>
+				   </value>
+				</li>
+			</operations>
+        </match>
+	</Operation>
+
+</Patch>

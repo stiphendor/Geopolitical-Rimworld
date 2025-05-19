@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+  <defName>WF_AteBaguette</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : simple</label>
+  <description>I tasted a French culinary specialty, a baguette.</description>
+      <baseMoodEffect>1</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteBibimbap</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a South-Korean culinary specialty, bibimbap.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteBlinis</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a Russian culinary specialty, blinis.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteBoeuf_Bourguignon</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : lavish</label>
+  <description>I tasted a French culinary specialty, beef bourguignon.</description>
+      <baseMoodEffect>12</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteCanard_Laque</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a Chinese culinary specialty, peking duck.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteKottbullar</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : simple</label>
+  <description>I tasted a Swedish culinary specialty, köttbullar.</description>
+      <baseMoodEffect>1</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteMeat_Pie</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted an Australian culinary specialty, a meat pie.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AtePizza</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted an Italian culinary specialty, a pizza.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteShojin_Ryori</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a buddhist culinary specialty, shojin ryori.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+<ThoughtDef>
+  <defName>WF_AteTacos</defName>
+  <durationDays>0.2</durationDays>
+  <stages>
+    <li>
+  <label>culinary specialty : fine</label>
+  <description>I tasted a Mexican culinary specialty, a tacos.</description>
+      <baseMoodEffect>5</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+
+
+</Defs>

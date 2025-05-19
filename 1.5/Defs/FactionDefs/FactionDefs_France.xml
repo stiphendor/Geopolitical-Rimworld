@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>france</defName>
+    <label>France</label>
+    <description>La France est un pays d'europe de l'ouest, c'est une république constitutionnelle unitaire ayant un régime semi-présidentiel. C'est un pays connu pour son art de vivre, sa gastronomie, ses bons vins, ses nombreux artistes.</description>
+    <pawnSingular>français</pawnSingular>
+    <pawnsPlural>français</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>président</leaderTitle>
+    <categoryTag>France</categoryTag>
+    <factionIconPath>Icon/france</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <fixedName>France</fixedName>
+    <settlementNameMaker>nomcoloniefra</settlementNameMaker>
+    <allowedCultures><li>Francaise</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="qux.factionsamurais">Bushido</li>
+      <li MayRequire="qux.factionislamistes">Charia</li>
+      <li MayRequire="qux.factionsusa">klan</li>
+      <li MayRequire="llunak.MorePrecepts">Nomadism</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+    </disallowedMemes>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <requiredMemes>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_SecularSpirituality</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_GovernmentLiberty</li>
+      <li MayRequire="erdelf.HumanoidAlienRaces">HAR_Xenophilia</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_PartyLife</li>
+      <li MayRequire="Sarg.AlphaMemes,VanillaExpanded.VCookE">AM_Epicurean</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Healthcare</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Artist</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_LeaderAnarchy</li>
+      <li MayRequire="MortStrudel.MortIdeology">MI_DrugUse_Allowed</li>
+    </disallowedPrecepts>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>France</li>
+    </backstoryCategories>
+    <baseTraderKinds>
+      <li>Base_france</li>
+    </baseTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_france</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_france</li>
+    </visitorTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <france_army_melee>3</france_army_melee>
+          <france_army_ar>3</france_army_ar>
+          <france_army_ar2>3</france_army_ar2>
+          <france_army_ar3>2</france_army_ar3>
+          <france_army_ar4>1</france_army_ar4>
+          <france_army_ar5>1</france_army_ar5>
+          <france_army_medecin>2</france_army_medecin>
+          <france_army_mg>3</france_army_mg>
+          <france_army_sniper>2</france_army_sniper>
+          <france_chef>0.01</france_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <france_army_trader>1</france_army_trader>
+        </traders>
+        <carriers>
+          <Horse>1</Horse>
+          <Cow>1</Cow>
+        </carriers>
+        <guards>
+          <france_army_melee>2</france_army_melee>
+          <france_army_ar>5</france_army_ar>
+          <france_army_ar2>2</france_army_ar2>
+          <france_army_ar3>1</france_army_ar3>
+          <france_army_ar4>1</france_army_ar4>
+          <france_army_ar5>1</france_army_ar5>
+          <france_army_mg>2</france_army_mg>
+          <france_army_medecin>2</france_army_medecin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	  <france_civil_1c>3</france_civil_1c>
+	  <france_civil_1cc>3</france_civil_1cc>
+	  <france_civil_2c>2</france_civil_2c>
+	  <france_civil_3c>1</france_civil_3c>
+	  <france_civil_4c>1</france_civil_4c>
+          <france_chef>1</france_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	        <france_civil_1c>3</france_civil_1c>
+	        <france_civil_1cc>3</france_civil_1cc>
+	        <france_civil_2c>2</france_civil_2c>
+	        <france_civil_3c>1</france_civil_3c>
+	        <france_civil_4c>1</france_civil_4c>
+          <france_army_melee>6</france_army_melee>
+          <france_army_ar>5</france_army_ar>
+          <france_army_ar2>6</france_army_ar2>
+          <france_army_ar3>5</france_army_ar3>
+          <france_army_ar4>2</france_army_ar4>
+          <france_army_ar5>2</france_army_ar5>
+          <france_army_medecin>4</france_army_medecin>
+          <france_army_mg>6</france_army_mg>
+          <france_army_sniper>4</france_army_sniper>
+          <france_chef>2</france_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/FranceSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1</configurationListOrderPriority>
+  </FactionDef>
+
+
+</Defs>

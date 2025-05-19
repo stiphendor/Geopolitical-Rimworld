@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Trench_Coat_ferme</defName>
+    <label>Trench Coat fermé</label>
+    <description>Le trench-coat est un manteau imperméable descendant généralement jusqu'aux mollets,  fabriqués dans une toile souple et résistante (coton, cuir, microfibres). D'abord porté par les soldats durant la première et deuxième guerre mondiale, le Trench Coat fut popularisé par les nombreux films où il devint un aspect caractéristique de l'habit d'un détective ou d'un mafieux.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Mafia/Trench_Coat_ferme/display_TrenchCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mafia/Trench_Coat_ferme/TrenchCoat_ferme</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>mafia_manteau</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_Trench_Coat_ouvert</defName>
+    <label>Trench Coat ouvert</label>
+    <description>Le trench-coat est un manteau imperméable descendant généralement jusqu'aux mollets,  fabriqués dans une toile souple et résistante (coton, cuir, microfibres). D'abord porté par les soldats durant la première et deuxième guerre mondiale, le Trench Coat fut popularisé par les nombreux films où il devint un aspect caractéristique de l'habit d'un détective ou d'un mafieux.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Mafia/Trench_Coat_ouvert/display_Trench_Coat_ouvert</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mafia/Trench_Coat_ouvert/Trench_Coat_ouvert</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>mafia_manteau</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+   <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_gilet_mafia</defName>
+    <label>Gilet de costume</label>
+    <description>Un gilet sans manches élégant accueillant une montre à gousset, idéalement porté par dessus une chemise.</description>
+    <graphicData>
+      <texPath>Apparel/Mafia/Gilet/Preview_Gilet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+	<MaxHitPoints>70</MaxHitPoints>
+	<WorkToMake>3000</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+    </statBases>
+	<apparel>
+	<bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mafia/Gilet/Gilet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>mafia_gilet</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<recipeMaker>
+	        <researchPrerequisites>
+			<li MayRequire="VanillaExpanded.VAPPE">VAE_FormalWear</li>
+	        </researchPrerequisites>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+   <ThingDef ParentName="HatBase">
+    <defName>Geopol_casquette_plate</defName>
+    <label>Casquette plate</label>
+    <description>La casquette plate est une casquette légère et souple, fabriquée traditionnellement en tweed ou en laine.
+
+A l’origine portée par les paysans irlandais et britanniques dans les campagnes, la casquette plate s’est peu à peu répandue à travers toutes les classes sociales.
+
+Elle est aujourd’hui devenue un accessoire de mode dont la popularité n’a cessé de croître ces dernières années.</description>
+    <graphicData>
+      <texPath>Apparel/Mafia/Casquette plate/preview_casquette_plate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <thingCategories Inherit='False'>
+      <li>Headgear</li>
+    </thingCategories>
+	<generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mafia/Casquette plate/casquette_plate</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>mafia_casquette</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_fedora</defName>
+    <label>Fedora</label>
+    <description>Le fédora est un chapeau de feutre à large bord. C'est un célèbre modèle de chapeau classique, il est apprécié des membres de la mafia.</description>
+    <graphicData>
+      <texPath>Apparel/Mafia/Fedora/preview_Fedora</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <thingCategories Inherit='False'>
+      <li>Headgear</li>
+    </thingCategories>
+      <equippedStatOffsets>
+          <SocialImpact>0.05</SocialImpact>
+      </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Mafia/Fedora/Fedora</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>mafia_fedora</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	<recipeMaker>
+	        <researchPrerequisites>
+			<li MayRequire="VanillaExpanded.VAPPE">VAE_FormalWear</li>
+	        </researchPrerequisites>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  
+</Defs>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_suisse_gpb</defName>
+    <label>Gilet pare-balles suisse</label>
+    <description>Gilets pare-balles suisse.</description>
+    <graphicData>
+      <texPath>Apparel/Suisse/Gpb/suisse_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Suisse/Gpb/suisse_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suede</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_suisse_uniforme</defName>
+    <label>Treillis suisse</label>
+    <description>Treillis suisse.</description>
+    <graphicData>
+      <texPath>Apparel/Suisse/Treillis/preview_treillis_suisse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Suisse/Treillis/treillis_suisse</wornGraphicPath>
+      <tags>
+        <li>suisse</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_suisse</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_suisse_casque</defName>
+    <label>Casque suisse</label>
+    <description>Casque suisse.</description>
+    <graphicData>
+      <texPath>Apparel/Suisse/Casque/casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Suisse/Casque/casque_suisse</wornGraphicPath>
+      <tags>
+        <li>suisse</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_suisse</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  
+</Defs>

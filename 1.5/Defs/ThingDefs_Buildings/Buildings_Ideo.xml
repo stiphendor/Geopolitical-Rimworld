@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="IdeoBurnableBase">
+    <defName>Crossklan</defName>
+    <label>croix</label>
+    <description>A rough wooden frame in the shape of a human, ready to be burned as part of a ritual.</description>
+    <ideoBuildingNamerBase>NamerBurnTarget</ideoBuildingNamerBase>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Buildings/Cross</texPath>
+	<drawSize>(5,5)</drawSize>
+      <shadowData>
+        <volume>(0.5, 0.8, 0.4)</volume>
+        <offset>(0,0,-2.2)</offset>
+      </shadowData>
+    </graphicData>
+	<size>(1,5)</size>
+	<uiIconScale>0.7</uiIconScale>
+    <costList>
+      <WoodLog>80</WoodLog>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>25</Mass>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <comps>
+      <li Class="CompProperties_FireOverlayRitual">
+        <fireSize>3.8</fireSize>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>20</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

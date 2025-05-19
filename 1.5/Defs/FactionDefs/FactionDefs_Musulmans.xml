@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>musulmans</defName>
+    <label>Musulmans</label>
+    <description>Une faction musulmane.</description>
+    <pawnSingular>musulman</pawnSingular>
+    <pawnsPlural>musulmans</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Emir</leaderTitle>
+    <factionIconPath>Icon/Musulmans</factionIconPath>
+    <colorSpectrum>
+      <li>(255, 255, 255)</li>
+    </colorSpectrum>
+    <factionNameMaker>faction_musulmans</factionNameMaker>
+    <settlementNameMaker>coloniemusulmans</settlementNameMaker>
+    <allowedCultures><li>musulmane</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Coran</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Elders</li>
+    </requiredMemes>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Musulmans</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+      <li>Caravan_Musulmans</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Musulmans</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Musulmans</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>0</min>
+      <max>55</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Leather_Camel</li>
+        <li>WoolSheep</li>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+	<muslim>10</muslim>
+	<muslim_chef>1</muslim_chef>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+	<muslim_trader>5</muslim_trader>
+        </traders>
+        <carriers>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+	<muslim>5</muslim>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+	<muslim>10</muslim>
+	<muslim_chef>1</muslim_chef>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
+        <options>
+	<muslim>10</muslim>
+	<muslim_chef>1</muslim_chef>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>Icon/MusulmansSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>2</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

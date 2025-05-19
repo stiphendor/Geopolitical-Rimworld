@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<agricultural_tools.label>Outils agricoles</agricultural_tools.label>
+<agricultural_tools.description>Permet la construction d'outils agricoles tels que le râteau, la houe ou la faucille.</agricultural_tools.description>
+
+<ancien_tools.label>Outils anciens</ancien_tools.label>
+<ancien_tools.description>Permet la construction d'outils anciens tels que la pelle, la pioche ou le marteau.</ancien_tools.description>
+
+<industrial_tools.label>Outils modernes</industrial_tools.label>
+<industrial_tools.description>Permet la construction d'outils modernes.</industrial_tools.description>
+
+<Geopol_research_allemagne.label>L'art de vivre allemand</Geopol_research_allemagne.label>
+<Geopol_research_allemagne.description>Découvrez les secrets de la culture allemande, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_allemagne.description>
+
+<Geopol_research_australie.label>L'art de vivre australien</Geopol_research_australie.label>
+<Geopol_research_australie.description>Découvrez les secrets de la culture australienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_australie.description>
+
+<Geopol_research_bresil.label>L'art de vivre brésilien</Geopol_research_bresil.label>
+<Geopol_research_bresil.description>Découvrez les secrets de la culture brésilienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_bresil.description>
+
+<Geopol_research_canada.label>L'art de vivre canadien</Geopol_research_canada.label>
+<Geopol_research_canada.description>Découvrez les secrets de la culture canadienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_canada.description>
+
+<Geopol_research_chine.label>L'art de vivre chinois</Geopol_research_chine.label>
+<Geopol_research_chine.description>Découvrez les secrets de la culture chinoise, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_chine.description>
+
+<Geopol_research_coreedunord.label>L'art de vivre nord-coréen</Geopol_research_coreedunord.label>
+<Geopol_research_coreedunord.description>Découvrez les secrets de la culture nord-coréenne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_coreedunord.description>
+
+<Geopol_research_coreedusud.label>L'art de vivre sud-coréen</Geopol_research_coreedusud.label>
+<Geopol_research_coreedusud.description>Découvrez les secrets de la culture sud-coréenne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_coreedusud.description>
+
+<Geopol_research_france.label>L'art de vivre français</Geopol_research_france.label>
+<Geopol_research_france.description>Découvrez les secrets de la culture française, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_france.description>
+
+<Geopol_research_grandebretagne.label>L'art de vivre britannique</Geopol_research_grandebretagne.label>
+<Geopol_research_grandebretagne.description>Découvrez les secrets de la culture britannique, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_grandebretagne.description>
+
+<Geopol_research_israel.label>L'art de vivre israëlien</Geopol_research_israel.label>
+<Geopol_research_israel.description>Découvrez les secrets de la culture israëlienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_israel.description>
+
+<Geopol_research_mexicain.label>L'art de vivre mexicain</Geopol_research_mexicain.label>
+<Geopol_research_mexicain.description>Découvrez les secrets de la culture mexicaine, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_mexicain.description>
+
+<Geopol_research_russie.label>L'art de vivre russe</Geopol_research_russie.label>
+<Geopol_research_russie.description>Découvrez les secrets de la culture russe, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_russie.description>
+
+<Geopol_research_suede.label>L'art de vivre suédois</Geopol_research_suede.label>
+<Geopol_research_suede.description>Découvrez les secrets de la culture suédoise, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_suede.description>
+
+<Geopol_research_suisse.label>L'art de vivre suisse</Geopol_research_suisse.label>
+<Geopol_research_suisse.description>Découvrez les secrets de la culture suisse, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_suisse.description>
+
+<Geopol_research_ukraine.label>L'art de vivre ukrainien</Geopol_research_ukraine.label>
+<Geopol_research_ukraine.description>Découvrez les secrets de la culture ukrainienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_ukraine.description>
+
+<Geopol_research_usa.label>L'art de vivre américain</Geopol_research_usa.label>
+<Geopol_research_usa.description>Découvrez les secrets de la culture américaine, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_usa.description>
+
+<Geopol_research_bouddhiste.label>L'art de vivre bouddhiste</Geopol_research_bouddhiste.label>
+<Geopol_research_bouddhiste.description>Découvrez les secrets de la culture bouddhiste, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_bouddhiste.description>
+
+<Geopol_research_chretien.label>L'art de vivre chrétien</Geopol_research_chretien.label>
+<Geopol_research_chretien.description>Découvrez les secrets de la culture chrétienne, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_chretien.description>
+
+<Geopol_research_juif.label>L'art de vivre juif</Geopol_research_juif.label>
+<Geopol_research_juif.description>Découvrez les secrets de la culture juive, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_juif.description>
+
+<Geopol_research_islam.label>L'art de vivre islamique</Geopol_research_islam.label>
+<Geopol_research_islam.description>Découvrez les secrets de la culture islamique, ses recettes, ses habits traditionnels, ses sculptures...</Geopol_research_islam.description>
+
+
+</LanguageData>

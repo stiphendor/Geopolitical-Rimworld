@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Italian_Pizza</defName>
+		<label>cook pizza</label>
+		<description>cook pizza. Garnish : Potatoes, fungus, onion, tomatoes, pineapple, olives</description>
+		<jobString>cooking pizza.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li MayRequire="vanillaexpanded.vcooke">VCE_Flour</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li MayRequire="vanillaexpanded.vcooke">VCE_Flour</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+			        <customSummary>grain</customSummary>
+					<thingDefs>
+						<li MayRequire="VanillaExpanded.VCookE">VCE_Flour</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li MayRequire="VanillaExpanded.VCookE">VCE_Cheese</li>
+						<li MayRequire="VanillaExpanded.VCEF" >VCEF_RawFishCategory</li>
+					</categories>
+				</filter>
+					<count>0.15</count>
+			</li>
+			<li>
+				<filter>
+			          <customSummary>garnish (see meal description)</customSummary>
+					<thingDefs>
+						<li>RawPotatoes</li>
+						<li>RawFungus</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawOnion</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawTomatoes</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawPineapple</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawOlives</li>
+					</thingDefs>
+        			</filter>
+        				<count>0.15</count>
+      			</li>
+		</ingredients>
+		<products>
+			<Italian_pizza>1</Italian_pizza>
+		</products>
+	</RecipeDef>
+
+
+</Defs>

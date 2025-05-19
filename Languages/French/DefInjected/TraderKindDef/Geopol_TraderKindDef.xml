@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Caravan_australie.label>Commerçant australien</Caravan_australie.label>
+<Visitor_australie.label>visiteur australien</Visitor_australie.label>
+
+<Visitor_bouddhiste.label>visiteur bouddhiste</Visitor_bouddhiste.label>
+
+<Caravan_bresil.label>Commerçant brésilien</Caravan_bresil.label>
+<Visitor_bresil.label>visiteur brésilien</Visitor_bresil.label>
+
+<Caravan_royaume-uni.label>commerçant britannique</Caravan_royaume-uni.label>
+<Visitor_royaume-uni.label>visiteur britannique</Visitor_royaume-uni.label>
+
+<Caravan_canada.label>Commerçant canadien</Caravan_canada.label>
+<Visitor_canada.label>visiteur canadien</Visitor_canada.label>
+
+<Caravan_chine.label>Commerçant chinois</Caravan_chine.label>
+<Visitor_chine.label>visiteur chinois</Visitor_chine.label>
+
+<Caravan_chretiens.label>Commerçant chrétien</Caravan_chretiens.label>
+<Visitor_chretien.label>visiteur chrétien</Visitor_chretien.label>
+
+<Caravan_coree_du_sud.label>Commerçant sud-coréen</Caravan_coree_du_sud.label>
+<Visitor_coree_du_sud.label>visiteur sud-coréen</Visitor_coree_du_sud.label>
+
+<Caravan_ecolo.label>Commerçant écologiste</Caravan_ecolo.label>
+<Caravan_ecolo_radical.label>Commerçant écologiste radical</Caravan_ecolo_radical.label>
+<Visitor_ecolo.label>visiteur écologiste</Visitor_ecolo.label>
+<Visitor_ecolo_radical.label>visiteur écologiste radical</Visitor_ecolo_radical.label>
+
+<Caravan_france.label>Commerçant français</Caravan_france.label>
+<Visitor_france.label>visiteur français</Visitor_france.label>
+
+<Caravan_israel.label>Commerçant israëlien</Caravan_israel.label>
+<Visitor_israel.label>visiteur israëlien</Visitor_israel.label>
+
+<Caravan_juifs.label>Commerçant juif</Caravan_juifs.label>
+<Visitor_juifs.label>visiteur juif</Visitor_juifs.label>
+
+<Caravan_Mafia.label>Commerçant mafieux</Caravan_Mafia.label>
+<Caravan_Yakuzas.label>Commerçant yakuza</Caravan_Yakuzas.label>
+<Visitor_Mafia.label>visiteur mafieux</Visitor_Mafia.label>
+<Visitor_Yakuza.label>visiteur Yakuza</Visitor_Yakuza.label>
+
+<Caravan_mexique.label>Commerçant mexicain</Caravan_mexique.label>
+<Visitor_mexique.label>visiteur mexicain</Visitor_mexique.label>
+
+<Caravan_Musulmans.label>Caravane Musulmane</Caravan_Musulmans.label>
+<Visitor_Musulmans.label>visiteur musulman</Visitor_Musulmans.label>
+
+<Caravan_russie.label>Commerçant russe</Caravan_russie.label>
+<Visitor_russie.label>visiteur russe</Visitor_russie.label>
+
+<Caravan_suede.label>Commerçant suédois</Caravan_suede.label>
+<Visitor_suede.label>visiteur suédois</Visitor_suede.label>
+
+<Caravan_suisse.label>Commerçant suisse</Caravan_suisse.label>
+<Visitor_suisse.label>visiteur suisse</Visitor_suisse.label>
+
+<Caravan_ukraine.label>Commerçant ukrainien</Caravan_ukraine.label>
+<Visitor_ukraine.label>visiteur ukrainien</Visitor_ukraine.label>
+
+<Caravan_usa.label>Commerçant américain</Caravan_usa.label>
+<Visitor_usa.label>visiteur américain</Visitor_usa.label>
+
+</LanguageData>

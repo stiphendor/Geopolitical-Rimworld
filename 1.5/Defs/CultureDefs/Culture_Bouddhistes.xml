@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>bouddhiste</defName>
+    <label>Bouddhiste</label>
+    <description>Culture bouddhiste.</description>
+    <pawnNameMaker>nom_chine_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_chine_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoBouddhisme</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityBouddhisme</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Bouddhiste</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalBouddhisme</festivalNameMaker>
+    <iconPath>Symbols/bouddhisme/bouddha</iconPath>
+    <allowedPlaceTags>
+    <li>OriginBuddhist</li>
+    </allowedPlaceTags>
+    <thingStyleCategories>
+      <li>
+        <category>Buddhist</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+    <styleItemTags>
+      <li>
+        <tag>Bouddhiste_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>3</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooBodySakyant</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nomcoloniebouddhistes</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_bouddhistes_prefix] [colonie_bouddhistes]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_bouddhistes_prefix</keyword>
+          <path>Noms/colonie_bouddhistes_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>colonie_bouddhistes</keyword>
+          <path>Noms/colonie_bouddhistes</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoBouddhisme</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Bouddhisme</li>
+        <li>r_ideoAdjective->bouddhiste</li>
+        <li>r_memberName->Bouddhiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerDeityBouddhisme</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->Bouddha</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Bouddhiste</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Dalaï-lama</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <PlaceDef>
+    <defName>Place_Buddhism</defName>
+    <tags>
+      <li>OriginBuddhist</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Lumbini</li>
+        <li>place_adjective->lumbinien</li>
+        <li>place_summary->village situé sur le territoire du Népal</li>
+        <li>place_community->pagode</li>
+        <li>place_community->temple</li>
+        <li>place_community->montagne</li>
+        <li>place_powerCenter->pagode</li>
+        <li>place_job->moine</li>
+        <li>place_job->éveillé</li>
+        <li>place_job->voyageur</li>
+        <li>place_personalWeapon->regards</li>
+        <li>place_personalWeapon->langues</li>
+        <li>place_massWeapon->tentation</li>
+        <li>place_foeLeader->Māra</li>
+        <li>place_foeSoldiers->filles de Māra</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <RulePackDef>
+    <defName>NamerFestivalBouddhisme</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Parinirvana</li>
+        <li>festivalName->Losar</li>
+        <li>festivalName->Magha Puja</li>
+        <li>festivalName->Chötrül Düchen</li>
+        <li>festivalName->Hana matsuri</li>
+        <li>festivalName->Vesak</li>
+        <li>festivalName->O bon</li>
+        <li>festivalName->Asalha Puja</li>
+        <li>festivalName->Chökhor Düchen</li>
+        <li>festivalName->Kathina</li>
+        <li>festivalName->Loi Krathong</li>
+        <li>festivalName->Lhabab Düchen</li>
+        <li>festivalName->Bodhi</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

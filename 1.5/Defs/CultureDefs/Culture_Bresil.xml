@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Bresilienne</defName>
+    <label>Bresilienne</label>
+    <description>Culture Brésilienne.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoBresil</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_bresil</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalbresil</festivalNameMaker>
+    <pawnNameMaker>nom_Bresil_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_Bresil_f</pawnNameMakerFemale>
+    <iconPath>Symbols/bresil/brazil</iconPath>
+    <allowedPlaceTags>
+      <li>OriginBresil</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_Bresil_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhBresil] [nomBresil]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhBresil</keyword>
+          <path>Noms/prenom_m_Bresil</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomBresil</keyword>
+          <path>Noms/nom_Bresil</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_Bresil_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfBresil] [nomBresil]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfBresil</keyword>
+          <path>Noms/prenom_f_Bresil</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomBresil</keyword>
+          <path>Noms/nom_Bresil</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieBresil</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_Bresil]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_Bresil</keyword>
+          <path>Noms/colonie_Bresil</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoBresil</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Bresilienne</li>
+        <li>r_ideoAdjective->brésilien</li>
+        <li>r_memberName->Brésilien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Bresil</defName>
+    <tags>
+      <li>OriginBresil</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Rio</li>
+        <li>place_adjective->brésilien</li>
+        <li>place_summary->capitale</li>
+        <li>place_community-> plage de Copacabana</li>
+        <li>place_community->Statue du Christ Rédempteur</li>
+        <li>place_powerCenter->Palais du Planalto</li>
+        <li>place_job->militaire</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->trafiquant</li>
+        <li>place_foeSoldiers->narco-trafiquants</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_bresil</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Président</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalbresil</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Carnaval</li>
+        <li>festivalName->Semaine sainte </li>
+        <li>festivalName->Corpus Christi</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Las Fiestas Juninas</li>
+        <li>festivalName->Noël</li>
+        <li>festivalName->Paixão do Cristo</li>
+        <li>festivalName->Nossa Senhora aparecida</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

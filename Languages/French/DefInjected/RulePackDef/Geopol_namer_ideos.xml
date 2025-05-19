@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<NamerIdeoAnarchisme.rulePack.rulesStrings>
+	<li>r_ideoName->Anarchisme</li>
+	<li>r_ideoAdjective->anarchiste</li>
+	<li>r_memberName->Anarchiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoAnarchisme.rulePack.rulesStrings>
+
+<NamerIdeoAntifa.rulePack.rulesStrings>
+	<li>r_ideoName->Antifascisme</li>
+	<li>r_ideoAdjective->antifasciste</li>
+	<li>r_memberName->Antifasciste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoAntifa.rulePack.rulesStrings>
+
+<NamerIdeoAustralie.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Australienne</li>
+	<li>r_ideoAdjective->australien</li>
+	<li>r_memberName->Australien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoAustralie.rulePack.rulesStrings>
+
+<NamerIdeoBresil.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Bresilienne</li>
+	<li>r_ideoAdjective->brésilien</li>
+	<li>r_memberName->Brésilien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoBresil.rulePack.rulesStrings>
+
+<NamerIdeoBouddhisme.rulePack.rulesStrings>
+	<li>r_ideoName->Bouddhisme</li>
+	<li>r_ideoAdjective->bouddhiste</li>
+	<li>r_memberName->Bouddhiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoBouddhisme.rulePack.rulesStrings>
+
+<NamerIdeoBritannique.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie britannique</li>
+	<li>r_ideoAdjective->britannique</li>
+	<li>r_memberName->Anglais</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoBritannique.rulePack.rulesStrings>
+
+<NamerIdeoCanada.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Canadienne</li>
+	<li>r_ideoAdjective->canadien</li>
+	<li>r_memberName->Canadien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoCanada.rulePack.rulesStrings>
+
+<NamerIdeoChine.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Chinoise</li>
+	<li>r_ideoAdjective->chinois</li>
+	<li>r_memberName->Chinois</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoChine.rulePack.rulesStrings>
+
+<NamerIdeoChretien.rulePack.rulesStrings>
+	<li>r_ideoName->Christianisme</li>
+	<li>r_ideoAdjective->chrétien</li>
+	<li>r_memberName->Chrétien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoChretien.rulePack.rulesStrings>
+
+<NamerIdeoNko.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie nord-coréenne</li>
+	<li>r_ideoAdjective->Nord-Coréen</li>
+	<li>r_memberName->Nord-Coréen</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoNko.rulePack.rulesStrings>
+
+<NamerIdeoSouthKorean.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Sud-Coréenne</li>
+	<li>r_ideoAdjective->sud-coréen</li>
+	<li>r_memberName->Sud-Coréen</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoSouthKorean.rulePack.rulesStrings>
+
+<NamerIdeoEcolo.rulePack.rulesStrings>
+	<li>r_ideoName->Écologisme</li>
+	<li>r_ideoAdjective->écologique</li>
+	<li>r_memberName->Écologiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoEcolo.rulePack.rulesStrings>
+
+<NamerIdeoEcolo_radical.rulePack.rulesStrings>
+	<li>r_ideoName->Écologisme radical</li>
+	<li>r_ideoAdjective->écologique</li>
+	<li>r_memberName->Écologiste radical</li>
+	<li>r_memberName->Antispéciste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoEcolo_radical.rulePack.rulesStrings>
+
+<NamerIdeoFemen.rulePack.rulesStrings>
+	<li>r_ideoName->Sextrémisme</li>
+	<li>r_ideoAdjective->anti-patriarcal</li>
+	<li>r_memberName->Femen</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoFemen.rulePack.rulesStrings>
+
+<NamerIdeoFrance.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Française</li>
+	<li>r_ideoAdjective->français</li>
+	<li>r_memberName->Français</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoFrance.rulePack.rulesStrings>
+
+<NamerIdeoGiletsJaunes.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie des Gilets Jaunes</li>
+	<li>r_ideoAdjective->gilet jaune</li>
+	<li>r_memberName->Gilet Jaune</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoGiletsJaunes.rulePack.rulesStrings>
+
+<NamerIdeoIsrael.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie israëlienne</li>
+	<li>r_ideoAdjective->Israëlique</li>
+	<li>r_memberName->Israëlien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoIsrael.rulePack.rulesStrings>
+
+<NamerIdeoJuive.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie juive</li>
+	<li>r_ideoAdjective->Juif</li>
+	<li>r_memberName->Juif</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoJuive.rulePack.rulesStrings>
+
+<NamerIdeoKlan.rulePack.rulesStrings>
+	<li>r_ideoName->Suprématisme blanc</li>
+	<li>r_ideoAdjective->suprémaciste</li>
+	<li>r_memberName->Klansman</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoKlan.rulePack.rulesStrings>
+
+<NamerIdeoMafia.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie mafieuse</li>
+	<li>r_ideoAdjective->mafieux</li>
+	<li>r_memberName->Mafieux</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoMafia.rulePack.rulesStrings>
+
+<NamerIdeomexique.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Mexicaine</li>
+	<li>r_ideoAdjective->mexicain</li>
+	<li>r_memberName->mexicains</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeomexique.rulePack.rulesStrings>
+
+<NamerIdeoIslam.rulePack.rulesStrings>
+	<li>r_ideoName->Islam</li>
+	<li>r_ideoAdjective->Islamique</li>
+	<li>r_memberName->Musulman</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix->Al</li>
+</NamerIdeoIslam.rulePack.rulesStrings>
+
+<NamerIdeoRussie.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie russe</li>
+	<li>r_ideoAdjective->Russe</li>
+	<li>r_memberName->Russe</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoRussie.rulePack.rulesStrings>
+
+<NamerIdeoSkinhead.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie skinhead</li>
+	<li>r_ideoAdjective->raciste</li>
+	<li>r_memberName->Skinhead</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoSkinhead.rulePack.rulesStrings>
+
+<NamerIdeoSuede.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie Suédoise</li>
+	<li>r_ideoAdjective->suédois</li>
+	<li>r_memberName->Suédois</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoSuede.rulePack.rulesStrings>
+
+<NamerIdeoSuisse.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie suisse</li>
+	<li>r_ideoAdjective->helvétique</li>
+	<li>r_memberName->Helvétique</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoSuisse.rulePack.rulesStrings>
+
+<NamerIdeoIslamiste.rulePack.rulesStrings>
+	<li>r_ideoName->Islamisme radical</li>
+	<li>r_ideoAdjective->Islamique</li>
+	<li>r_memberName->Islamiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoIslamiste.rulePack.rulesStrings>
+
+<NamerIdeoUkraine.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie ukrainienne</li>
+	<li>r_ideoAdjective->Ukrainien</li>
+	<li>r_memberName->Ukrainien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoUkraine.rulePack.rulesStrings>
+
+<NamerIdeoUSA.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie américaine</li>
+	<li>r_ideoAdjective->Américain</li>
+	<li>r_memberName->Américain</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoUSA.rulePack.rulesStrings>
+
+<NamerIdeoYakuza.rulePack.rulesStrings>
+	<li>r_ideoName->Idéologie des yakuzas</li>
+	<li>r_ideoAdjective->yakuza</li>
+	<li>r_memberName->Yakuza</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+</NamerIdeoYakuza.rulePack.rulesStrings>
+
+</LanguageData>

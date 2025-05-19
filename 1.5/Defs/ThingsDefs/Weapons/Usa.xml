@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_p320c</defName>
+    <label>Pistolet SIG Sauer P320</label>
+    <description>Le SIG Sauer P320 est un pistolet semi-automatique produit aux Etats-Unis. Il s'agit de l'arme standard en service dans l'armée des Etats-Unis.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/P320</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+     <li>USA_pistolet</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_usa</li>
+	<li>BlowbackOperation</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_HK416c</defName>
+   <label>Fusil d'assaut HK416</label>
+   <description>Le HK416 est un fusil d'assaut de la firme allemande Heckler et Koch, une version améliorée de la carabine américaine M4.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/HK416</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>USA_fusil</li>
+     <li>France_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_allemagne</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_HKG28c</defName>
+    <label>Fusil de précision HK G28</label>
+    <description>Un système dédié aux tireurs d'élite, bien plus qu'un simple fusil doté d'une lunette de visée.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/G28</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>USA_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_allemagne</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  
+</Defs>

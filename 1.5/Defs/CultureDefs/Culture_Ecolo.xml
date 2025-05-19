@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Ecologiste</defName>
+    <label>écologiste</label>
+    <description>Culture écologiste.</description>
+    <pawnNameMaker>nom_int_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_int_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoEcolo</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalEcolo</festivalNameMaker>
+    <iconPath>Symbols/ecolo/ecolo3</iconPath>
+    <allowedPlaceTags>
+      <li>OriginEcolo</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Ecolo_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Ecolo_beard</tag>
+        <baseWeight>2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li MayRequire="Qux.Tattoos">
+        <tag>TattooBodyAnimal</tag>
+        <baseWeight>0.2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <CultureDef>
+    <defName>Ecologiste_radicale</defName>
+    <label>écologiste radicale</label>
+    <description>Culture écologiste radicale.</description>
+    <pawnNameMaker>nom_int_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_int_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoEcolo_radical</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalEcolo</festivalNameMaker>
+    <iconPath>Symbols/ecolo/ecolo2</iconPath>
+    <allowedPlaceTags>
+      <li>OriginEcolo</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Ecolo_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Ecolo_beard</tag>
+        <baseWeight>2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li MayRequire="Qux.Tattoos">
+        <tag>TattooBodyAnimal</tag>
+        <baseWeight>0.2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nomcolonieecolos</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[nomcolonieecolo]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>nomcolonieecolo</keyword>
+          <path>Noms/colonie_ecolo</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieecolosradicaux</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prefixecolonieecoloradicaux] [nomcolonieecoloradicaux]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prefixecolonieecoloradicaux</keyword>
+          <path>Noms/colonie_ecolo_radicaux_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomcolonieecoloradicaux</keyword>
+          <path>Noms/colonie_ecolo_radicaux</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>NamerIdeoEcolo</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Écologisme</li>
+        <li>r_ideoAdjective->écologique</li>
+        <li>r_memberName->Écologiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoEcolo_radical</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Écologisme radical</li>
+        <li>r_ideoAdjective->écologique</li>
+        <li>r_memberName->Écologiste radical</li>
+        <li>r_memberName->Antispéciste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Ecolo</defName>
+    <tags>
+      <li>OriginEcolo</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Greenworld</li>
+        <li>place_adjective->greenworlding</li>
+        <li>place_summary->monde fleuri</li>
+        <li>place_community->ferme</li>
+        <li>place_community->éco-quartier</li>
+        <li>place_community->hameau</li>
+        <li>place_powerCenter->village</li>
+        <li>place_job->fermier</li>
+        <li>place_job->conseiller en gestion environnemental</li>
+        <li>place_job->responsable qualité environnement</li>
+        <li>place_job->ingénieur d'études en énergies renouvelables</li>
+        <li>place_job->chef de projet climat</li>
+        <li>place_personalWeapon->masses</li>
+        <li>place_personalWeapon->tronçonneuses</li>
+        <li>place_massWeapon->pesticides</li>
+        <li>place_foeLeader->grand industriel</li>
+        <li>place_foeSoldiers->employés industriels</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalEcolo</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->We Love Green</li>
+        <li>festivalName->Fête de la terre</li>
+        <li>festivalName->Eco-festival</li>
+        <li>festivalName->Le festival du climat</li>
+        <li>festivalName->Fête du printemps</li>
+        <li>festivalName->Jour du tri des déchets</li>
+        <li>festivalName->Fête de l'environnement</li>
+        <li>festivalName->Festival éco-responsable</li>
+        <li>festivalName->Jour du climat</li>
+        <li>festivalName->Journée du développement durable</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

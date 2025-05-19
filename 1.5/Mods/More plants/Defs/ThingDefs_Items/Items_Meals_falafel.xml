@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealFineBase">
+    <defName>Israel_Falafel</defName>
+    <label>Sandwich Falafel</label>
+    <description>Falafel is a Middle Eastern dish consisting of chickpea balls that are fried. They are inserted into a pita bread topped with vegetables (cabbage, carrots, eggplant, tomato, salad, etc.)</description>
+    <graphicData>
+      <texPath>Meal/Falafel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AteFalafel</specialThoughtDirect>
+	</ingestible>
+</ThingDef>
+
+</Defs>

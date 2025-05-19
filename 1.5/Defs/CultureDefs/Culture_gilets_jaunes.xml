@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Francaisegj</defName>
+    <label>Francaise (Gilets jaunes)</label>
+    <description>Culture française (gilets jaunes).</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGiletsJaunes</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Gj</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalFra</festivalNameMaker>
+    <pawnNameMaker>nom_france_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_france_f</pawnNameMakerFemale>
+    <iconPath>Icon/Gilets_Jaunes</iconPath>
+    <allowedPlaceTags>
+      <li>OriginGiletsJaunes</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Gilet_jaune_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Gilet_jaune_beard</tag>
+        <baseWeight>0.1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoGiletsJaunes</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie des Gilets Jaunes</li>
+        <li>r_ideoAdjective->gilet jaune</li>
+        <li>r_memberName->Gilet Jaune</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Gj</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Porte-Parole</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>OriginGiletsJaunes</defName>
+    <tags>
+      <li>OriginGiletsJaunes</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Saint-Etienne</li>
+        <li>place_adjective->Stéphanois</li>
+        <li>place_summary->ville oubliée par le gouvernement</li>
+        <li>place_community->rond-point</li>
+        <li>place_community->bar</li>
+        <li>place_community->usine</li>
+        <li>place_powerCenter->rond-point</li>
+        <li>place_job->chômeur</li>
+        <li>place_job->travailleur précaire</li>
+        <li>place_job->sans emploi</li>
+        <li>place_personalWeapon->matraque</li>
+        <li>place_personalWeapon->pierres</li>
+        <li>place_massWeapon->taxes</li>
+        <li>place_foeLeader->Président de la République</li>
+        <li>place_foeSoldiers->policiers</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+</Defs>

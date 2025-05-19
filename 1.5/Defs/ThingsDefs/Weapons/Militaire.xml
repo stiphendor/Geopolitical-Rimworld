@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Geopol_couteau_militaire</defName>
+    <label>Couteau militaire</label>
+    <description>Un couteau militaire.</description>
+   <graphicData>
+      <texPath>Weapons/melee/militaire/couteau_militaire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>couteau_militaire</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <Mass>0.3</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>lame</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>pointe</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	<researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>

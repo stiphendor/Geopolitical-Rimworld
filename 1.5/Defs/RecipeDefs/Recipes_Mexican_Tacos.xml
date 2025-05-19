@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Mexican_Tacos</defName>
+		<label>cook tacos</label>
+		<description>cook tacos. Garnish: onion, tomatoes, cabbage, bell peppers, yellow peppers, avocado, cucumber</description>
+		<jobString>cooking tacos.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+					<count>0.25</count>
+			</li>
+			<li>
+			        <filter>
+					<categories>
+        					<li>MeatRaw</li>
+        				</categories>
+        			</filter>
+        				<count>0.15</count>
+      			</li>
+			<li>
+			        <filter>
+			          <customSummary>garnish (see meal description)</customSummary>
+					<thingDefs>
+						<li>RawFungus</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawOnion</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawTomatoes</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawCabbage</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBellPeppers</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawYellowBellPeppers</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawAvocado</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawCucumber</li>
+					</thingDefs>
+        			</filter>
+        				<count>0.15</count>
+      </li>
+    </ingredients>
+		<products>
+			<Mexican_tacos>1</Mexican_tacos>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_mexicain</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

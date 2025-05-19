@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealCooked">
+	<defName>Coree_du_nord_chogyeguksu</defName>
+	<label>Chogyeguksu</label>
+	<description>Chogyeguksu is a traditional North Korean dish that consists of buckwheat noodles served in a cold chicken soup flavored with vinegar and topped with shredded chicken.</description>
+	<graphicData>
+		<texPath>Meal/Chogyeguksu</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<specialThoughtDirect>WF_AteChogyeguksu</specialThoughtDirect>
+		</ingestible>
+</ThingDef>
+
+</Defs>

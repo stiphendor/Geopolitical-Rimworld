@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RelicInertBase">
+    <defName>Geopol_RelicBible</defName>
+    <label>Bible</label>
+    <graphicData>
+      <texPath>Memes/bible</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+      <costList>
+	<Leather_Plain>500</Leather_Plain>
+      </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="RelicInertBase">
+    <defName>Geopol_Relicbouddhisme</defName>
+    <label>Vinaya Pitaka</label>
+    <graphicData>
+      <texPath>Memes/bouddhisme</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+      <costList>
+	<Leather_Plain>500</Leather_Plain>
+      </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="RelicInertBase">
+    <defName>Geopol_Reliccoran</defName>
+    <label>coran</label>
+    <graphicData>
+      <texPath>Memes/coran</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+      <costList>
+	<Leather_Plain>500</Leather_Plain>
+      </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="RelicInertBase">
+    <defName>Geopol_Relictorah</defName>
+    <label>torah</label>
+    <graphicData>
+      <texPath>Memes/torah</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+      <costList>
+	<Leather_Plain>500</Leather_Plain>
+      </costList>
+  </ThingDef>
+
+</Defs>

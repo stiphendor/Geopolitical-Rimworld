@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="Geopol_pistol">
+    <defName>Geopol_Makarov</defName>
+    <label>Pistolet Makarov</label>
+    <description>Le pistolet automatique Makarov a été conçu en U.R.S.S. à la fin des années cinquante. Utilisé par l'Armée russe, le Makarov l'est aussi par presque toutes les ex armées du pacte de Varsovie et par bon nom­bre de forces de police des anciens pays de l'Est. C'est une arme solide, robuste et simple, à laquelle on peut se fier même dans les pires conditions.</description>
+    <graphicData>
+      <texPath>Weapons/Pistol/Makarov</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+     <li>Russie_pistolet</li>
+     <li>Coree_du_nord_pistolet</li>
+     <li>Ukraine_pistolet</li>
+     <li>Terroristes_pistolet</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>BlowbackOperation</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_AK47c</defName>
+   <label>Fusil d'assaut kalachnikov AK-47</label>
+   <description>Fusil d'assaut soviétique inventé en 1947 par Mikhaïl Kalachnikov. Son coût très faible, sa robustesse, sa fiabilité et sa grande facilité d'entretien le rendent extrêmement populaire, en particulier auprès des guérillas et des pays ayant peu de moyens financiers pour équiper leur infanterie. C'est également une arme produite dans de nombreux pays dotés d'une industrie d'armement, particulièrement dans les anciens pays de la zone d'influence de l'Union soviétique et du bloc de l'Est.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/AK47</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+   <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Russie_fusil</li>
+     <li>Terroristes_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+
+<ThingDef ParentName="Geopol_rifle">
+   <defName>Geopol_Type68c</defName>
+   <label>Fusil d'assaut Type 68</label>
+   <description>Le fusil d'assaut Type 68 est la version nord-coréenne de l'AKM soviétique.</description>
+   <graphicData>
+     <texPath>Weapons/Rifle/Type68</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+   </graphicData>
+   <equippedAngleOffset>40</equippedAngleOffset>
+   <weaponTags>
+     <li>Coree_du_nord_fusil</li>
+   </weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+</ThingDef>
+
+ 
+  <ThingDef ParentName="Geopol_machine_gun">
+    <defName>Geopol_PKM</defName>
+    <label>Mitrailleuse PKM</label>
+    <description>La première apparition de la  PK date de 1946. Elle a été utilisée par l’armée soviétique et les pays signataire du pacte de Varsovie.</description>
+    <graphicData>
+      <texPath>Weapons/Mitrailleuses/PKM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Russie_mitrailleuse</li>
+	     <li>Terroristes_mitrailleuse</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Geopol_machine_gun">
+    <defName>Geopol_RPK</defName>
+    <label>Mitrailleuse RPK</label>
+    <description>Le Kalachnikov RPK est un fusil mitrailleur soviétique. Résultant de l'ajout d'un canon allongé avec bipied repliable et d'une crosse renforcée en bois (en forme de hachoir) d'un fusil d'assaut AKM-59, il remplace à l'époque comme arme de soutien le RPD vieillissant.</description>
+    <graphicData>
+      <texPath>Weapons/Mitrailleuses/RPK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Coree_du_nord_mitrailleuse</li>
+	     <li>Ukraine_mitrailleuse</li>
+	     <li>Terroristes_mitrailleuse</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Geopol_sniper">
+    <defName>Geopol_Dragunov</defName>
+    <label>Fusil de précision Dragunov</label>
+    <description>Le SVD Dragunov est un fusil de précision russe adopté par l'URSS en 1963 pour équiper ses snipers. Il est au fusil de précision ce que l'AK-47 est au fusil d'assaut : son représentant le plus répandu, principalement dans les pays d'Europe de l'Est, d'Afrique et du Moyen-Orient, dont il est souvent encore le fusil de précision standard des forces armées, mais aussi des guérillas et groupes rebelles locaux.</description>
+    <graphicData>
+      <texPath>Weapons/Sniper/Dragunov</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>40</equippedAngleOffset>
+	<weaponTags>
+	     <li>Russie_sniper</li>
+	     <li>Coree_du_nord_sniper</li>
+	     <li>Ukraine_sniper</li>
+	     <li>Terroristes_sniper</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_russie</li>
+	<li>PrecisionRifling</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+   
+</Defs>
+

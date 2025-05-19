@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>femen</defName>
+    <label>Femen</label>
+    <description>Culture des Femen.</description>
+    <pawnNameMakerFemale>nom_ukrainien_f</pawnNameMakerFemale>
+    <pawnNameMaker>nom_ukrainien_h</pawnNameMaker>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoFemen</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Femen</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalFemen</festivalNameMaker>
+    <iconPath>Symbols/femen/feminism</iconPath>
+    <allowedPlaceTags>
+    <li>OriginFemen</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Urban</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Rural</tag>
+        <baseWeight>0.5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooBodyFemen</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nomcoloniefemen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;Local féministe</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>NamerIdeoFemen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Sextrémisme</li>
+        <li>r_ideoAdjective->anti-patriarcal</li>
+        <li>r_memberName->Femen</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Femen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Porte-Parole</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <PlaceDef>
+    <defName>Femen</defName>
+    <tags>
+      <li>OriginFemen</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Kiev</li>
+        <li>place_adjective->capitale</li>
+        <li>place_summary->ville Ukrainienne</li>
+        <li>place_community->université</li>
+        <li>place_powerCenter->université</li>
+        <li>place_job->étudiante</li>
+        <li>place_job->sociologue</li>
+        <li>place_job->artiste</li>
+        <li>place_personalWeapon->poing</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->patriarcat</li>
+        <li>place_foeLeader->leader patricarcal</li>
+        <li>place_foeSoldiers->hommes mysogines</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <RulePackDef>
+    <defName>NamerFestivalFemen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Rassemblement anti-patriarcat</li>
+        <li>festivalName->Rassemblement anti-religieux</li>
+        <li>festivalName->Rassemblement pour les droits des femmes</li>
+        <li>festivalName->Rassemblement féministe</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

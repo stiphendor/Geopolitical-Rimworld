@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_russia_blinis</defName>
+		<label>cook blinis</label>
+		<description>cook blinis.</description>
+		<jobString>cooking blinis.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+			          <customSummary>grain</customSummary>
+					<thingDefs>
+						<li MayRequire="VanillaExpanded.VCookE">VCE_Flour</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+						<li MayRequire="VanillaExpanded.VCEF">VCEF_RawSalmon</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_Bearberry</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawAvocado</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBellPeppers</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawYellowBellPeppers</li>
+						<li MayRequire="ReGrowth.BOTR.Core">RG_RawRaspberries</li>
+					</thingDefs>
+				</filter>
+					<count>0.25</count>
+			</li>
+    </ingredients>
+		<products>
+			<russia_blinis>1</russia_blinis>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_russie</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

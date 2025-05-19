@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>RBPCanvases_East</defName>
+  <thing>RBPCanvases</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPCanvases_West</defName>
+  <thing>RBPCanvases</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPEaselPainting_WoodLog</defName>
+  <thing>RBPEaselPainting</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintTins_West</defName>
+  <thing>RBPPaintTins</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPArtCabinet_WoodLog_South</defName>
+  <thing>RBPArtCabinet</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintTins_South</defName>
+  <thing>RBPPaintTins</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintingProps_North</defName>
+  <thing>RBPPaintingProps</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintSpills_North</defName>
+  <thing>RBPPaintSpills</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintingProps_South</defName>
+  <thing>RBPPaintingProps</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintMat_South</defName>
+  <thing>RBPPaintMat</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintTins_North</defName>
+  <thing>RBPPaintTins</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintSpills_East</defName>
+  <thing>RBPPaintSpills</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintSpills_West</defName>
+  <thing>RBPPaintSpills</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPArtCabinet_WoodLog_North</defName>
+  <thing>RBPArtCabinet</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintTins_East</defName>
+  <thing>RBPPaintTins</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RBPPaintMat_North</defName>
+  <thing>RBPPaintMat</thing>
+</KCSG.SymbolDef>
+
+</Defs>

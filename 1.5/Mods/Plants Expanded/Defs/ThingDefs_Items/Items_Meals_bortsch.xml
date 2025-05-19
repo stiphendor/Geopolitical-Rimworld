@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MealFineBase">
+		<defName>Ukraine_bortsch</defName>
+		<label>bortsch</label>
+		<description>Borscht is a soup prepared in several Slavic countries, the oldest known mention of which attributes it to Ukrainian cuisine. It contains beetroot, which gives it a strong burgundy red color. Other ingredients are added depending on the preparation, mainly vegetables (cabbage, carrots, potatoes, onions, garlic or tomatoes), as well as meat.</description>
+		<graphicData>
+			<texPath>Meal/Bortsch</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_Atebortsch</specialThoughtDirect>
+	</ingestible>
+	</ThingDef>
+
+</Defs>

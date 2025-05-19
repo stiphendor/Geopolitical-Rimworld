@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--================= Anarchistes ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_anarchy</defName>
+		<iconPath>Symbols/anarchie/anarchy</iconPath>	
+		<cultures>
+			<li>anarchiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_anarchy_2</defName>
+		<iconPath>Symbols/anarchie/anarchy2</iconPath>	
+		<cultures>
+			<li>anarchiste</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_anarchy_dollar</defName>
+		<iconPath>Symbols/anarchie/dollar</iconPath>	
+		<cultures>
+			<li>anarchiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+
+	<!--================= Antifascistes===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_antifa</defName>
+		<iconPath>Symbols/antifa/antifa</iconPath>	
+		<cultures>
+			<li>antifa</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_injustice</defName>
+		<iconPath>Symbols/antifa/injustice</iconPath>	
+		<cultures>
+			<li>antifa</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_trois_fleches</defName>
+		<iconPath>Symbols/antifa/trois_fleches</iconPath>	
+		<cultures>
+			<li>antifa</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+
+	<!--================= Australie ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_australie_1</defName>
+		<iconPath>Symbols/australie/australia</iconPath>	
+		<cultures>
+			<li>Australienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_australie_2</defName>
+		<iconPath>Symbols/australie/kangaroo</iconPath>	
+		<cultures>
+			<li>Australienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_australie_3</defName>
+		<iconPath>Symbols/australie/koala</iconPath>	
+		<cultures>
+			<li>Australienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Bouddhisme===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme1</defName>
+		<iconPath>Symbols/bouddhisme/bouddha</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme2</defName>
+		<iconPath>Symbols/bouddhisme/roue</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme3</defName>
+		<iconPath>Symbols/bouddhisme/gong</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme4</defName>
+		<iconPath>Symbols/bouddhisme/lotus</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme5</defName>
+		<iconPath>Symbols/bouddhisme/pagode</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme6</defName>
+		<iconPath>Symbols/bouddhisme/Shrivatsa</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Bouddhisme7</defName>
+		<iconPath>Symbols/bouddhisme/svastika</iconPath>	
+		<cultures>
+			<li>bouddhiste</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Bresil ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_bresil_1</defName>
+		<iconPath>Symbols/bresil/brazil</iconPath>	
+		<cultures>
+			<li>Bresilienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_bresil_2</defName>
+		<iconPath>Symbols/bresil/jesus</iconPath>	
+		<cultures>
+			<li>Bresilienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Britain ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Britain</defName>
+		<iconPath>Symbols/britain/queen</iconPath>	
+		<cultures>
+			<li>britannique</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Britain_2</defName>
+		<iconPath>Symbols/britain/united-kingdom</iconPath>	
+		<cultures>
+			<li>britannique</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Britain_3</defName>
+		<iconPath>Symbols/britain/uk</iconPath>	
+		<cultures>
+			<li>britannique</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Canada===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_canada</defName>
+		<iconPath>Symbols/canada/canada</iconPath>	
+		<cultures>
+			<li>Canadienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_canada_2</defName>
+		<iconPath>Symbols/canada/erable</iconPath>	
+		<cultures>
+			<li>Canadienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_canada_3</defName>
+		<iconPath>Symbols/canada/wapiti</iconPath>	
+		<cultures>
+			<li>Canadienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Chrétiens ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_chretiens_1c</defName>
+		<iconPath>Symbols/chretiens/bible</iconPath>	
+		<cultures>
+			<li>Chretienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_chretiens_2c</defName>
+		<iconPath>Symbols/chretiens/couronne-depines</iconPath>	
+		<cultures>
+			<li>Chretienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_chretiens_3c</defName>
+		<iconPath>Symbols/chretiens/cross</iconPath>	
+		<cultures>
+			<li>Chretienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_chretiens_4c</defName>
+		<iconPath>Symbols/chretiens/eveque</iconPath>	
+		<cultures>
+			<li>Chretienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+
+
+	<!--================= Chine ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_chine</defName>
+		<iconPath>Symbols/chine/great-wall-of-china</iconPath>	
+		<cultures>
+			<li>Chinoise</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_chine_2</defName>
+		<iconPath>Symbols/chine/china</iconPath>	
+		<cultures>
+			<li>Chinoise</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Corée du Sud===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_korea</defName>
+		<iconPath>Symbols/coree du sud/korea</iconPath>	
+		<cultures>
+			<li>Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_hanbok</defName>
+		<iconPath>Symbols/coree du sud/hanbok</iconPath>	
+		<cultures>
+			<li>Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Corée du Nord ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_coree_du_nord</defName>
+		<iconPath>Symbols/coree du nord/kim_jung_un</iconPath>	
+		<cultures>
+			<li>Nord-Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_coree_du_nord2</defName>
+		<iconPath>Symbols/coree du nord/north-korea</iconPath>	
+		<cultures>
+			<li>Nord-Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_coree_du_nord3</defName>
+		<iconPath>Symbols/coree du nord/north-korea2</iconPath>	
+		<cultures>
+			<li>Nord-Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_coree_du_nord4</defName>
+		<iconPath>Symbols/coree du nord/pyongyang</iconPath>	
+		<cultures>
+			<li>Nord-Coreenne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Ecologie ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Ecolo1</defName>
+		<iconPath>Symbols/ecolo/ecolo1</iconPath>	
+		<cultures>
+			<li>Ecologiste</li>
+			<li>Ecologiste_radicale</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Ecolo2</defName>
+		<iconPath>Symbols/ecolo/ecolo2</iconPath>
+		<cultures>
+			<li>Ecologiste</li>
+			<li>Ecologiste_radicale</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Ecolo3</defName>
+		<iconPath>Symbols/ecolo/ecolo3</iconPath>		
+		<cultures>
+			<li>Ecologiste</li>
+			<li>Ecologiste_radicale</li>
+		</cultures>	
+	</IdeoIconDef>
+
+
+<!--================= Femen===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_feminism1</defName>
+		<iconPath>Symbols/femen/feminism</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_feminism2</defName>
+		<iconPath>Symbols/femen/feminism2</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_feminist</defName>
+		<iconPath>Symbols/femen/feminist</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_girl_power</defName>
+		<iconPath>Symbols/femen/girl-power</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_protest</defName>
+		<iconPath>Symbols/femen/protest</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_strong</defName>
+		<iconPath>Symbols/femen/strong</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_strong_woman</defName>
+		<iconPath>Symbols/femen/strong-woman</iconPath>	
+		<cultures>
+			<li>femen</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= France ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_france</defName>
+		<iconPath>Symbols/france/france</iconPath>	
+		<cultures>
+			<li>Francaise</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_france_2</defName>
+		<iconPath>Symbols/france/coq</iconPath>	
+		<cultures>
+			<li>Francaise</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Gilets Jaunes ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_gilets_jaunes_1</defName>
+		<iconPath>Symbols/gilets jaunes/Gilets_Jaunes1</iconPath>	
+		<cultures>
+			<li>Francaisegj</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_gilets_jaunes_2</defName>
+		<iconPath>Symbols/gilets jaunes/Gilets_Jaunes2</iconPath>	
+		<cultures>
+			<li>Francaisegj</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Israel ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Israel_1</defName>
+		<iconPath>Symbols/israel/israel</iconPath>	
+		<cultures>
+			<li>Israelienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Israel_2</defName>
+		<iconPath>Symbols/israel/judaism</iconPath>	
+		<cultures>
+			<li>Israelienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Israel_3</defName>
+		<iconPath>Symbols/israel/big-menorah</iconPath>	
+		<cultures>
+			<li>Israelienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Mafia ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_mafia1</defName>
+		<iconPath>Symbols/mafia/fedora</iconPath>
+		<cultures>
+			<li>mafia_italienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_mafia2</defName>
+		<iconPath>Symbols/mafia/godfather</iconPath>		
+		<cultures>
+			<li>mafia_italienne</li>
+		</cultures>	
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_mafia3</defName>
+		<iconPath>Symbols/mafia/martini</iconPath>		
+		<cultures>
+			<li>mafia_italienne</li>
+		</cultures>	
+	</IdeoIconDef>
+
+
+
+
+	<!--================= Mexique===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Mexique_1</defName>
+		<iconPath>Symbols/mexico/mexico</iconPath>	
+		<cultures>
+			<li>Mexicaine</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Mexique_2</defName>
+		<iconPath>Symbols/mexico/chichen-itza-pyramid</iconPath>	
+		<cultures>
+			<li>Mexicaine</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_Mexique_3</defName>
+		<iconPath>Symbols/mexico/mexican-hat</iconPath>	
+		<cultures>
+			<li>Mexicaine</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Mexique_4</defName>
+		<iconPath>Symbols/mexico/mexican-man</iconPath>	
+		<cultures>
+			<li>Mexicaine</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_Mexique_5</defName>
+		<iconPath>Symbols/mexico/skull</iconPath>	
+		<cultures>
+			<li>Mexicaine</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Musulmans ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_musulmans_1</defName>
+		<iconPath>Symbols/musulmans/musulmans</iconPath>
+		<cultures>
+			<li>musulmane</li>
+		</cultures>
+	</IdeoIconDef>
+
+
+	<!--================= Russie ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_russie_1</defName>
+		<iconPath>Symbols/russie/matryoshka-doll</iconPath>	
+		<cultures>
+			<li>Russe</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_russie_2</defName>
+		<iconPath>Symbols/russie/cathedral-of-saint-basil</iconPath>	
+		<cultures>
+			<li>Russe</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_russie_3</defName>
+		<iconPath>Symbols/russie/russia</iconPath>	
+		<cultures>
+			<li>Russe</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Skinhead ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_hammerskin1</defName>
+		<iconPath>Symbols/hammerskin/celtic_cross</iconPath>
+		<cultures>
+			<li>skinhead</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_hammerskin2</defName>
+		<iconPath>Symbols/hammerskin/croix_malte</iconPath>
+		<cultures>
+			<li>skinhead</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_hammerskin3</defName>
+		<iconPath>Symbols/hammerskin/Odal_rune</iconPath>
+		<cultures>
+			<li>skinhead</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_hammerskin4</defName>
+		<iconPath>Symbols/hammerskin/poing_blanc</iconPath>
+		<cultures>
+			<li>skinhead</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_hammerskin5</defName>
+		<iconPath>Symbols/hammerskin/Totenkopf</iconPath>
+		<cultures>
+			<li>skinhead</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Suède ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_suede_1</defName>
+		<iconPath>Symbols/suede/suede</iconPath>	
+		<cultures>
+			<li>Suedoise</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+
+	<!--================= Suisse ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_suisse_1</defName>
+		<iconPath>Symbols/suisse/couteau-suisse</iconPath>	
+		<cultures>
+			<li>Suisse</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_suisse_2</defName>
+		<iconPath>Symbols/suisse/mountain</iconPath>	
+		<cultures>
+			<li>Suisse</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_suisse_3</defName>
+		<iconPath>Symbols/suisse/suisse</iconPath>	
+		<cultures>
+			<li>Suisse</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<!--================= Ukraine ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_ukraine</defName>
+		<iconPath>Symbols/ukraine/eglise</iconPath>	
+		<cultures>
+			<li>Ukrainienne</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_ukraine_2</defName>
+		<iconPath>Symbols/ukraine/ukraine</iconPath>	
+		<cultures>
+			<li>Ukrainienne</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= USA ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_usa</defName>
+		<iconPath>Symbols/usa/statue-of-liberty</iconPath>	
+		<cultures>
+			<li>Americaine</li>
+		</cultures>		
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Ideoligion_usa_2</defName>
+		<iconPath>Symbols/usa/flag</iconPath>	
+		<cultures>
+			<li>Americaine</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_usa_3</defName>
+		<iconPath>Symbols/usa/flag2</iconPath>	
+		<cultures>
+			<li>Americaine</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+	<!--================= Yakuza ===================-->
+
+	<IdeoIconDef>
+		<defName>Ideoligion_yakuza1</defName>
+		<iconPath>Symbols/yakuza/hannya</iconPath>
+		<cultures>
+			<li>yakuza</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_yakuza2</defName>
+		<iconPath>Symbols/yakuza/katana</iconPath>
+		<cultures>
+			<li>yakuza</li>
+		</cultures>		
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>Ideoligion_yakuza3</defName>
+		<iconPath>Symbols/yakuza/yakuza</iconPath>
+		<cultures>
+			<li>yakuza</li>
+		</cultures>		
+	</IdeoIconDef>
+
+
+
+</Defs>

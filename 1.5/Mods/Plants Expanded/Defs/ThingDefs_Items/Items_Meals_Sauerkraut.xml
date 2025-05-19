@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MealFineBase">
+		<defName>Allemagne_choucroute</defName>
+		<label>Sauerkraut</label>
+		<description>Sauerkraut is a dish that is eaten in many countries but has a close connection with Germany and other countries such as Poland. The dish consists of minced, salted and fermented white cabbage, served with sausages and potatoes.</description>
+		<graphicData>
+			<texPath>Meal/Choucroute</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_Atechoucroute</specialThoughtDirect>
+	</ingestible>
+	</ThingDef>
+
+</Defs>

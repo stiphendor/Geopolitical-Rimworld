@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Australienne</defName>
+    <label>Australienne</label>
+    <description>Culture australienne.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAustralie</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_aus</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalaus</festivalNameMaker>
+    <pawnNameMaker>nom_australie_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_australie_f</pawnNameMakerFemale>
+    <iconPath>Symbols/australie/australia</iconPath>
+    <allowedPlaceTags>
+      <li>OriginAustralie</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_australie_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhaustralie] [nomaustralie]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhaustralie</keyword>
+          <path>Noms/prenom_m_australie</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomaustralie</keyword>
+          <path>Noms/nom_australie</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_australie_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfaustralie] [nomaustralie]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfaustralie</keyword>
+          <path>Noms/prenom_f_australie</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomaustralie</keyword>
+          <path>Noms/nom_australie</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieaustralie</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_australie]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_australie</keyword>
+          <path>Noms/colonie_australie</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoAustralie</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Australienne</li>
+        <li>r_ideoAdjective->australien</li>
+        <li>r_memberName->Australien</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Australie</defName>
+    <tags>
+      <li>OriginAustralie</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Sydney</li>
+        <li>place_adjective->sydnéens</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->opéra</li>
+        <li>place_community->harbour bridge</li>
+        <li>place_powerCenter->Government House</li>
+        <li>place_job->délinquant</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->chinois</li>
+        <li>place_foeSoldiers->chinois</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_aus</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Gouverneur général</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalaus</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Nouvel An</li>
+        <li>festivalName->Jour de l'australie</li>
+        <li>festivalName->Canberra Day</li>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Journée de l'ANZAC</li>
+        <li>festivalName->Noël</li>
+        <li>festivalName->Boxing Day</li>
+        <li>festivalName->Saint-Sylvestre</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StyleItemCategoryDef>
+    <defName>Sandrine</defName>
+    <label>Sandrine</label>
+  </StyleItemCategoryDef>
+
+    <TattooDef>
+    <defName>Sandrine</defName>
+    <label>Sandrine</label>
+    <texPath>Things/Pawn/Humanlike/Tattoos/Sandrine Rousseau/Sandrine</texPath>
+    <tattooType>Face</tattooType>
+    <category>Sandrine</category>
+    <styleTags>
+      <li>TattooFaceSandrine</li>
+    </styleTags>
+  </TattooDef>
+
+
+</Defs>

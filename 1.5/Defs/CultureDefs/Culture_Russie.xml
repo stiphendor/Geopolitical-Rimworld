@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Russe</defName>
+    <label>Russe</label>
+    <description>Culture Russe.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoRussie</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Ru</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRu</festivalNameMaker>
+    <pawnNameMaker>nom_russe_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_russe_f</pawnNameMakerFemale>
+    <iconPath>Symbols/russie/russia</iconPath>
+    <allowedPlaceTags>
+      <li>OriginRusse</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_russe_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhru] [nomru]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhru</keyword>
+          <path>Noms/prenom_m_ru</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomru</keyword>
+          <path>Noms/nom_ru</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_russe_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfru] [nomru]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfru</keyword>
+          <path>Noms/prenom_f_ru</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomru</keyword>
+          <path>Noms/nom_ru</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoRussie</defName>
+    <rulePack>
+      <rulesStrings>
+	<li>r_ideoName->Idéologie russe</li>
+        <li>r_ideoAdjective->Russe</li>
+        <li>r_memberName->Russe</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieru</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_ru]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_ru</keyword>
+          <path>Noms/colonie_ru</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Ru</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Vladimir Poutine</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Russie</defName>
+    <tags>
+      <li>OriginRusse</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Moscou</li>
+        <li>place_adjective->moscovite</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->place rouge</li>
+        <li>place_community->cathédrale du Christ-Sauveur</li>
+        <li>place_community->cathédrale basile-le-Bienheureux</li>
+        <li>place_community->tour Ostankino</li>
+        <li>place_powerCenter->Kremlin</li>
+        <li>place_job->espion</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->président des Etats-Unis</li>
+        <li>place_foeSoldiers->soldats américains</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalRu</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Jour de la Concorde et de la Réconciliation</li>
+        <li>festivalName->Jour de la victoire</li>
+        <li>festivalName->Fête de l’unité nationale</li>
+        <li>festivalName->Jour de la Russie</li>
+        <li>festivalName->Fête du printemps et du travail</li>
+        <li>festivalName->Fête du Défenseur de la Patrie</li>
+        <li>festivalName->Saint Nicolas</li>
+        <li>festivalName->Noël orthodoxe</li>
+        <li>festivalName->Nouvel an</li>
+        <li>festivalName->Jour de Constitution</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

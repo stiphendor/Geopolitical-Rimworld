@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Coreenne</defName>
+    <label>Coréenne</label>
+    <description>Culture coréenne.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSouthKorean</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_ko</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalko</festivalNameMaker>
+    <pawnNameMaker>nomhommeko</pawnNameMaker>
+    <pawnNameMakerFemale>nomfemmeko</pawnNameMakerFemale>
+    <iconPath>Symbols/coree du sud/korea</iconPath>
+    <allowedPlaceTags>
+      <li>OriginSouthKorea</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nomhommeko</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[nomko] [prenomhko]</li>
+        <li>name-&gt;[nomko] [prenomhko]</li>
+        <li>name-&gt;[nomko2] [prenomhko]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>nomko</keyword>
+          <path>Noms/nom_ko</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomko2</keyword>
+          <path>Noms/nom_ko2</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenomhko</keyword>
+          <path>Noms/prenom_m_ko</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomfemmeko</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[nomko] [prenomfko]</li>
+        <li>name-&gt;[nomko] [prenomfko]</li>
+        <li>name-&gt;[nomko2] [prenomfko]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>nomko</keyword>
+          <path>Noms/nom_ko</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomko2</keyword>
+          <path>Noms/nom_ko2</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenomfko</keyword>
+          <path>Noms/prenom_f_ko</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieko</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_ko]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_ko</keyword>
+          <path>Noms/colonie_ko</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoSouthKorean</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Sud-Coréenne</li>
+        <li>r_ideoAdjective->sud-coréen</li>
+        <li>r_memberName->Sud-Coréen</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_ko</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Président</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>SouthKorea</defName>
+    <tags>
+      <li>OriginSouthKorea</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Séoul</li>
+        <li>place_adjective->séouliens</li>
+        <li>place_summary->ville sud-coréenne</li>
+        <li>place_community->porte de Gwanghwa</li>
+        <li>place_community->marché traditionnel d'Insadong</li>
+        <li>place_community->Seoul Tower</li>
+        <li>place_powerCenter->Gangnam</li>
+        <li>place_job->ingénieur</li>
+        <li>place_job->game designer</li>
+        <li>place_job->marchand</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->arme nucléaire</li>
+        <li>place_foeLeader->Kim Il-sung</li>
+        <li>place_foeSoldiers->nord-coréens</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalko</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Seollal</li>
+        <li>festivalName->Samiljeol</li>
+        <li>festivalName->Singmogil</li>
+        <li>festivalName->Seogka tansinil </li>
+        <li>festivalName->Chuseok</li>
+        <li>festivalName->Hangul-nal</li>
+        <li>festivalName->Bucheonnim Osinnal</li>
+        <li>festivalName->Hyeonchung-il</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

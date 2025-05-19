@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealLavishBase">
+    <defName>France_Boeuf_Bourguignon</defName>
+    <label>Boeuf bourguignon</label>
+    <description>Stew prepared with pieces of beef cooked in a casserole in red wine with carrots, beef bourguignon is a traditional dish originating from Burgundy, France, a region renowned for its cattle breeding and the wines of its vineyard.</description>
+    <graphicData>
+      <texPath>Meal/Boeuf bourguignon</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ingestible>
+      <specialThoughtDirect>WF_AteBoeuf_Bourguignon</specialThoughtDirect>
+    </ingestible>
+    <comps>
+    <li Class="CompProperties_Ingredients">
+      <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+    </li>
+    </comps>
+</ThingDef>
+
+
+</Defs>

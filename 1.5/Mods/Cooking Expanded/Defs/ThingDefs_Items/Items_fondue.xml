@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MealFineBase">
+		<defName>Swiss_fondue</defName>
+		<label>fondue</label>
+		<description>A fondue is a Swiss culinary specialty consisting of dipping pieces of bread into a container of melted cheese mixed with beer.</description>
+		<graphicData>
+			<texPath>Meal/Fondue</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AteFondue</specialThoughtDirect>
+	</ingestible>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef ParentName="Base">
+    <defName>Base_coree_du_nord</defName>
+    <stockGenerators>
+
+<!-- Ressources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>200~800</countRange>
+      </li>
+
+
+<!-- Textiles -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+
+<!-- Food -->
+      <li MayRequire="VanillaExpanded.VPlantsEMore" Class="StockGenerator_SingleDef">
+        <thingDef>Coree_du_nord_chogyeguksu</thingDef>
+        <countRange>10~30</countRange>
+      </li>
+
+
+<!-- Apparels -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_coree_du_nord_uniforme</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_coree_du_nord_casque</thingDef>
+        <countRange>3~9</countRange>
+      </li>
+
+
+<!-- Weapons -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_Makarov</thingDef>
+        <countRange>5~12</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_Type68c</thingDef>
+        <countRange>5~12</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_RPK</thingDef>
+        <countRange>5~12</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_Dragunov</thingDef>
+        <countRange>5~12</countRange>
+      </li>
+
+
+<!-- Buildings -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Geopol_book_coreedunord</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
+
+<!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Gold</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Steel</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Plasteel</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Medicine</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Component</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Wood</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Uranium</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Jade</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Chemfuel</tag></li>
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+</Defs>

@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Anarchiste_distance.label>Anarchiste</Anarchiste_distance.label>
+
+<Anarchiste_melee.label>Combattant anarchiste</Anarchiste_melee.label>
+
+<Anarchiste_molotov.label>Anarchiste</Anarchiste_molotov.label>
+
+<Anarchiste_leader.label>Porte-parole homme anarchiste</Anarchiste_leader.label>
+
+<Anarchiste_distance_f.label>Anarchiste</Anarchiste_distance_f.label>
+
+<Anarchiste_melee_f.label>Combattante anarchiste</Anarchiste_melee_f.label>
+
+<Anarchiste_molotov_f.label>Anarchiste</Anarchiste_molotov_f.label>
+
+<Anarchiste_leader_f.label>Porte-parole femme anarchiste</Anarchiste_leader_f.label>
+
+
+
+<Redskin_melee_1.label>Redskin</Redskin_melee_1.label>
+
+<Redskin_melee_2.label>Redskin</Redskin_melee_2.label>
+
+<Antifa_melee_1.label>Antifasciste</Antifa_melee_1.label>
+
+<Antifa_melee_2.label>Antifasciste</Antifa_melee_2.label>
+
+<Antifa_melee_3.label>Antifasciste</Antifa_melee_3.label>
+
+<Antifa_leader.label>Porte-parole antifasciste</Antifa_leader.label>
+
+
+
+<australia_army_trader.label>commerçant militaire australien</australia_army_trader.label>
+
+<australia_army_trader.labelPlural>commerçants militaire australien</australia_army_trader.labelPlural>
+
+<australia_army_melee.label>combattant militaire australien</australia_army_melee.label>
+
+<australia_army_melee.labelPlural>militaires australien</australia_army_melee.labelPlural>
+
+<australia_army_ar.label>militaire australien</australia_army_ar.label>
+
+<australia_army_ar.labelPlural>militaires australien</australia_army_ar.labelPlural>
+
+<australia_army_medecin.label>médecin militaire australien</australia_army_medecin.label>
+
+<australia_army_medecin.labelPlural>médecins militaire australien</australia_army_medecin.labelPlural>
+
+<australia_army_mg.label>mitrailleur militaire australien</australia_army_mg.label>
+
+<australia_army_mg.labelPlural>mitrailleurs militaires australien</australia_army_mg.labelPlural>
+
+<australia_army_sniper.label>tireur de précision australien</australia_army_sniper.label>
+
+<australia_army_sniper.labelPlural>tireur de précision australien</australia_army_sniper.labelPlural>
+
+<australia_chef.label>gouverneur général d'Australie</australia_chef.label>
+
+<australia_chef.labelPlural>gouverneurs généraux d'Australie</australia_chef.labelPlural>
+
+
+
+<Bouddhiste_agricole.label>Moine bouddhiste agriculteur</Bouddhiste_agricole.label>
+
+<Bouddhiste_art_martiaux.label>Moine bouddhiste martial</Bouddhiste_art_martiaux.label>
+
+<Bouddhiste_trader.label>Commerçant bouddhiste</Bouddhiste_trader.label>
+
+<Bouddhiste_saber.label>Moine bouddhiste</Bouddhiste_saber.label>
+
+
+
+<brazil_army_trader.label>commerçant militaire brésilien</brazil_army_trader.label>
+
+<brazil_army_trader.labelPlural>commerçants militaire brésilien</brazil_army_trader.labelPlural>
+
+<brazil_army_melee.label>combattant militaire brésilien</brazil_army_melee.label>
+
+<brazil_army_melee.labelPlural>militaires brésilien</brazil_army_melee.labelPlural>
+
+<brazil_army_ar.label>militaire brésilien</brazil_army_ar.label>
+
+<brazil_army_ar.labelPlural>militaires brésilien</brazil_army_ar.labelPlural>
+
+<brazil_army_medecin.label>médecin militaire brésilien</brazil_army_medecin.label>
+
+<brazil_army_medecin.labelPlural>médecins militaire brésilien</brazil_army_medecin.labelPlural>
+
+<brazil_army_mg.label>mitrailleur militaire brésilien</brazil_army_mg.label>
+
+<brazil_army_mg.labelPlural>mitrailleurs militaires brésilien</brazil_army_mg.labelPlural>
+
+<brazil_army_sniper.label>tireur de précision brésilien</brazil_army_sniper.label>
+
+<brazil_army_sniper.labelPlural>tireur de précision brésilien</brazil_army_sniper.labelPlural>
+
+<brazil_chef.label>Président de la république fédérative du Brésil</brazil_chef.label>
+
+<brazil_chef.labelPlural>Présidents de la république fédérative du Brésil</brazil_chef.labelPlural>
+
+
+
+<britain_army_trader.label>commerçant militaire britannique</britain_army_trader.label>
+
+<britain_army_trader.labelPlural>commerçants militaire britanniques</britain_army_trader.labelPlural>
+
+<britain_army_melee.label>combattant militaire britannique</britain_army_melee.label>
+
+<britain_army_melee.labelPlural>militaires britanniques</britain_army_melee.labelPlural>
+
+<britain_army_ar.label>militaire britannique</britain_army_ar.label>
+
+<britain_army_ar.labelPlural>militaires britanniques</britain_army_ar.labelPlural>
+
+<britain_army_ar2.label>militaire britannique</britain_army_ar2.label>
+
+<britain_army_ar2.labelPlural>militaires britanniques</britain_army_ar2.labelPlural>
+
+<britain_army_ar3.label>militaire britannique</britain_army_ar3.label>
+
+<britain_army_ar3.labelPlural>militaires britanniques</britain_army_ar3.labelPlural>
+
+<britain_army_medecin.label>médecin militaire britannique</britain_army_medecin.label>
+
+<britain_army_medecin.labelPlural>médecins militaire britannique</britain_army_medecin.labelPlural>
+
+<britain_army_mg.label>mitrailleur militaire britannique</britain_army_mg.label>
+
+<britain_army_mg.labelPlural>mitrailleurs militaires britanniques</britain_army_mg.labelPlural>
+
+<britain_army_sniper.label>tireur de précision britannique</britain_army_sniper.label>
+
+<britain_army_sniper.labelPlural>tireur de précision britannique</britain_army_sniper.labelPlural>
+
+<britain_chef.label>Roi du Royaume-Uni</britain_chef.label>
+
+<britain_chef.labelFemale>Reine du Royaume-Uni</britain_chef.labelFemale>
+
+<britain_chef.labelMale>Roi du Royaume-Uni</britain_chef.labelMale>
+
+<britain_chef.labelPlural>Rois du Royaume-Uni</britain_chef.labelPlural>
+
+<britain_guard.label>soldat de la garde royale britannique</britain_guard.label>
+
+<britain_guard.labelPlural>soldats de la garde royale britannique</britain_guard.labelPlural>
+
+
+
+<canada_civil.label>civil canadien</canada_civil.label>
+
+<canada_civil.labelPlural>civils canadiens</canada_civil.labelPlural>
+
+<canada_army_trader.label>commerçant militaire canadien</canada_army_trader.label>
+
+<canada_army_trader.labelPlural>commerçants militaire canadien</canada_army_trader.labelPlural>
+
+<canada_army_melee.label>combattant militaire canadien</canada_army_melee.label>
+
+<canada_army_melee.labelPlural>militaires canadien</canada_army_melee.labelPlural>
+
+<canada_army_ar.label>militaire canadien</canada_army_ar.label>
+
+<canada_army_ar.labelPlural>militaires canadien</canada_army_ar.labelPlural>
+
+<canada_army_ar2.label>militaire canadien</canada_army_ar2.label>
+
+<canada_army_ar2.labelPlural>militaires canadien</canada_army_ar2.labelPlural>
+
+<canada_army_ar3.label>militaire canadien</canada_army_ar3.label>
+
+<canada_army_ar3.labelPlural>militaires canadien</canada_army_ar3.labelPlural>
+
+<canada_army_ar4.label>militaire canadien</canada_army_ar4.label>
+
+<canada_army_ar4.labelPlural>militaires canadien</canada_army_ar4.labelPlural>
+
+<canada_army_medecin.label>médecin militaire canadien</canada_army_medecin.label>
+
+<canada_army_medecin.labelPlural>médecins militaire canadien</canada_army_medecin.labelPlural>
+
+<canada_army_mg.label>mitrailleur militaire canadien</canada_army_mg.label>
+
+<canada_army_mg.labelPlural>mitrailleurs militaires canadien</canada_army_mg.labelPlural>
+
+<canada_army_sniper.label>tireur de précision canadien</canada_army_sniper.label>
+
+<canada_army_sniper.labelPlural>tireur de précision canadien</canada_army_sniper.labelPlural>
+
+<canada_chef.label>Premier ministre canadien</canada_chef.label>
+
+<canada_chef.labelPlural>Premier ministre canadien</canada_chef.labelPlural>
+
+
+
+<china_army_trader.label>commerçant militaire chinois</china_army_trader.label>
+
+<china_army_trader.labelPlural>commerçants militaire chinois</china_army_trader.labelPlural>
+
+<china_army_melee.label>combattant militaire chinois</china_army_melee.label>
+
+<china_army_melee.labelPlural>militaires chinois</china_army_melee.labelPlural>
+
+<china_army_ar.label>militaire chinois</china_army_ar.label>
+
+<china_army_ar.labelPlural>militaires chinois</china_army_ar.labelPlural>
+
+<china_army_medecin.label>médecin militaire chinois</china_army_medecin.label>
+
+<china_army_medecin.labelPlural>médecins militaire chinois</china_army_medecin.labelPlural>
+
+<china_army_mg.label>mitrailleur militaire chinois</china_army_mg.label>
+
+<china_army_mg.labelPlural>mitrailleurs militaires chinois</china_army_mg.labelPlural>
+
+<china_army_sniper.label>tireur de précision chinois</china_army_sniper.label>
+
+<china_army_sniper.labelPlural>tireur de précision chinois</china_army_sniper.labelPlural>
+
+<china_chef.label>Président de la République populaire de Chine</china_chef.label>
+
+<china_chef.labelPlural>Présidents de la République populaire de Chine</china_chef.labelPlural>
+
+
+
+<chretien_pretre.label>prêtre</chretien_pretre.label>
+
+<chretien_nonne.label>nonne</chretien_nonne.label>
+
+<chretien_eveque.label>évêque</chretien_eveque.label>
+
+<chretien_cardinal.label>cardinal</chretien_cardinal.label>
+
+<chretien_cardinal_mitre.label>cardinal</chretien_cardinal_mitre.label>
+
+<chretien_pape.label>pape</chretien_pape.label>
+
+<chretien_pape_mitre.label>pape</chretien_pape_mitre.label>
+
+
+<coree_du_nord_army_trader.label>commerçant militaire nord coréen</coree_du_nord_army_trader.label>
+
+<coree_du_nord_army_trader.labelPlural>commerçants militaire nord coréens</coree_du_nord_army_trader.labelPlural>
+
+<coree_du_nord_army_melee.label>combattant militaire nord coréen</coree_du_nord_army_melee.label>
+
+<coree_du_nord_army_melee.labelPlural>militaires nord coréens</coree_du_nord_army_melee.labelPlural>
+
+<coree_du_nord_army_ar.label>militaire nord coréen</coree_du_nord_army_ar.label>
+
+<coree_du_nord_army_ar.labelPlural>militaires nord coréens</coree_du_nord_army_ar.labelPlural>
+
+<coree_du_nord_army_medecin.label>médecin militaire nord coréen</coree_du_nord_army_medecin.label>
+
+<coree_du_nord_army_medecin.labelPlural>médecins militaire nord coréens</coree_du_nord_army_medecin.labelPlural>
+
+<coree_du_nord_army_mg.label>mitrailleur militaire nord coréen</coree_du_nord_army_mg.label>
+
+<coree_du_nord_army_mg.labelPlural>mitrailleurs militaires nord coréens</coree_du_nord_army_mg.labelPlural>
+
+<coree_du_nord_army_sniper.label>tireur de précision nord coréen</coree_du_nord_army_sniper.label>
+
+<coree_du_nord_army_sniper.labelPlural>tireur de précision nord coréens</coree_du_nord_army_sniper.labelPlural>
+
+<coree_du_nord_chef.label>Chef suprême de la République populaire démocratique de Corée</coree_du_nord_chef.label>
+
+<coree_du_nord_chef.labelPlural>Chef suprême de la République populaire démocratique de Corée</coree_du_nord_chef.labelPlural>
+
+
+
+<coree_du_sud_army_trader.label>commerçant militaire sud-coréen</coree_du_sud_army_trader.label>
+
+<coree_du_sud_army_trader.labelPlural>commerçants militaire sud-coréens</coree_du_sud_army_trader.labelPlural>
+
+<coree_du_sud_army_melee.label>combattant militaire sud-coréen</coree_du_sud_army_melee.label>
+
+<coree_du_sud_army_melee.labelPlural>militaire sud-coréens</coree_du_sud_army_melee.labelPlural>
+
+<coree_du_sud_army_ar.label>militaire sud-coréen</coree_du_sud_army_ar.label>
+
+<coree_du_sud_army_ar.labelPlural>militaire sud-coréens</coree_du_sud_army_ar.labelPlural>
+
+<coree_du_sud_army_medecin.label>médecin militaire sud-coréen</coree_du_sud_army_medecin.label>
+
+<coree_du_sud_army_medecin.labelPlural>médecins militaire sud-coréens</coree_du_sud_army_medecin.labelPlural>
+
+<coree_du_sud_army_mg.label>mitrailleur militaire sud-coréen</coree_du_sud_army_mg.label>
+
+<coree_du_sud_army_mg.labelPlural>militaire sud-coréens</coree_du_sud_army_mg.labelPlural>
+
+<coree_du_sud_army_sniper.label>tireur de précision sud-coréen</coree_du_sud_army_sniper.label>
+
+<coree_du_sud_army_sniper.labelPlural>tireur de précision sud-coréens</coree_du_sud_army_sniper.labelPlural>
+
+<coree_du_sud_chef.label>Président de la république de Corée</coree_du_sud_chef.label>
+
+<coree_du_sud_chef.labelPlural>Présidents de la république de Corée</coree_du_sud_chef.labelPlural>
+
+
+
+<Ecologistetrader1.label>Commerçant écologiste</Ecologistetrader1.label>
+
+<Ecologisteleader1.label>Porte-parole écologiste</Ecologisteleader1.label>
+
+<Ecologiste1.label>Ecologiste</Ecologiste1.label>
+
+<Ecologiste2.label>Ecologiste</Ecologiste2.label>
+
+<Ecologiste3.label>Ecologiste</Ecologiste3.label>
+
+<Ecologiste4.label>Ecologiste</Ecologiste4.label>
+
+<Ecologiste5.label>Ecologiste</Ecologiste5.label>
+
+<Ecologiste_radical_trader1.label>Commerçant écologiste radical</Ecologiste_radical_trader1.label>
+
+<Ecologiste_radical_leader1.label>Porte-parole écologiste radical</Ecologiste_radical_leader1.label>
+
+<Ecologiste_radical1.label>Ecologiste radical</Ecologiste_radical1.label>
+
+<Ecologiste_radical2.label>Ecologiste radical</Ecologiste_radical2.label>
+
+<Ecologiste_radical3.label>Ecologiste radical</Ecologiste_radical3.label>
+
+<Ecologiste_radical4.label>Ecologiste radical</Ecologiste_radical4.label>
+
+<Ecologiste_radical5.label>Ecologiste radical</Ecologiste_radical5.label>
+
+
+
+<Femenleader1.label>Porte-parole Femen</Femenleader1.label>
+
+<Femen1.label>Femen</Femen1.label>
+
+
+
+<france_civil_1c.label>civil français</france_civil_1c.label>
+
+<france_civil_1c.labelPlural>civils français</france_civil_1c.labelPlural>
+
+<france_civil_1cc.label>civil français</france_civil_1cc.label>
+
+<france_civil_1cc.labelPlural>civils français</france_civil_1cc.labelPlural>
+
+<france_civil_2c.label>civil français</france_civil_2c.label>
+
+<france_civil_2c.labelPlural>civils français</france_civil_2c.labelPlural>
+
+<france_civil_3c.label>civil français</france_civil_3c.label>
+
+<france_civil_3c.labelPlural>civils français</france_civil_3c.labelPlural>
+
+<france_civil_4c.label>civil français</france_civil_4c.label>
+
+<france_civil_4c.labelPlural>civils français</france_civil_4c.labelPlural>
+
+<france_army_trader.label>commerçant militaire français</france_army_trader.label>
+
+<france_army_trader.labelPlural>commerçants militaire français</france_army_trader.labelPlural>
+
+<france_army_melee.label>combattant militaire français</france_army_melee.label>
+
+<france_army_melee.labelPlural>militaires français</france_army_melee.labelPlural>
+
+<france_army_ar.label>militaire français</france_army_ar.label>
+
+<france_army_ar.labelPlural>militaires français</france_army_ar.labelPlural>
+
+<france_army_ar2.label>militaire français</france_army_ar2.label>
+
+<france_army_ar2.labelPlural>militaires français</france_army_ar2.labelPlural>
+
+<france_army_ar3.label>militaire français</france_army_ar3.label>
+
+<france_army_ar3.labelPlural>militaires français</france_army_ar3.labelPlural>
+
+<france_army_ar4.label>militaire français</france_army_ar4.label>
+
+<france_army_ar4.labelPlural>militaires français</france_army_ar4.labelPlural>
+
+<france_army_ar5.label>militaire français</france_army_ar5.label>
+
+<france_army_ar5.labelPlural>militaires français</france_army_ar5.labelPlural>
+
+<france_army_medecin.label>médecin militaire français</france_army_medecin.label>
+
+<france_army_medecin.labelPlural>médecins militaire français</france_army_medecin.labelPlural>
+
+<france_army_mg.label>mitrailleur militaire français</france_army_mg.label>
+
+<france_army_mg.labelPlural>mitrailleurs militaires français</france_army_mg.labelPlural>
+
+<france_army_sniper.label>tireur de précision français</france_army_sniper.label>
+
+<france_army_sniper.labelPlural>tireur de précision français</france_army_sniper.labelPlural>
+
+<france_chef.label>Président de la République française</france_chef.label>
+
+<france_chef.labelPlural>Présidents de la République française</france_chef.labelPlural>
+
+
+
+<Gilet_jaune_pierre.label>Gilet jaune</Gilet_jaune_pierre.label>
+
+<Gilet_jaune_melee.label>Gilet jaune</Gilet_jaune_melee.label>
+
+<Gilet_jaune_molotov.label>Gilet jaune</Gilet_jaune_molotov.label>
+
+<Gilet_jaune_leader.label>Porte-parole Gilet jaune</Gilet_jaune_leader.label>
+
+
+
+<israel_army_trader.label>commerçant militaire israëlien</israel_army_trader.label>
+
+<israel_army_trader.labelPlural>commerçants militaire israëlien</israel_army_trader.labelPlural>
+
+<israel_army_melee.label>combattant militaire israëlien</israel_army_melee.label>
+
+<israel_army_melee.labelPlural>militaires israëlien</israel_army_melee.labelPlural>
+
+<israel_army_ar.label>militaire israëlien</israel_army_ar.label>
+
+<israel_army_ar.labelPlural>militaires israëlien</israel_army_ar.labelPlural>
+
+<israel_army_medecin.label>médecin militaire israëlien</israel_army_medecin.label>
+
+<israel_army_medecin.labelPlural>médecins militaire israëlien</israel_army_medecin.labelPlural>
+
+<israel_army_mg.label>mitrailleur militaire israëlien</israel_army_mg.label>
+
+<israel_army_mg.labelPlural>mitrailleurs militaires israëlien</israel_army_mg.labelPlural>
+
+<israel_army_sniper.label>tireur de précision israëlien</israel_army_sniper.label>
+
+<israel_army_sniper.labelPlural>tireur de précision israëlien</israel_army_sniper.labelPlural>
+
+<israel_chef.label>Premier ministre israëlien</israel_chef.label>
+
+<israel_chef.labelPlural>Premiers ministres israëliens</israel_chef.labelPlural>
+
+
+
+<juif_homme.label>juif</juif_homme.label>
+
+<juif_femme.label>juive</juif_femme.label>
+
+<juif_trader.label>commerçant juif</juif_trader.label>
+
+<juif_chef.label>Grand Rabbin</juif_chef.label>
+
+
+
+<klan_melee.label>Klansman</klan_melee.label>
+
+<klan_gun.label>Nighthawk</klan_gun.label>
+
+<klan_pompe.label>Grand Dragon</klan_pompe.label>
+
+<klan_chef.label>Grand Sorcier Impérial</klan_chef.label>
+
+
+
+<Mafia_melee.label>Homme de main de la Mafia</Mafia_melee.label>
+
+<Mafia_molotov.label>Soldat de la Mafia</Mafia_molotov.label>
+
+<Mafia_trader.label>Consigliere</Mafia_trader.label>
+
+<Mafia_pompe.label>Lieutenant de la Mafia</Mafia_pompe.label>
+
+<Mafia_fusil.label>Capo</Mafia_fusil.label>
+
+<Mafia_leader.label>Parrain</Mafia_leader.label>
+
+
+
+<mexicain_civil.label>civil mexicain</mexicain_civil.label>
+
+<mexicain_civil.labelPlural>civils mexicains</mexicain_civil.labelPlural>
+
+<mexico_army_trader.label>commerçant militaire mexicain</mexico_army_trader.label>
+
+<mexico_army_trader.labelPlural>commerçants militaire mexicain</mexico_army_trader.labelPlural>
+
+<mexico_army_melee.label>combattant militaire mexicain</mexico_army_melee.label>
+
+<mexico_army_melee.labelPlural>militaires mexicain</mexico_army_melee.labelPlural>
+
+<mexico_army_ar.label>militaire mexicain</mexico_army_ar.label>
+
+<mexico_army_ar.labelPlural>militaires mexicain</mexico_army_ar.labelPlural>
+
+<mexico_army_medecin.label>médecin militaire mexicain</mexico_army_medecin.label>
+
+<mexico_army_medecin.labelPlural>médecins militaire mexicain</mexico_army_medecin.labelPlural>
+
+<mexico_army_mg.label>mitrailleur militaire mexicain</mexico_army_mg.label>
+
+<mexico_army_mg.labelPlural>mitrailleurs militaires mexicain</mexico_army_mg.labelPlural>
+
+<mexico_army_sniper.label>tireur de précision mexicain</mexico_army_sniper.label>
+
+<mexico_army_sniper.labelPlural>tireur de précision mexicain</mexico_army_sniper.labelPlural>
+
+<mexico_chef.label>Président du Mexique</mexico_chef.label>
+
+<mexico_chef.labelPlural>Présidents du Mexique</mexico_chef.labelPlural>
+
+
+
+<muslim.label>musulman</muslim.label>
+
+<muslim_trader.label>commerçant musulman</muslim_trader.label>
+
+<muslim_chef.label>Émir</muslim_chef.label>
+
+
+
+<russie_civil.label>civil russe</russie_civil.label>
+
+<russie_civil.labelPlural>civils russes</russie_civil.labelPlural>
+
+<russie_army_trader.label>commerçant militaire russe</russie_army_trader.label>
+
+<russie_army_trader.labelPlural>commerçants militaire russes</russie_army_trader.labelPlural>
+
+<russie_army_melee.label>combattant militaire russe</russie_army_melee.label>
+
+<russie_army_melee.labelPlural>militaires russes</russie_army_melee.labelPlural>
+
+<russie_army_ar.label>militaire russe</russie_army_ar.label>
+
+<russie_army_ar.labelPlural>militaires russes</russie_army_ar.labelPlural>
+
+<russie_army_medecin.label>médecin militaire russe</russie_army_medecin.label>
+
+<russie_army_medecin.labelPlural>médecins militaire russes</russie_army_medecin.labelPlural>
+
+<russie_army_mg.label>mitrailleur militaire russe</russie_army_mg.label>
+
+<russie_army_mg.labelPlural>mitrailleurs militaires russes</russie_army_mg.labelPlural>
+
+<russie_army_sniper.label>tireur de précision russe</russie_army_sniper.label>
+
+<russie_army_sniper.labelPlural>tireur de précision russes</russie_army_sniper.labelPlural>
+
+<russie_chef.label>Président de la fédération de Russie</russie_chef.label>
+
+<russie_chef.labelPlural>Présidents de la fédération de Russie</russie_chef.labelPlural>
+
+
+
+<Skinhead_melee.label>Skinhead</Skinhead_melee.label>
+
+<Skinhead_leader.label>Leader skinhead</Skinhead_leader.label>
+
+
+
+<sweden_army_trader.label>commerçant militaire suédois</sweden_army_trader.label>
+
+<sweden_army_trader.labelPlural>commerçants militaire suédois</sweden_army_trader.labelPlural>
+
+<sweden_army_melee.label>combattant militaire suédois</sweden_army_melee.label>
+
+<sweden_army_melee.labelPlural>militaires suédois</sweden_army_melee.labelPlural>
+
+<sweden_army_ar.label>militaire suédois</sweden_army_ar.label>
+
+<sweden_army_ar.labelPlural>militaires suédois</sweden_army_ar.labelPlural>
+
+<sweden_army_medecin.label>médecin militaire suédois</sweden_army_medecin.label>
+
+<sweden_army_medecin.labelPlural>médecins militaire suédois</sweden_army_medecin.labelPlural>
+
+<sweden_army_mg.label>mitrailleur militaire suédois</sweden_army_mg.label>
+
+<sweden_army_mg.labelPlural>mitrailleurs militaires suédois</sweden_army_mg.labelPlural>
+
+<sweden_army_sniper.label>tireur de précision suédois</sweden_army_sniper.label>
+
+<sweden_army_sniper.labelPlural>tireur de précision suédois</sweden_army_sniper.labelPlural>
+
+<sweden_chef.label>Premier ministre suédois</sweden_chef.label>
+
+<sweden_chef.labelPlural>Premiers ministres suédois</sweden_chef.labelPlural>
+
+
+
+<suisse_army_trader.label>commerçant militaire suisse</suisse_army_trader.label>
+
+<suisse_army_trader.labelPlural>commerçants militaire suisse</suisse_army_trader.labelPlural>
+
+<suisse_army_melee.label>combattant militaire suisse</suisse_army_melee.label>
+
+<suisse_army_melee.labelPlural>militaires suisses</suisse_army_melee.labelPlural>
+
+<suisse_army_ar.label>militaire suisse</suisse_army_ar.label>
+
+<suisse_army_ar.labelPlural>militaires suisses</suisse_army_ar.labelPlural>
+
+<suisse_army_medecin.label>médecin militaire suisse</suisse_army_medecin.label>
+
+<suisse_army_medecin.labelPlural>médecins militaire suisse</suisse_army_medecin.labelPlural>
+
+<suisse_army_mg.label>mitrailleur militaire suisse</suisse_army_mg.label>
+
+<suisse_army_mg.labelPlural>mitrailleurs militaires suisses</suisse_army_mg.labelPlural>
+
+<suisse_army_sniper.label>tireur de précision suisse</suisse_army_sniper.label>
+
+<suisse_army_sniper.labelPlural>tireur de précision suisse</suisse_army_sniper.labelPlural>
+
+<suisse_chef.label>Président de la confédération suisse</suisse_chef.label>
+
+<suisse_chef.labelPlural>Présidents de la confédération suisse</suisse_chef.labelPlural>
+
+
+
+<terroriste_melee.label>Combattant terroriste islamiste</terroriste_melee.label>
+
+<terroriste_femme.label>femme de terroriste islamiste</terroriste_femme.label>
+
+<terroriste_army_trader.label>commerçant terroriste islamiste</terroriste_army_trader.label>
+
+<terroriste_army_trader.labelPlural>commerçants terroriste islamistes</terroriste_army_trader.labelPlural>
+
+<terroriste_army_ar.label>terroriste islamiste</terroriste_army_ar.label>
+
+<terroriste_army_ar.labelPlural>terroristes islamistes</terroriste_army_ar.labelPlural>
+
+<terroriste_army_mg.label>mitrailleur terroriste islamiste</terroriste_army_mg.label>
+
+<terroriste_army_mg.labelPlural>mitrailleurs terroristes islamistes</terroriste_army_mg.labelPlural>
+
+<terroriste_army_sniper.label>tireur de précision islamiste</terroriste_army_sniper.label>
+
+<terroriste_army_sniper.labelPlural>tireurs de précision islamistes</terroriste_army_sniper.labelPlural>
+
+<terroriste_chef.label>Calife</terroriste_chef.label>
+
+<terroriste_chef.labelPlural>Califes</terroriste_chef.labelPlural>
+
+
+
+<ukraine_army_trader.label>commerçant militaire ukrainien</ukraine_army_trader.label>
+
+<ukraine_army_trader.labelPlural>commerçants militaire ukrainiens</ukraine_army_trader.labelPlural>
+
+<ukraine_army_melee.label>combattant militaire ukrainien</ukraine_army_melee.label>
+
+<ukraine_army_melee.labelPlural>militaires ukrainiens</ukraine_army_melee.labelPlural>
+
+<ukraine_army_ar.label>militaire ukrainien</ukraine_army_ar.label>
+
+<ukraine_army_ar.labelPlural>militaires ukrainiens</ukraine_army_ar.labelPlural>
+
+<ukraine_army_medecin.label>médecin militaire ukrainien</ukraine_army_medecin.label>
+
+<ukraine_army_medecin.labelPlural>médecins militaire ukrainiens</ukraine_army_medecin.labelPlural>
+
+<ukraine_army_mg.label>mitrailleur militaire ukrainien</ukraine_army_mg.label>
+
+<ukraine_army_mg.labelPlural>mitrailleurs militaires ukrainiens</ukraine_army_mg.labelPlural>
+
+<ukraine_army_sniper.label>tireur de précision ukrainien</ukraine_army_sniper.label>
+
+<ukraine_army_sniper.labelPlural>tireurs de précision ukrainiens</ukraine_army_sniper.labelPlural>
+
+<ukraine_chef.label>Président ukrainien</ukraine_chef.label>
+
+<ukraine_chef.labelPlural>Présidents ukrainien</ukraine_chef.labelPlural>
+
+
+
+<usa_civil.label>civil américain</usa_civil.label>
+
+<usa_civil.labelPlural>civils américains</usa_civil.labelPlural>
+
+<usa_army_trader.label>commerçant militaire américain</usa_army_trader.label>
+
+<usa_army_trader.labelPlural>commerçants militaire américains</usa_army_trader.labelPlural>
+
+<usa_army_melee.label>combattant militaire américain</usa_army_melee.label>
+
+<usa_army_melee.labelPlural>militaires américains</usa_army_melee.labelPlural>
+
+<usa_army_ar.label>militaire américain</usa_army_ar.label>
+
+<usa_army_ar.labelPlural>militaires américains</usa_army_ar.labelPlural>
+
+<usa_army_ar2.label>militaire américain</usa_army_ar2.label>
+
+<usa_army_ar2.labelPlural>militaires américains</usa_army_ar2.labelPlural>
+
+<usa_army_ar3.label>militaire américain</usa_army_ar3.label>
+
+<usa_army_ar3.labelPlural>militaires américains</usa_army_ar3.labelPlural>
+
+<usa_army_ar4.label>militaire américain</usa_army_ar4.label>
+
+<usa_army_ar4.labelPlural>militaires américains</usa_army_ar4.labelPlural>
+
+<usa_army_medecin.label>médecin militaire américain</usa_army_medecin.label>
+
+<usa_army_medecin.labelPlural>médecins militaire américains</usa_army_medecin.labelPlural>
+
+<usa_army_mg.label>mitrailleur militaire américain</usa_army_mg.label>
+
+<usa_army_mg.labelPlural>mitrailleurs militaires américains</usa_army_mg.labelPlural>
+
+<usa_army_sniper.label>tireur de précision américain</usa_army_sniper.label>
+
+<usa_army_sniper.labelPlural>tireurs de précision américains</usa_army_sniper.labelPlural>
+
+<usa_chef.label>président des États-Unis d'amérique</usa_chef.label>
+
+<usa_chef.labelPlural>présidents des États-Unis d'amérique</usa_chef.labelPlural>
+
+
+
+<Yakuza_melee.label>Shatei</Yakuza_melee.label>
+
+<Yakuza_molotov.label>Kyodai</Yakuza_molotov.label>
+
+<Yakuza_trader.label>Saiko-komon</Yakuza_trader.label>
+
+<Yakuza_pistolet.label>Shatei-gashira</Yakuza_pistolet.label>
+
+<Yakuza_sabre.label>Waka-Gashira</Yakuza_sabre.label>
+
+<Yakuza_leader.label>Obayun</Yakuza_leader.label>
+
+
+</LanguageData>

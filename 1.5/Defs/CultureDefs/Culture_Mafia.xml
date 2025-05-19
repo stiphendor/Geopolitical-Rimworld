@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>mafia_italienne</defName>
+    <label>Mafia Italienne</label>
+    <description>Culture de la Mafia italienne.</description>
+    <pawnNameMaker>nom_italien_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_italien_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMafia</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Mafia</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalMafia</festivalNameMaker>
+    <iconPath>Symbols/mafia/godfather</iconPath>
+    <allowedPlaceTags>
+    <li>OriginCamorra</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Mafia_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Mafia_beard</tag>
+        <baseWeight>0.1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_italien_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_m_italien] [nom_italien]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_m_italien</keyword>
+          <path>Noms/prenom_m_italien</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_italien</keyword>
+          <path>Noms/nom_italien</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_italien_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenom_f_italien] [nom_italien]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenom_f_italien</keyword>
+          <path>Noms/prenom_f_italien</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_italien</keyword>
+          <path>Noms/nom_italien</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcoloniemafia</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_mafia_prefix] [colonie_mafia]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_mafia_prefix</keyword>
+          <path>Noms/colonie_mafia_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>colonie_mafia</keyword>
+          <path>Noms/colonie_mafia</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoMafia</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie mafieuse</li>
+        <li>r_ideoAdjective->mafieux</li>
+        <li>r_memberName->Mafieux</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Mafia</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Parrain</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <PlaceDef>
+    <defName>Camorra</defName>
+    <tags>
+      <li>OriginCamorra</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Sicile</li>
+        <li>place_adjective->sicilien</li>
+        <li>place_summary->archipel Italienne</li>
+        <li>place_community->bar</li>
+        <li>place_community->casino</li>
+        <li>place_community->maison close</li>
+        <li>place_powerCenter->villa</li>
+        <li>place_job->homme de main</li>
+        <li>place_job->récolteur de dettes</li>
+        <li>place_job->consigliere</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->matraques</li>
+        <li>place_massWeapon->procès</li>
+        <li>place_foeLeader->commissaire de police</li>
+        <li>place_foeSoldiers->carabiniers</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <RulePackDef>
+    <defName>NamerFestivalMafia</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Pâques</li>
+        <li>festivalName->Vendredi Saint</li>
+        <li>festivalName->L'assomption</li>
+        <li>festivalName->Dimanche des rameaux</li>
+        <li>festivalName(p=4)->Réunion familiale</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nomfactionmafia</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[nomfactionmafia]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>nomfactionmafia</keyword>
+          <path>Noms/faction_mafia</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

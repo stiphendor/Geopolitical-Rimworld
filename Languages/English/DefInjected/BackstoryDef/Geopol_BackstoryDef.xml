@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Geopol_Activiste.baseDesc>[PAWN_nameDef] has decided to dedicate his life to defending causes by justifying {PAWN_pronoun} believes.</Geopol_Activiste.baseDesc>
+<Geopol_Activiste.title>Activist</Geopol_Activiste.title>
+<Geopol_Activiste.titleShort>Activist</Geopol_Activiste.titleShort>
+
+<Geopol_Artiste.baseDesc>[PAWN_nameDef] is convinced that {PAWN_pronoun} has artistic talent. To help find inspiration, {PAWN_pronoun} tends to use various drugs.</Geopol_Artiste.baseDesc>
+<Geopol_Artiste.title>Artist</Geopol_Artiste.title>
+<Geopol_Artiste.titleShort>Artist</Geopol_Artiste.titleShort>
+
+<Geopol_Bagarreur.baseDesc>[PAWN_nameDef] likes to fight, is it stronger than {PAWN_gender? him: her}, it made {PAWN_gender? him: her} stronger but also caused some brain damage from the beatings {PAWN_gender? he: she} received.</Geopol_Bagarreur.baseDesc>
+<Geopol_Bagarreur.title>Brawler</Geopol_Bagarreur.title>
+<Geopol_Bagarreur.titleFemale>Brawler</Geopol_Bagarreur.titleFemale>
+<Geopol_Bagarreur.titleShort>Brawler</Geopol_Bagarreur.titleShort>
+<Geopol_Bagarreur.titleShortFemale>Brawler</Geopol_Bagarreur.titleShortFemale>
+
+<Geopol_Banquier.baseDesc>[PAWN_nameDef] has spent {PAWN_possessive} life managing other people's money, this made {PAWN_gender? him: her} gifted in the art of negotiating prices.</Geopol_Banquier.baseDesc>
+<Geopol_Banquier.title>Banker</Geopol_Banquier.title>
+<Geopol_Banquier.titleFemale>Banker</Geopol_Banquier.titleFemale>
+<Geopol_Banquier.titleShort>Banker</Geopol_Banquier.titleShort>
+<Geopol_Banquier.titleShortFemale>Banker</Geopol_Banquier.titleShortFemale>
+
+<Geopol_Boulanger.baseDesc>[PAWN_nameDef] got into the habit of getting up at 3 a.m. every morning to bake bread. {PAWN_pronoun} has become a specialist in the preparation of baguettes.</Geopol_Boulanger.baseDesc>
+<Geopol_Boulanger.title>Baker</Geopol_Boulanger.title>
+<Geopol_Boulanger.titleFemale>Baker</Geopol_Boulanger.titleFemale>
+<Geopol_Boulanger.titleShort>Baker</Geopol_Boulanger.titleShort>
+<Geopol_Boulanger.titleShortFemale>Baker</Geopol_Boulanger.titleShortFemale>
+
+<Geopol_Chocolatier.baseDesc>[PAWN_nameDef] specializes in making chocolate.</Geopol_Chocolatier.baseDesc>
+<Geopol_Chocolatier.title>Chocolatier</Geopol_Chocolatier.title>
+<Geopol_Chocolatier.titleFemale>Chocolatier</Geopol_Chocolatier.titleFemale>
+<Geopol_Chocolatier.titleShort>Chocolatier</Geopol_Chocolatier.titleShort>
+<Geopol_Chocolatier.titleShortFemale>Chocolatier</Geopol_Chocolatier.titleShortFemale>
+
+<Geopol_Chomeur.baseDesc>[PAWN_nameDef] lost {PAWN_possessive} job a long time ago and never found one. By dint of spending {PAWN_possessive} days on {PAWN_possessive} couch without activity, it has softened the brain of [PAWN_nameDef].</Geopol_Chomeur.baseDesc>
+<Geopol_Chomeur.title>Unemployed</Geopol_Chomeur.title>
+<Geopol_Chomeur.titleFemale>Unemployed</Geopol_Chomeur.titleFemale>
+<Geopol_Chomeur.titleShort>Unemployed</Geopol_Chomeur.titleShort>
+<Geopol_Chomeur.titleShortFemale>Unemployed</Geopol_Chomeur.titleShortFemale>
+
+<Geopol_Etudiant.baseDesc>[PAWN_nameDef] is studying at university. {PAWN_pronoun} spends {PAWN_possessive} days thinking, and has never learned to use his hands.</Geopol_Etudiant.baseDesc>
+<Geopol_Etudiant.title>Student</Geopol_Etudiant.title>
+<Geopol_Etudiant.titleFemale>Student</Geopol_Etudiant.titleFemale>
+<Geopol_Etudiant.titleShort>Student</Geopol_Etudiant.titleShort>
+<Geopol_Etudiant.titleShortFemale>Student</Geopol_Etudiant.titleShortFemale>
+
+<Geopol_Croyant.baseDesc>[PAWN_nameDef] lives above all to serve his God.</Geopol_Croyant.baseDesc>
+<Geopol_Croyant.title>Believer</Geopol_Croyant.title>
+<Geopol_Croyant.titleFemale>Believer</Geopol_Croyant.titleFemale>
+<Geopol_Croyant.titleShort>Believer</Geopol_Croyant.titleShort>
+<Geopol_Croyant.titleShortFemale>Believer</Geopol_Croyant.titleShortFemale>
+
+<Geopol_Hooligan.baseDesc>[PAWN_nameDef] goes to the stadium every weekend, not to enjoy the game but rather to fight with the opposing fans.</Geopol_Hooligan.baseDesc>
+<Geopol_Hooligan.title>Hooligan</Geopol_Hooligan.title>
+<Geopol_Hooligan.titleShort>Hooligan</Geopol_Hooligan.titleShort>
+
+<Geopol_Journaliste.baseDesc>[PAWN_nameDef] thinks {PAWN_pronoun}'s a journalist. Despite the fact that {PAWN_pronoun} has no professional diploma or press card, {PAWN_pronoun} likes to go to demonstrations with {PAWN_possessive} camera on the lookout for the slightest police blunder.</Geopol_Journaliste.baseDesc>
+<Geopol_Journaliste.title>Freelance Journalist</Geopol_Journaliste.title>
+<Geopol_Journaliste.titleShort>Freelance journalist</Geopol_Journaliste.titleShort>
+
+<Geopol_Libraire.baseDesc>[PAWN_nameDef] likes to spend {PAWN_possessive} time reading books, so {PAWN_pronoun} has logically made it {PAWN_possessive} job. This prevents {PAWN_objective} from having time to work on {PAWN_possessive} physical condition.</Geopol_Libraire.baseDesc>
+<Geopol_Libraire.title>Bookseller</Geopol_Libraire.title>
+<Geopol_Libraire.titleShort>Bookseller</Geopol_Libraire.titleShort>
+
+<Geopol_Ouvrier.baseDesc>[PAWN_nameDef] has worked {PAWN_possessive} whole life in a factory doing repetitive tasks.</Geopol_Ouvrier.baseDesc>
+<Geopol_Ouvrier.title>Laborer</Geopol_Ouvrier.title>
+<Geopol_Ouvrier.titleFemale>Laborer</Geopol_Ouvrier.titleFemale>
+<Geopol_Ouvrier.titleShort>Laborer</Geopol_Ouvrier.titleShort>
+<Geopol_Ouvrier.titleShortFemale>Laborer</Geopol_Ouvrier.titleShortFemale>
+
+<Geopol_Sociologue.baseDesc>[PAWN_nameDef] studied social phenomena and behaviors. He doesn’t even sure why.</Geopol_Sociologue.baseDesc>
+<Geopol_Sociologue.title>Sociologist</Geopol_Sociologue.title>
+<Geopol_Sociologue.titleShort>Sociologist</Geopol_Sociologue.titleShort>
+
+<Geopol_Squatteur.baseDesc>[PAWN_nameDef] got used to living in places that didn't belong to {PAWN_objective}. {PAWN_pronoun} had to learn how to perform {PAWN_objective}-even repairs in property that {PAWN_pronoun} occupied, but does not understand the concept of cleaning.</Geopol_Squatteur.baseDesc>
+<Geopol_Squatteur.title>Squatter</Geopol_Squatteur.title>
+<Geopol_Squatteur.titleFemale>Squatter</Geopol_Squatteur.titleFemale>
+<Geopol_Squatteur.titleShort>Squatter</Geopol_Squatteur.titleShort>
+<Geopol_Squatteur.titleShortFemale>Squatter</Geopol_Squatteur.titleShortFemale>
+
+<Geopol_Sreet_Medic.baseDesc>[PAWN_nameDef] spends most of his free time in disguise as a military doctor during public demonstrations to rush to the aid of people injured by the police.</Geopol_Sreet_Medic.baseDesc>
+<Geopol_Sreet_Medic.title>Street Medic</Geopol_Sreet_Medic.title>
+<Geopol_Sreet_Medic.titleShort>Street Medic</Geopol_Sreet_Medic.titleShort>
+
+<Geopol_Dictateur.baseDesc>After taking power in his country, [PAWN_nameDef] never returned it. {PAWN_pronoun} holds all the power, and rules with an iron fist.</Geopol_Dictateur.baseDesc>
+<Geopol_Dictateur.title>Dictator</Geopol_Dictateur.title>
+<Geopol_Dictateur.titleFemale>Dictator</Geopol_Dictateur.titleFemale>
+<Geopol_Dictateur.titleShort>Dictator</Geopol_Dictateur.titleShort>
+<Geopol_Dictateur.titleShortFemale>Dictator</Geopol_Dictateur.titleShortFemale>
+
+<Geopol_President.baseDesc>[PAWN_nameDef] was elected president of {PAWN_possessive} country. This proves {PAWN_possessive} great social and intellectual abilities, but {PAWN_pronoun} will no longer agree to do menial tasks such as cleaning or transporting objects.</Geopol_President.baseDesc>
+<Geopol_President.title>President</Geopol_President.title>
+<Geopol_President.titleFemale>President</Geopol_President.titleFemale>
+<Geopol_President.titleShort>President</Geopol_President.titleShort>
+<Geopol_President.titleShortFemale>President</Geopol_President.titleShortFemale>
+
+<Geopol_Roi.baseDesc>A member of the royal family, [PAWN_nameDef] ended up being crowned on the death of {PAWN_possessive} predecessor. Having never had to work in {PAWN_possessive} life, {PAWN_pronoun} will be unable to perform any task with {PAWN_possessive} hands.</Geopol_Roi.baseDesc>
+<Geopol_Roi.title>King</Geopol_Roi.title>
+<Geopol_Roi.titleFemale>Queen</Geopol_Roi.titleFemale>
+<Geopol_Roi.titleShort>King</Geopol_Roi.titleShort>
+<Geopol_Roi.titleShortFemale>Queen</Geopol_Roi.titleShortFemale>
+
+<Geopol_Pretre.baseDesc>[PAWN_nameDef] has decided to dedicate {PAWN_possessive} life to God and the Christian religion.</Geopol_Pretre.baseDesc>
+<Geopol_Pretre.title>Priest</Geopol_Pretre.title>
+<Geopol_Pretre.titleFemale>Nun</Geopol_Pretre.titleFemale>
+<Geopol_Pretre.titleShort>Priest</Geopol_Pretre.titleShort>
+<Geopol_Pretre.titleShortFemale>Nun</Geopol_Pretre.titleShortFemale>
+
+<Geopol_Eveque.baseDesc>[PAWN_nameDef] is a dignitary of the Christian church, {PAWN_pronoun} was chosen and rewarded by the pope to be in charge of a diocese. This responsibility tended to make {Pawn_objective} greedy. {PAWN_pronoun} isn't good to fight, and refuse to work at any task that {PAWN_pronoun} deems degrading.</Geopol_Eveque.baseDesc>
+<Geopol_Eveque.title>Bishop</Geopol_Eveque.title>
+<Geopol_Eveque.titleShort>Bishop</Geopol_Eveque.titleShort>
+
+<Geopol_Cardinal.baseDesc>[PAWN_nameDef] is a high dignitary in the Catholic Church, {PAWN_pronoun} was chosen by the Pope and is in charge of assisting him. This responsibility tended to make {Pawn_objective} greedy. {PAWN_pronoun} isn't good to fight, and refuse to work at any task that {PAWN_pronoun} deems degrading.</Geopol_Cardinal.baseDesc>
+<Geopol_Cardinal.title>Cardinal</Geopol_Cardinal.title>
+<Geopol_Cardinal.titleShort>Cardinal</Geopol_Cardinal.titleShort>
+
+<Geopol_Pape.baseDesc>[PAWN_nameDef] is the Bishop of Rome, head of the Catholic Church and monarchical head of state of the Vatican. Wishing for peace between peoples, [PAWN_nameDef] never learned to use violence.</Geopol_Pape.baseDesc>
+<Geopol_Pape.title>Pope</Geopol_Pape.title>
+<Geopol_Pape.titleFemale>Pope</Geopol_Pape.titleFemale>
+<Geopol_Pape.titleShort>Pope</Geopol_Pape.titleShort>
+<Geopol_Pape.titleShortFemale>Pope</Geopol_Pape.titleShortFemale>
+
+<Geopol_Casseur.baseDesc>[PAWN_nameDef] spent {PAWN_possessive} youth in high school and college protests breaking street furniture and shop windows. [PAWN_pronoun] has never stopped.</Geopol_Casseur.baseDesc>
+<Geopol_Casseur.title>Rioter</Geopol_Casseur.title>
+<Geopol_Casseur.titleFemale>Rioter</Geopol_Casseur.titleFemale>
+<Geopol_Casseur.titleShort>Rioter</Geopol_Casseur.titleShort>
+<Geopol_Casseur.titleShortFemale>Rioter</Geopol_Casseur.titleShortFemale>
+
+<Geopol_Eleve_religieux.baseDesc>From an early age, [PAWN_nameDef] was enrolled in a religious institution that instilled in [PAWN_objective] everything [PAWN_pronoun] believes in today.</Geopol_Eleve_religieux.baseDesc>
+<Geopol_Eleve_religieux.title>Religious student</Geopol_Eleve_religieux.title>
+<Geopol_Eleve_religieux.titleFemale>Religious student</Geopol_Eleve_religieux.titleFemale>
+<Geopol_Eleve_religieux.titleShort>Religious student</Geopol_Eleve_religieux.titleShort>
+<Geopol_Eleve_religieux.titleShortFemale>Religious student</Geopol_Eleve_religieux.titleShortFemale>
+
+<Geopol_Rebelle.baseDesc>[PAWN_nameDef] has always had the spirit of contradiction. From an early age [PAWN_pronoun] learned to go against the established order, it is for [PAWN_objective] something natural.</Geopol_Rebelle.baseDesc>
+<Geopol_Rebelle.title>Rebel</Geopol_Rebelle.title>
+<Geopol_Rebelle.titleShort>Rebel</Geopol_Rebelle.titleShort>
+
+<Geopol_Tagueur.baseDesc>[PAWN_nameDef] spent {PAWN_possessive} youth with a spray paint in {PAWN_possessive} hand tagging {PAWN_possessive} name or silly slogans on the walls of {PAWN_possessive} town, believing [PAWN_pronoun] possessed a certain artistic talent.</Geopol_Tagueur.baseDesc>
+<Geopol_Tagueur.title>Tagger</Geopol_Tagueur.title>
+<Geopol_Tagueur.titleFemale>Tagger</Geopol_Tagueur.titleFemale>
+<Geopol_Tagueur.titleShort>Tagger</Geopol_Tagueur.titleShort>
+<Geopol_Tagueur.titleShortFemale>Tagger</Geopol_Tagueur.titleShortFemale>
+
+<Geopol_Heritier_roi.baseDesc>[PAWN_nameDef] has been destined from birth to rule {PAWN_possessive} kingdom, {PAWN_possessive} entire upbringing has been based on that. [PAWN_pronoun] has therefore learned all the rules of decorum and received a good intellectual education, but will be unable to perform any manual work.</Geopol_Heritier_roi.baseDesc>
+<Geopol_Heritier_roi.title>Prince</Geopol_Heritier_roi.title>
+<Geopol_Heritier_roi.titleFemale>Princess</Geopol_Heritier_roi.titleFemale>
+<Geopol_Heritier_roi.titleShort>Prince</Geopol_Heritier_roi.titleShort>
+<Geopol_Heritier_roi.titleShortFemale>Princess</Geopol_Heritier_roi.titleShortFemale>
+
+<Geopol_bon_eleve.baseDesc>[PAWN_nameDef] was a very good student at school, it allowed [PAWN_objective] to do great intellectual studies, but [PAWN_pronoun] will be unable to do any manual work.</Geopol_bon_eleve.baseDesc>
+<Geopol_bon_eleve.title>Good student</Geopol_bon_eleve.title>
+<Geopol_bon_eleve.titleFemale>Good student</Geopol_bon_eleve.titleFemale>
+<Geopol_bon_eleve.titleShort>Good student</Geopol_bon_eleve.titleShort>
+<Geopol_bon_eleve.titleShortFemale>Good student</Geopol_bon_eleve.titleShortFemale>
+
+
+</LanguageData>

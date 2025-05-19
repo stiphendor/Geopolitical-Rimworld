@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <KCSG.SettlementLayoutDef>
+    <defName>Geopol_Mafia_Base</defName>
+    <settlementSize>135,135</settlementSize>
+    <avoidBridgeable>true</avoidBridgeable>
+    <avoidMountains>true</avoidMountains>
+    <centerBuildings>
+      <centerSize>130,130</centerSize>
+      <allowedStructures>
+        <li>
+          <count>1~1</count>
+          <tag>batterie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>casino</tag>
+        </li>
+        <li MayRequire="VanillaExpanded.VFECore">
+          <count>1~1</count>
+          <tag>casino_furn_exp</tag>
+        </li>
+        <li MayRequire="VanillaExpanded.VBrewE">
+          <count>0~1</count>
+          <tag>bars_brew</tag>
+        </li>
+        <li MayRequire="VanillaExpanded.VFECore,VanillaExpanded.VBrewE">
+          <count>0~1</count>
+          <tag>bars_brew_furn_exp</tag>
+        </li>
+        <li MayRequire="limetreesnake.furnishing,VanillaExpanded.VBrewE">
+          <count>0~1</count>
+          <tag>bars_lts_furnish</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>hotel_vanilla</tag>
+        </li>
+        <li MayRequire="VanillaExpanded.VFECore">
+          <count>0~1</count>
+          <tag>hotel_furn_exp</tag>
+        </li>
+        <li MayRequire="cp.uncle.boris.used.furniture">
+          <count>0~1</count>
+          <tag>hotel_boris</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>energie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>armurerie_mafia</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>coffre_fort</tag>
+        </li>
+        <li>
+          <count>6~8</count>
+          <tag>champs_drogues</tag>
+        </li>
+    </allowedStructures>
+    </centerBuildings>
+  </KCSG.SettlementLayoutDef>
+</Defs>

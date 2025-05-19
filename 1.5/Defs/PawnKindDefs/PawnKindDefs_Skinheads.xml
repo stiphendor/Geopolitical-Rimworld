@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="SkinheadBase" Abstract="True">
+    <defaultFactionType>Skinhead</defaultFactionType>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>10~16</initialResistanceRange>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+    <invNutrition>1</invNutrition>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>200</min>
+      <max>600</max>
+    </apparelMoney>
+    <apparelTags>
+	<li>Skinhead</li>
+    </apparelTags>
+    <apparelRequired>
+	<li>Geopol_rangers_white</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="SkinheadBase">
+    <defName>Skinhead_melee</defName>
+    <label>Skinhead</label>
+    <race>Human</race>
+    <combatPower>50</combatPower>
+    <weaponMoney>
+      <min>75</min>
+      <max>280</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>voyous</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0.2</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Yayo</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+	<skills>
+	  <li>
+        <skill>Melee</skill>
+        <range>4~14</range>
+      </li>
+	  <li>
+        <skill>Intellectual</skill>
+        <range>0~4</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="SkinheadBase">
+    <defName>Skinhead_leader</defName>
+    <label>Chef</label>
+    <race>Human</race>
+    <fixedGender>Male</fixedGender>
+    <combatPower>70</combatPower>
+    <minGenerationAge>25</minGenerationAge>
+    <maxGenerationAge>45</maxGenerationAge>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>
+      <min>140</min>
+      <max>186</max>
+    </weaponMoney>
+    <weaponTags>
+	<li>Pistolet_criminels</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>500</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~15</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>10~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+
+</Defs>

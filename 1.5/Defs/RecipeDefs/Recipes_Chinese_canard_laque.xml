@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Chinese_canard_laque</defName>
+		<label>cook Peking duck</label>
+		<description>cook Peking duck.</description>
+		<jobString>cooking Peking duck.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>
+		</recipeUsers>
+    <ingredients>
+	<li>
+        	<filter>
+			<thingDefs>
+				<li>Meat_Duck</li>
+			</thingDefs>
+        	</filter>
+        		<count>0.5</count>
+	</li>
+    </ingredients>
+		<products>
+			<Chinese_Canard_Laque>1</Chinese_Canard_Laque>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_chine</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

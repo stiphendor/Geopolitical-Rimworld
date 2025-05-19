@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Name="AnarchisteBase" Abstract="True">
+    <defaultFactionType>Anarchistes</defaultFactionType>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>20~27</initialResistanceRange>
+    <chemicalAddictionChance>0.66</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+    <invNutrition>1</invNutrition>
+    <minGenerationAge>14</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Yayo</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>SmokeleafJoint</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>3</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Beer</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li MayRequire="XMB.AncientUrbanrUins.MO">
+          <thingDef>AM_WayBill</thingDef>
+          <countRange>
+            <min>-4</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li MayRequire="XMB.AncientUrbanrUins.MO">
+          <thingDef>AM_IntelMap</thingDef>
+          <countRange>
+            <min>-4</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li MayRequire="XMB.AncientUrbanrUins.MO">
+          <thingDef>AM_ConfidentialIntelMapA</thingDef>
+          <countRange>
+            <min>-4</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li MayRequire="XMB.AncientUrbanrUins.MO">
+          <thingDef>AM_ConfidentialIntelMapB</thingDef>
+          <countRange>
+            <min>-4</min>
+            <max>1</max>
+          </countRange>
+        </li>
+        <li MayRequire="XMB.AncientUrbanrUins.MO">
+          <thingDef>AM_DilapidatedMap</thingDef>
+          <countRange>
+            <min>-4</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_distance</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <combatPower>50</combatPower>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+	<li>Lunettes</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>60</min>
+      <max>60</max>
+    </weaponMoney>
+    <weaponTags>
+        <li>petanque</li>
+	<li>pierre</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_melee</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <combatPower>50</combatPower>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>75</min>
+      <max>280</max>
+    </weaponMoney>
+    <weaponTags>
+	<li>Anarchiste_weapon</li>
+	<li>Toolancien</li>
+	<li>Tool</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_molotov</defName>
+    <label>Anarchiste molotov</label>
+    <race>Human</race>
+    <combatPower>70</combatPower>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>300</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Geopol_cagoule</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>245</min>
+      <max>245</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_leader</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>25~32</initialResistanceRange>
+    <combatPower>70</combatPower>
+    <factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>140</min>
+      <max>186</max>
+    </weaponMoney>
+    <weaponTags>
+	<li>Pistolet_criminels</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>4~14</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>4~14</range>
+      </li>
+	  <li>
+        <skill>Intellectual</skill>
+        <range>8~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_distance_f</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <combatPower>45</combatPower>
+    <apparelMoney>
+      <min>130</min>
+      <max>180</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+	<li>Lunettes</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>60</min>
+      <max>60</max>
+    </weaponMoney>
+    <weaponTags>
+        <li>petanque</li>
+	<li>pierre</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_melee_f</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <combatPower>50</combatPower>
+    <apparelMoney>
+      <min>130</min>
+      <max>180</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>75</min>
+      <max>280</max>
+    </weaponMoney>
+    <weaponTags>
+	<li>Anarchiste_weapon</li>
+	<li>Toolancien</li>
+	<li>Tool</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_molotov_f</defName>
+    <label>Anarchiste molotov</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <combatPower>70</combatPower>
+    <apparelMoney>
+      <min>300</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Geopol_cagoule</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>245</min>
+      <max>245</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="AnarchisteBase">
+    <defName>Anarchiste_leader_f</defName>
+    <label>Anarchiste</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>25~32</initialResistanceRange>
+    <combatPower>70</combatPower>
+    <factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+    <apparelTags>
+	<li>Antifa</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>140</min>
+      <max>186</max>
+    </weaponMoney>
+    <weaponTags>
+	<li>Pistolet_criminels</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    	<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>4~14</range>
+      </li>
+	  <li>
+        <skill>Melee</skill>
+        <range>4~14</range>
+      </li>
+	  <li>
+        <skill>Intellectual</skill>
+        <range>8~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+
+</Defs>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Juive</defName>
+    <label>Juive</label>
+    <description>Culture juive.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoJuive</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityJudaism</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Juif</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalIsr</festivalNameMaker>
+    <pawnNameMaker>nom_israel_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_israel_f</pawnNameMakerFemale>
+    <iconPath>Symbols/israel/judaism</iconPath>
+    <allowedPlaceTags>
+      <li>OriginIsrael</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>israel_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>5</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoJuive</defName>
+    <rulePack>
+      <rulesStrings>
+	<li>r_ideoName->Idéologie juive</li>
+        <li>r_ideoAdjective->Juif</li>
+        <li>r_memberName->Juif</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Juif</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Grand-rabbin</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

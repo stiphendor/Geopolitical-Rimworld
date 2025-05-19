@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Geopol_Couronne.label>Crown</Geopol_Couronne.label>
+<Geopol_Couronne.description>A crown worn by a queen.</Geopol_Couronne.description>
+
+<Geopol_bucheron.label>Lumberjack shirt</Geopol_bucheron.label>
+<Geopol_bucheron.description>Symbol of the virile Canadian lumberjack, this red and black checkered shirt will be the ideal attribute to accompany you during your logging sessions with an ax or a fight against a bear.</Geopol_bucheron.description>
+
+<Geopol_Costume_cravate_noir.label>Black tie suit</Geopol_Costume_cravate_noir.label>
+<Geopol_Costume_cravate_noir.description>A black tie suit, worn by anyone attentive to projecting a serious image of themselves. Wearing this garment will help to be taken seriously during negotiations, especially commercial ones.</Geopol_Costume_cravate_noir.description>
+
+<Geopol_Gilet_Jaune.label>High visibility vest</Geopol_Gilet_Jaune.label>
+<Geopol_Gilet_Jaune.description>A high visibility vest. Considered as personal protective equipment, intended to improve the visibility of a person walking on a road or on a construction site, the yellow vest has become the symbol of a protest movement, the "yellow vests movement" and is used as element of recognition by its followers.</Geopol_Gilet_Jaune.description>
+
+<Geopol_rangers_white.label>rangers (white lace-up)</Geopol_rangers_white.label>
+<Geopol_rangers_white.description>A pair of rangers used by racist skinheads.</Geopol_rangers_white.description>
+
+<Geopol_rangers_red.label>rangers (red lace-up)</Geopol_rangers_red.label>
+<Geopol_rangers_red.description>A pair of rangers used by antifascists or redskins.</Geopol_rangers_red.description>
+
+<Geopol_rangers.label>rangers</Geopol_rangers.label>
+<Geopol_rangers.description>A pair of rangers appreciated by the rock or underground scene.</Geopol_rangers.description>
+
+<Geopol_bombers.label>Bombers</Geopol_bombers.label>
+<Geopol_bombers.description>The bomber is a nylon jacket developed for United States Air Force and Navy pilots. This piece of military uniform was popularized by images of American fighter and helicopter pilots during the Vietnam War. It is the archetype of the synthetic fiber aviator jacket, having replaced earlier models, in leather.</Geopol_bombers.description>
+
+<Geopol_harrington.label>Harrington jacket</Geopol_harrington.label>
+<Geopol_harrington.description>A Harrington jacket is a jacket worn initially in upper-class neighborhoods, then in musical, punk, rock or British circles. It is an iconic garment of English subcultures.</Geopol_harrington.description>
+
+<Geopol_suit_redskin.label>Redskin outfit</Geopol_suit_redskin.label>
+<Geopol_suit_redskin.description>A white polo shirt, red suspenders, jeans, typical outfit worn by redskins.</Geopol_suit_redskin.description>
+
+<Geopol_suit_skinhead.label>Skinhead outfit</Geopol_suit_skinhead.label>
+<Geopol_suit_skinhead.description>A black polo shirt, white suspenders, jeans, typical outfit worn by skinheads.</Geopol_suit_skinhead.description>
+
+<Geopol_kway.label>K-way north face</Geopol_kway.label>
+<Geopol_kway.description>K-way is the name of a brand of waterproof clothing, famous for its nylon windproof jacket. In its black version, it is a favorite item of clothing for thugs in demonstrations in order to no longer be identifiable. This model features is a set that also includes waterproof black pants</Geopol_kway.description>
+
+<Geopol_Casquette_noire.label>Cap black</Geopol_Casquette_noire.label>
+<Geopol_Casquette_noire.description>A classic black cap.</Geopol_Casquette_noire.description>
+
+<Geopol_lunettes_de_soleil.label>Sunglasses</Geopol_lunettes_de_soleil.label>
+<Geopol_lunettes_de_soleil.description>A pair of sunglasses to protect the eyes from the sun's rays.</Geopol_lunettes_de_soleil.description>
+
+<Geopol_capuche.label>Black cap</Geopol_capuche.label>
+<Geopol_capuche.description>Useful to protect yourself from the rain, or to hide your identity.</Geopol_capuche.description>
+
+<Geopol_cache_cou.label>Neckwarmer</Geopol_cache_cou.label>
+<Geopol_cache_cou.description>Useful to avoid catching cold, or to hide your identity.</Geopol_cache_cou.description>
+
+<Geopol_casque_moto.label>Motorcycle helmet</Geopol_casque_moto.label>
+<Geopol_casque_moto.description>A motorcycle helmet. To protect the head from falls or blows from truncheons.</Geopol_casque_moto.description>
+
+<Geopol_cagoule.label>Hood</Geopol_cagoule.label>
+<Geopol_cagoule.description>A black fabric hood, allows you to keep warm, or to hide your face.</Geopol_cagoule.description>
+
+<Geopol_mariniere.label>Sailor striped shirt</Geopol_mariniere.label>
+<Geopol_mariniere.description>The sailor striped shirt or "mariniere" is a cotton garment with blue and white horizontal stripesare. Historically worn by sailors, the marinière is today a characteristic garment of French fashion.</Geopol_mariniere.description>
+<Geopol_france_beret.label>Beret</Geopol_france_beret.label>
+<Geopol_france_beret.description>The beret is the emblematic headgear of French culture.</Geopol_france_beret.description>
+
+<Geopol_capirote.label>Capirote</Geopol_capirote.label>
+<Geopol_capirote.description>A capirote is a pointed cone-shaped hat used in Spain, initially by certain flagellants, today by penitents during Holy Week processions.\nKu Klux Klan costumes use the capirote to cover their heads, thus making them anonymous. Ironically, the capirote is of Catholic origin, while the Ku Klux Klan, a protestant white supremacist movement, is anti-Catholic.</Geopol_capirote.description>
+<Geopol_Klan_robe.label>Ku Klux Klan costume</Geopol_Klan_robe.label>
+<Geopol_Klan_robe.description>The most striking and well-known characteristic of the Ku Klux Klan, the dress is composed of a white cotton tunic whose insignia of the Klan is present at the level of the left chest, a cape also in cotton, and a rope belt tied around the waist.</Geopol_Klan_robe.description>
+
+<Geopol_Trench_Coat_ferme.label>Closed Trench Coat</Geopol_Trench_Coat_ferme.label>
+<Geopol_Trench_Coat_ferme.description>The trench coat is a waterproof coat generally reaching down to the calves, made of a flexible and resistant fabric (cotton, leather, microfibers). First worn by soldiers during the First and Second World Wars, the Trench Coat was popularized by the many films where it became a characteristic aspect of the clothing of a detective or a mafia.</Geopol_Trench_Coat_ferme.description>
+<Geopol_Trench_Coat_ouvert.label>Open Trench Coat</Geopol_Trench_Coat_ouvert.label>
+<Geopol_Trench_Coat_ouvert.description>The trench coat is a waterproof coat generally reaching down to the calves, made of a flexible and resistant fabric (cotton, leather, microfibers). First worn by soldiers during the First and Second World Wars, the Trench Coat was popularized by the many films where it became a characteristic aspect of the clothing of a detective or a mafioso.</Geopol_Trench_Coat_ouvert.description>
+<Geopol_gilet_mafia.label>Waistcoatt</Geopol_gilet_mafia.label>
+<Geopol_gilet_mafia.description>An elegant sleeveless vest housing a pocket watch, ideally worn over a shirt.</Geopol_gilet_mafia.description>
+<Geopol_casquette_plate.label>Flat cap</Geopol_casquette_plate.label>
+<Geopol_casquette_plate.description>The flat cap is a light and flexible cap, traditionally made of tweed or wool.\n\nOriginally worn by Irish and British peasants in the countryside, the flat cap has gradually spread across all social classes.</Geopol_casquette_plate.description>
+<Geopol_fedora.label>Fedora</Geopol_fedora.label>
+<Geopol_fedora.description>The fedora is a wide-brimmed felt hat. It is a famous model of classic hat, it is appreciated by members of the mafia.</Geopol_fedora.description>
+
+<Geopol_mexique_sombrero.label>Sombrero</Geopol_mexique_sombrero.label>
+<Geopol_mexique_sombrero.description>A traditional Mexican hat with fairly wide brims to protect the wearer from the sun.</Geopol_mexique_sombrero.description>
+
+<Geopol_chapka_woman.label>Chapka (women)</Geopol_chapka_woman.label>
+<Geopol_chapka_femme.description>Traditional Russian or Scandinavian fur hat, this model is worn by women.</Geopol_chapka_femme.description>
+<Geopol_chapka_homme.label>Chapka (men)</Geopol_chapka_homme.label>
+<Geopol_chapka_homme.description>The chapka is a traditional Russian or Nordic hat, made of fur, with folding parts that can cover the ears and the nape of the neck, or be raised and tied on the headdress. This model is worn by men.</Geopol_chapka_homme.description>
+
+<Geopol_casquette_ny.label>Cap NY</Geopol_casquette_ny.label>
+<Geopol_casquette_ny.description>The legendary NY cap typical of American culture.</Geopol_casquette_ny.description>
+<Geopol_jean.label>Jeans</Geopol_jean.label>
+<Geopol_jean.description>Jeans are stronger pants than the classic pants in the characteristic light blue color, popularized in the United States from the 19th century by Levi Strauss. This material is particularly resistant to time.</Geopol_jean.description>
+<Geopol_jean_vest.label>Denim jacket</Geopol_jean_vest.label>
+<Geopol_jean_vest.description>A denim jacket. Introduced to the United States in the late 19th century, it was a popular type of casual clothing for both men and women and became an iconic part of American fashion. This material is particularly resistant to time.</Geopol_jean_vest.description>
+
+</LanguageData>

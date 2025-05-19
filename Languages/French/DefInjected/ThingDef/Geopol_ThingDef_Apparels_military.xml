@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Geopol_australie_gpb.label>Gilet pare-balles australien</Geopol_australie_gpb.label>
+<Geopol_australie_gpb.description>Un gilet pare-balles utilisé par les militaires australiens.</Geopol_australie_gpb.description>
+<Geopol_australie_uniforme.label>Treillis australien</Geopol_australie_uniforme.label>
+<Geopol_australie_uniforme.description>Un treillis utilisé par les militaires australiens.</Geopol_australie_uniforme.description>
+<Geopol_australie_casque.label>Casque australien</Geopol_australie_casque.label>
+<Geopol_australie_casque.description>Un casque tactique balistique utilisé par les militaires australiens.</Geopol_australie_casque.description>
+
+<Geopol_bresil_gpb.label>Gilet pare-balles brésilien</Geopol_bresil_gpb.label>
+<Geopol_bresil_gpb.description>Un gilet pare-balles utilisé par les militaires brésiliens.</Geopol_bresil_gpb.description>
+<Geopol_bresil_uniforme.label>Treillis brésilien</Geopol_bresil_uniforme.label>
+<Geopol_bresil_uniforme.description>Un treillis utilisé par les militaires brésiliens.</Geopol_bresil_uniforme.description>
+<Geopol_bresil_casque.label>Casque brésilien</Geopol_bresil_casque.label>
+<Geopol_bresil_casque.description>Un casque tactique balistique utilisé par les militaires brésiliens.</Geopol_bresil_casque.description>
+
+<Geopol_britain_gpb.label>Gilet pare-balles britannique</Geopol_britain_gpb.label>
+<Geopol_britain_gpb.description>Un gilet pare-balles utilisé par les militaires britanniques.</Geopol_britain_gpb.description>
+<Geopol_britain_uniforme.label>Treillis britannique</Geopol_britain_uniforme.label>
+<Geopol_britain_uniforme.description>Un treillis utilisé par les militaires britannique.</Geopol_britain_uniforme.description>
+<Geopol_britain_casque.label>Casque britannique</Geopol_britain_casque.label>
+<Geopol_britain_casque.description>Un casque tactique balistique utilisé par les militaires britanniques.</Geopol_britain_casque.description>
+<Geopol_britain_garde_royal_tenue.label>Uniforme de garde royal britannique</Geopol_britain_garde_royal_tenue.label>
+<Geopol_britain_garde_royal_tenue.description>Célèbre tunique rouge de garde royal britannique.</Geopol_britain_garde_royal_tenue.description>
+<Geopol_britain_garde_royal_casque.label>Casque de garde royal britannique</Geopol_britain_garde_royal_casque.label>
+<Geopol_britain_garde_royal_casque.description>Casque de garde royal britannique.</Geopol_britain_garde_royal_casque.description>
+
+<Geopol_canada_gpb.label>Gilet pare-balles canadien</Geopol_canada_gpb.label>
+<Geopol_canada_gpb.description>Un gilet pare-balles utilisé par les militaires canadiens.</Geopol_canada_gpb.description>
+<Geopol_canada_uniforme.label>Treillis canadien</Geopol_canada_uniforme.label>
+<Geopol_canada_uniforme.description>Un treillis utilisé par les militaires canadiens.</Geopol_canada_uniforme.description>
+<Geopol_canada_casque.label>Casque canadien</Geopol_canada_casque.label>
+<Geopol_canada_casque.description>Un casque tactique balistique utilisé par les militaires canadien.</Geopol_canada_casque.description>
+
+<Geopol_chine_gpb.label>Gilet pare-balles chinois</Geopol_chine_gpb.label>
+<Geopol_chine_gpb.description>Un gilet pare-balles utilisé par les militaires chinois.</Geopol_chine_gpb.description>
+<Geopol_chine_uniforme.label>Treillis chinois</Geopol_chine_uniforme.label>
+<Geopol_chine_uniforme.description>Un treillis utilisé par les militaires chinois.</Geopol_chine_uniforme.description>
+<Geopol_chine_casque.label>Casque chinois</Geopol_chine_casque.label>
+<Geopol_chine_casque.description>Un casque tactique balistique utilisé par les militaires chinois.</Geopol_chine_casque.description>
+
+<Geopol_coree_du_nord_uniforme.label>Treillis Nord-Coréen</Geopol_coree_du_nord_uniforme.label>
+<Geopol_coree_du_nord_uniforme.description>Un treillis utilisé par les militaires nord-coréens.</Geopol_coree_du_nord_uniforme.description>
+<Geopol_coree_du_nord_casque.label>Casque Nord-Coréen</Geopol_coree_du_nord_casque.label>
+<Geopol_coree_du_nord_casque.description>Un casque balistique utilisé par les militaires Nord-Coréens.</Geopol_coree_du_nord_casque.description>
+
+<Geopol_coree_gpb.label>Gilet pare-balles sud-coréen</Geopol_coree_gpb.label>
+<Geopol_coree_gpb.description>Un gilet pare-balles utilisé par les militaires sud-coréens.</Geopol_coree_gpb.description>
+<Geopol_coree_uniforme.label>Treillis sud-coréen</Geopol_coree_uniforme.label>
+<Geopol_coree_uniforme.description>Un treillis utilisé par les militaires sud-coréens.</Geopol_coree_uniforme.description>
+<Geopol_coree_casque.label>Casque sud-coréen</Geopol_coree_casque.label>
+<Geopol_coree_casque.description>Un casque tactique balistique utilisé par les militaires sud-coréens.</Geopol_coree_casque.description>
+
+<Geopol_france_gpb.label>Gilet pare-balles français</Geopol_france_gpb.label>
+<Geopol_france_gpb.description>Un gilet pare-balles utilisé par les militaires français.</Geopol_france_gpb.description>
+<Geopol_france_uniforme.label>Treillis français</Geopol_france_uniforme.label>
+<Geopol_france_uniforme.description>Un treillis utilisé par les militaires français</Geopol_france_uniforme.description>
+<Geopol_france_casque.label>Casque français</Geopol_france_casque.label>
+<Geopol_france_casque.description>Un casque tactique balistique utilisé par les militaires français.</Geopol_france_casque.description>
+
+<Geopol_israel_gpb.label>Gilet pare-balles israëlien</Geopol_israel_gpb.label>
+<Geopol_israel_gpb.description>Un gilet pare-balles utilisé par les militaires israëliens.</Geopol_israel_gpb.description>
+<Geopol_israel_uniforme.label>Treillis israëlien</Geopol_israel_uniforme.label>
+<Geopol_israel_uniforme.description>Un treillis utilisé par les militaires israëliens.</Geopol_israel_uniforme.description>
+<Geopol_israel_casque.label>Casque israëlien</Geopol_israel_casque.label>
+<Geopol_israel_casque.description>Un casque tactique balistique utilisé par les militaires israëliens.</Geopol_israel_casque.description>
+
+<Geopol_mexique_gpb.label>Gilet pare-balles mexicain</Geopol_mexique_gpb.label>
+<Geopol_mexique_gpb.description>Un gilet pare-balles utilisé par les militaires mexicains.</Geopol_mexique_gpb.description>
+<Geopol_mexique_uniforme.label>Treillis mexicain</Geopol_mexique_uniforme.label>
+<Geopol_mexique_uniforme.description>Un treillis utilisé par les militaires mexicains.</Geopol_mexique_uniforme.description>
+<Geopol_mexique_casque.label>Casque mexicain</Geopol_mexique_casque.label>
+<Geopol_mexique_casque.description>Un casque tactique balistique utilisé par les militaires mexicains.</Geopol_mexique_casque.description>
+
+<Geopol_russie_gpb.label>Gilet pare-balles russe</Geopol_russie_gpb.label>
+<Geopol_russie_gpb.description>Un gilet pare-balles utilisé par les militaires russes.</Geopol_russie_gpb.description>
+<Geopol_russie_uniforme.label>Treillis Russe</Geopol_russie_uniforme.label>
+<Geopol_russie_uniforme.description>Un treillis utilisé par les militaires russes.</Geopol_russie_uniforme.description>
+<Geopol_russie_casque.label>Casque russe</Geopol_russie_casque.label>
+<Geopol_russie_casque.description>Un casque tactique balistique utilisé par les militaires russes.</Geopol_russie_casque.description>
+
+<Geopol_suede_gpb.label>Gilet pare-balles suédois</Geopol_suede_gpb.label>
+<Geopol_suede_gpb.description>Un gilet pare-balles utilisé par les militaires suédois.</Geopol_suede_gpb.description>
+<Geopol_suede_uniforme.label>Treillis suédois</Geopol_suede_uniforme.label>
+<Geopol_suede_uniforme.description>Un treillis utilisé par les militaires suédois.</Geopol_suede_uniforme.description>
+<Geopol_suede_casque.label>Casque suédois</Geopol_suede_casque.label>
+<Geopol_suede_casque.description>Un casque tactique balistique utilisé par les militaires suédois.</Geopol_suede_casque.description>
+
+<Geopol_suisse_gpb.label>Gilet pare-balles suisse</Geopol_suisse_gpb.label>
+<Geopol_suisse_gpb.description>Un gilet pare-balles utilisé par les militaires suisses.</Geopol_suisse_gpb.description>
+<Geopol_suisse_uniforme.label>Treillis suisse</Geopol_suisse_uniforme.label>
+<Geopol_suisse_uniforme.description>Un treillis utilisé par les militaires suisses.</Geopol_suisse_uniforme.description>
+<Geopol_suisse_casque.label>Casque suisse</Geopol_suisse_casque.label>
+<Geopol_suisse_casque.description>Un casque tactique balistique utilisé par les militaires suisses.</Geopol_suisse_casque.description>
+
+<Geopol_ukraine_gpb.label>Gilet pare-balles ukrainien</Geopol_ukraine_gpb.label>
+<Geopol_ukraine_gpb.description>Un gilet pare-balles utilisé par les militaires ukrainiens.</Geopol_ukraine_gpb.description>
+<Geopol_ukraine_uniforme.label>Treillis ukrainien</Geopol_ukraine_uniforme.label>
+<Geopol_ukraine_uniforme.description>Un treillis utilisé par les militaires ukrainiens.</Geopol_ukraine_uniforme.description>
+<Geopol_ukraine_casque.label>Casque ukrainien</Geopol_ukraine_casque.label>
+<Geopol_ukraine_casque.description>Un casque tactique balistique utilisé par les militaires ukrainiens.</Geopol_ukraine_casque.description>
+
+<Geopol_usa_gpb.label>Gilet pare-balles américain</Geopol_usa_gpb.label>
+<Geopol_usa_gpb.description>Un gilet pare-balles utilisé par les militaires américains.</Geopol_usa_gpb.description>
+<Geopol_usa_uniforme.label>Treillis américain</Geopol_usa_uniforme.label>
+<Geopol_usa_uniforme.description>Un treillis utilisé par les militaires américains.</Geopol_usa_uniforme.description>
+<Geopol_usa_casque.label>Casque américain</Geopol_usa_casque.label>
+<Geopol_usa_casque.description>Un casque tactique balistique utilisé par les militaires américains.</Geopol_usa_casque.description>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>JDSBank_Vault_South</defName>
+  <thing>JDSBank_Vault</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+</Defs>

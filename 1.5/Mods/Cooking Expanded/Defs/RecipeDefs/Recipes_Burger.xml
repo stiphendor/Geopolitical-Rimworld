@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealFineBase">
+		<defName>cook_Usa_Burger</defName>
+		<label>cook cheeseburger</label>
+		<description>coook cheeseburger.</description>
+		<jobString>cooking cheeseburger.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>			
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li MayRequire="vanillaexpanded.vcooke">VCE_Flour</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li MayRequire="vanillaexpanded.vcooke">VCE_Flour</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+				<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+
+		<ingredients>
+			<li>
+				<filter>
+			          <customSummary>grain</customSummary>
+					<thingDefs>
+						<li MayRequire="VanillaExpanded.VCookE">VCE_Flour</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawMillet</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+						<li MayRequire="tidal.grainsandbrewing">GAB_RawWheat</li>
+						<li MayRequire="VanillaExpanded.VPlantsEMore">VCE_RawBuckwheat</li>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+        			<filter>
+        				<categories>
+        					<li>MeatRaw</li>
+       					</categories>
+        			</filter>
+        				<count>0.25</count>
+      			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+					</thingDefs>
+				</filter>
+				<count>0.15</count>
+			</li>
+			<li MayRequire="VanillaExpanded.VPlantsEMore" >
+				<filter>
+					<thingDefs>
+						<li>VCE_RawLettuce</li>
+					</thingDefs>
+				</filter>
+				<count>0.05</count>
+			</li>
+			<li MayRequire="VanillaExpanded.VPlantsE" >
+				<filter>
+					<thingDefs>
+						<li>VCE_RawTomatoes</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+			<li>
+			        <filter>
+					<categories>
+						<li>VCE_Cheese</li>
+				        </categories>
+        			</filter>
+        				<count>0.15</count>
+      </li>
+		</ingredients>
+		<products>
+			<Usa_cheeseburger>1</Usa_cheeseburger>
+		</products>
+		<researchPrerequisite>
+			<li>Geopol_research_usa</li>
+		</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

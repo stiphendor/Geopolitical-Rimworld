@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Expanded Framework</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+        <operations>
+	<li Class="PatchOperationAdd"> 
+	<xpath>/Defs/ThingDef[defName="Geopol_tool_faucille" or defName="Geopol_tool_couperet" or defName="Geopol_tool_marteau" or defName="Geopol_tool_tournevis" or defName="Geopol_tool_Pied_de_biche" or defName="Geopol_tool_Scalpel" or defName="Geopol_tool_cle_anglaise" or defName="Geopol_tool_perceuse" or defName="Geopol_tool_couteau_cuisine"]</xpath>
+	<value>
+        <modExtensions>
+	<li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+        </li>
+        </modExtensions>
+	</value>
+	</li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

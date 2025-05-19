@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>skinhead</defName>
+    <label>Skinhead</label>
+    <description>Culture skinhead d'ultra droite.</description>
+    <pawnNameMaker>nom_homme_uk</pawnNameMaker>
+    <pawnNameMakerFemale>nom_femme_uk</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSkinhead</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Skinhead</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalskinhead</festivalNameMaker>
+    <iconPath>Symbols/hammerskin/celtic_cross</iconPath>
+    <allowedPlaceTags>
+    <li>OriginSkinhead</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Skinhead_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooBodySkinhead</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoSkinhead</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie skinhead</li>
+        <li>r_ideoAdjective->raciste</li>
+        <li>r_memberName->Skinhead</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Skinhead</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Leader</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Skinhead</defName>
+    <tags>
+      <li>OriginSkinhead</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Quartier ouvrier</li>
+        <li>place_adjective->populaire</li>
+        <li>place_summary->ville ouvrière</li>
+        <li>place_community->bar</li>
+        <li>place_community->stade</li>
+        <li>place_powerCenter->local</li>
+        <li>place_job->ouvrier</li>
+        <li>place_personalWeapon->couteau</li>
+        <li>place_personalWeapon->poing américain</li>
+        <li>place_massWeapon->lynchage</li>
+        <li>place_foeLeader->homme politique d'extrême gauche</li>
+        <li>place_foeSoldiers->antifascistes</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalskinhead</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Marche aux flambeaux</li>
+        <li>festivalName->Manifestation contre l'islam</li>
+        <li>festivalName->Manifestation pour la défense de la race blanche</li>
+        <li>festivalName->Manifestation contre l'insécurité</li>
+        <li>festivalName->Manifestation contre l'immigration</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

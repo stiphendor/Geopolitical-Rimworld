@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>anarchiste</defName>
+    <label>Anarchiste</label>
+    <description>Culture anarchiste.</description>
+    <pawnNameMaker>nom_int_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_int_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAnarchisme</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Anarchiste</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalanarchiste</festivalNameMaker>
+    <iconPath>Symbols/anarchie/anarchy</iconPath>
+    <allowedPlaceTags>
+    <li>OriginAnarchiste</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Anarchiste_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Ecolo_beard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>nom_int_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhuk] [nomuk]</li>
+	<li>name-&gt;[prenomhfra] [nomfra]</li>
+        <li>name-&gt;[prenom_m_italien] [nom_italien]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhuk</keyword>
+          <path>Noms/prenom_m_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomuk</keyword>
+          <path>Noms/nom_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenomhfra</keyword>
+          <path>Noms/prenom_m_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfra</keyword>
+          <path>Noms/nom_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenom_m_italien</keyword>
+          <path>Noms/prenom_m_italien</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_italien</keyword>
+          <path>Noms/nom_italien</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nom_int_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfuk] [nomuk]</li>
+	<li>name-&gt;[prenomffra] [nomfra]</li>
+        <li>name-&gt;[prenom_f_italien] [nom_italien]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfuk</keyword>
+          <path>Noms/prenom_f_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomuk</keyword>
+          <path>Noms/nom_uk</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenomffra</keyword>
+          <path>Noms/prenom_f_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfra</keyword>
+          <path>Noms/nom_fra</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prenom_f_italien</keyword>
+          <path>Noms/prenom_f_italien</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nom_italien</keyword>
+          <path>Noms/nom_italien</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcolonieanarchistes</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prefixecolonieanarchiste] [nomcolonieanarchiste]</li>
+        <li>name-&gt;[prefixecolonieanarchiste2] [nomcolonieanarchiste2]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prefixecolonieanarchiste</keyword>
+          <path>Noms/colonie_anarchy_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomcolonieanarchiste</keyword>
+          <path>Noms/colonie_anarchy</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prefixecolonieanarchiste2</keyword>
+          <path>Noms/colonie_anarchy_prefix2</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomcolonieanarchiste2</keyword>
+          <path>Noms/colonie_anarchy2</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoAnarchisme</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Anarchisme</li>
+        <li>r_ideoAdjective->anarchiste</li>
+        <li>r_memberName->Anarchiste</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Anarchiste</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Anarchiste</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Anarchiste</defName>
+    <tags>
+      <li>OriginAnarchiste</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Ménilmontant</li>
+        <li>place_adjective->populaire</li>
+        <li>place_summary->quartier populaire</li>
+        <li>place_community->bar</li>
+        <li>place_community->local occupé</li>
+        <li>place_powerCenter->squat</li>
+        <li>place_job->sans emploi</li>
+        <li>place_personalWeapon->couteau</li>
+        <li>place_personalWeapon->matraque</li>
+        <li>place_massWeapon->lynchage</li>
+        <li>place_foeLeader->homme politique</li>
+        <li>place_foeSoldiers->policiers</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalanarchiste</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Autoréduction</li>
+        <li>festivalName->Rassemblement anticapitaliste</li>
+        <li>festivalName->Rassemblement contre les violences d'état</li>
+        <li>festivalName->Rassemblement contre le gouvernement</li>
+        <li>festivalName->Rassemblement pour l'autonomie des peuples</li>
+        <li>festivalName->Assemblée générale contre les expulsions</li>
+        <li>festivalName->Réunion en mixité choisie</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomfactionanarchistes</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prefixfactionanarchiste] [nomfactionanarchiste]</li>
+        <li>name-&gt;[prefixfactionanarchiste2] [nomfactionanarchiste2]</li>
+        <li>name-&gt;[prefixfactionanarchiste3] [nomfactionanarchiste3]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prefixfactionanarchiste</keyword>
+          <path>Noms/faction_anarchy_prefix</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfactionanarchiste</keyword>
+          <path>Noms/faction_anarchy</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prefixfactionanarchiste2</keyword>
+          <path>Noms/faction_anarchy_prefixs2</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfactionanarchiste2</keyword>
+          <path>Noms/faction_anarchy2</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>prefixfactionanarchiste3</keyword>
+          <path>Noms/faction_anarchy_prefixs3</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nomfactionanarchiste3</keyword>
+          <path>Noms/faction_anarchy3</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

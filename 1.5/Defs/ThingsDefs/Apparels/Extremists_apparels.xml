@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ApparelBase">
+		<defName>Geopol_rangers_white</defName>
+		<label>rangers à lacets blancs</label>
+		<description>Une paire de rangers utilisée par les skinheads racistes.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Boots/boots_white</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		    <costList>
+			<Leather_Plain>30</Leather_Plain>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.25</Mass>
+		        <Insulation_Cold>2</Insulation_Cold>
+            <EquipDelay>2.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>chaussures</li>
+		</thingCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Skinhead</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelBase">
+		<defName>Geopol_rangers_red</defName>
+		<label>rangers à lacets rouge</label>
+		<description>Une paire de rangers utilisée par les antifascistes ou redskins.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Boots/boots_red</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		    <costList>
+			<Leather_Plain>30</Leather_Plain>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.25</Mass>
+		        <Insulation_Cold>2</Insulation_Cold>
+            <EquipDelay>2.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>chaussures</li>
+		</thingCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Antifa</li>
+				<li>Redskin</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelBase">
+		<defName>Geopol_rangers</defName>
+		<label>rangers</label>
+		<description>Une paire de rangers appréciée par le milieu rock ou underground.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Boots/boots_black</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		    <costList>
+			<Leather_Plain>30</Leather_Plain>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.25</Mass>
+		        <Insulation_Cold>2</Insulation_Cold>
+            <EquipDelay>2.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>chaussures</li>
+		</thingCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+			<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Antifa</li>
+			        <li>Skinhead</li>
+				<li>Redskin</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_bombers</defName>
+    <label>Bombers</label>
+    <description>Le bomber est un blouson en nylon développé pour les pilotes de l'United States Air Force et ceux de la Navy. Cette pièce d'uniforme militaire a été popularisée par les images des pilotes de chasse et d'hélicoptère américains durant la guerre du Viêt Nam. Il est l'archétype du blouson d'aviateur en fibre synthétique, s'étant substitué aux modèles antérieurs, en cuir.</description>
+    <graphicData>
+      <texPath>Apparel/Extremists/Bombers/Bombers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.50</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+	<Cloth>120</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>+0.1</MeleeHitChance>
+      <MeleeDodgeChance>+0.1</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Bombers/Bomber_Jacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Skinhead</li>
+	<li>Redskin</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_harrington</defName>
+    <label>Veste harrington</label>
+    <description>Une veste Harrington est une veste portée initialement dans les quartiers de haute bourgeoisie, puis dans les milieux musicaux, punk, rock ou britannique. C'est un vêtement emblématique des sous-cultures anglaises.</description>
+    <graphicData>
+      <texPath>Apparel/Extremists/Harrington/preview_Harrington</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+	<Cloth>70</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>+0.05</MeleeHitChance>
+      <MeleeDodgeChance>+0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Harrington/Harrington</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Skinhead</li>
+	<li>Redskin</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_suit_redskin</defName>
+    <label>Tenue de redskin</label>
+    <description>Un polo blanc, des bretelles rouges, un jean, tenue typique portée par les redskins.</description>
+    <graphicData>
+      <texPath>Apparel/Extremists/Suit_Antifa/preview_Redskin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+	<Cloth>100</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Suit_Antifa/Redskin</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+	<li>Redskin</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_suit_skinhead</defName>
+    <label>Tenue de skinhead</label>
+    <description>Un polo noir, des bretelles blanches, un jean, tenue typique portée par les skinheads.</description>
+    <graphicData>
+      <texPath>Apparel/Extremists/Suit_Skinhead/preview_Skinhead</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+	<Cloth>100</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Suit_Skinhead/Skinhead</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Skinhead</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Geopol_kway</defName>
+    <label>K-way north face</label>
+    <description>K-way est le nom d'une marque de vêtements imperméables, célèbre pour sa veste coupe-vent en nylon. Dans sa version noire, c'est un vêtement privilégié des casseurs dans les manifestations afin de ne plus être identifiable. Ce modèle comporte est un ensemble comprenant également un pantalon noir imperméable</description>
+    <graphicData>
+      <texPath>Apparel/Extremists/Kway/preview_Kway</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+	<Cloth>70</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>+0.05</MeleeHitChance>
+      <MeleeDodgeChance>+0.05</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Kway/Kway</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Antifa</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+    <ThingDef ParentName="HatBase">
+		<defName>Geopol_Casquette_noire</defName>
+		<label>Casquette noire</label>
+		<description>Une casquette noire utile pour cacher son identité en manifestation.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Casquette/casquette</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        	<generateCommonality>0.5</generateCommonality>
+		    <costList>
+			<Cloth>20</Cloth>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.08</Mass>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Extremists/Casquette/head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Antifa</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+
+    <ThingDef ParentName="HatBase">
+		<defName>Geopol_lunettes_de_soleil</defName>
+		<label>Lunettes de soleil</label>
+		<description>Une paire de lunettes de soleil pour vous protéger des rayons uv.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Lunettes de soleil/lunettes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        	<generateCommonality>0.01</generateCommonality>
+		    <costList>
+		      <Steel>10</Steel>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.01</Mass>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+ 			<Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Extremists/Lunettes de soleil/head</wornGraphicPath>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+			<tags>
+			        <li>Lunettes</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+
+   <ThingDef ParentName="HatBase">
+    <defName>Geopol_capuche</defName>
+    <label>Capuche noire</label>
+    <description>Utile pour cacher son identité.</description>
+		<graphicData>
+			<texPath>Apparel/Extremists/Capuche/capuche</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>1</generateCommonality>
+		    <costList>
+			<Cloth>20</Cloth>
+		    </costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+			<Insulation_Cold>4</Insulation_Cold>
+ 			<Insulation_Heat>0</Insulation_Heat>
+            <EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+             		<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Extremists/Capuche/head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags Inherit='False'>
+				<li>Antifa</li>
+			</tags>
+		</apparel>
+    </ThingDef>	
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Geopol_cache_cou</defName>
+    <label>Cache-cou</label>
+    <description>Utile pour cacher son identité.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>	
+    <graphicData>
+      <texPath>Apparel/Extremists/Cache-cou/cache_cou</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+        <generateCommonality>0.1</generateCommonality>	
+	<costList>
+	<Cloth>10</Cloth>
+	</costList>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.1</Mass>
+	<Insulation_Cold>6</Insulation_Cold>
+	<Insulation_Heat>0</Insulation_Heat>
+	<EquipDelay>0.4</EquipDelay>
+    </statBases>	
+    <apparel>
+      <bodyPartGroups>
+	<li>Teeth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Cache-cou/head</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>	  
+      <tags>
+        <li>Antifa</li>
+      </tags>	  
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Geopol_casque_moto</defName>
+    <label>Casque de moto</label>
+    <description>Un casque de moto. Pour protéger votre tête des chutes, ou des coups de matraque.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparel/Extremists/Casque/casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3400</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+      <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Casque/head</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Antifa</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Geopol_cagoule</defName>
+    <label>Cagoule</label>
+    <description>Une cagoule noire en tissu, permet de tenir chaud, ou de cacher son visage.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparel/Extremists/Cagoule/preview_cagoule</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1400</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+      <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Extremists/Cagoule/cagoule</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Cagoule</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+</Defs>

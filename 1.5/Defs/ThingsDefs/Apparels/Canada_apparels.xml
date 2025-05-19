@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_canada_gpb</defName>
+    <label>Gilet pare-balles canadien</label>
+    <description>Gilets pare-balles canadien.</description>
+    <graphicData>
+      <texPath>Apparel/Canada/Gpb/canada_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Canada/Gpb/canada_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_canada_uniforme</defName>
+    <label>Treillis canadien</label>
+    <description>Treillis canadien.</description>
+    <graphicData>
+      <texPath>Apparel/Canada/Treillis/preview_treillis_canada</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Canada/Treillis/treillis_canada</wornGraphicPath>
+      <tags>
+        <li>Canada</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_canada_casque</defName>
+    <label>Casque canadien</label>
+    <description>Casque canadien.</description>
+    <graphicData>
+      <texPath>Apparel/Canada/Casque/canada_casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Canada/Casque/casque_canada</wornGraphicPath>
+      <tags>
+        <li>Canada</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_bucheron</defName>
+    <label>Chemise de bûcheron</label>
+    <description>Symbole du bûcheron canadien viril, cette chemise à carreaux rouge et noir sera l'attribut idéal pour vous accompagner lors de vos séances de bûcheronnage à la hache ou d'un combat contre un ours.</description>
+    <graphicData>
+      <texPath>Apparel/Canada/Bucheron/preview_bucheron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <costList>
+	<Cloth>60</Cloth>
+      </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2800</WorkToMake>
+      <Mass>0.5</Mass>
+      <Insulation_Cold>15</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Canada/Bucheron/bucheron</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_canada</li>
+	<li>ComplexClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  
+</Defs>

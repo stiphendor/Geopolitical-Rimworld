@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>klan</defName>
+    <label>klan</label>
+    <description>Culture du ku klux klan.</description>
+    <pawnNameMaker>nom_usa_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_usa_f</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoKlan</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Klan</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalKlan</festivalNameMaker>
+    <iconPath>Icon/Klan</iconPath>
+    <allowedPlaceTags>
+      <li>OriginKlan</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Klan_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooBodyKlan</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+  <RulePackDef>
+    <defName>nomcolonies_klan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonies_klan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonies_klan</keyword>
+          <path>Noms/colonies_klan</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeoKlan</defName>
+    <rulePack>
+      <rulesStrings>
+	<li>r_ideoName->Suprémacisme blanc</li>
+        <li>r_ideoAdjective->suprémaciste</li>
+        <li>r_memberName->Klansman</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Klan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Grand Sorcier Impérial</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>Klan</defName>
+    <tags>
+      <li>OriginKlan</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Tennessee</li>
+        <li>place_adjective->populaire</li>
+        <li>place_summary->état sudiste</li>
+        <li>place_community->bar</li>
+        <li>place_powerCenter->local secret</li>
+        <li>place_job->ouvrier</li>
+        <li>place_personalWeapon->couteau</li>
+        <li>place_personalWeapon->pistolet</li>
+        <li>place_massWeapon->lynchage</li>
+        <li>place_foeLeader->abolitionniste</li>
+        <li>place_foeSoldiers->afro-américains</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalKlan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->Marche aux flambeaux</li>
+        <li>festivalName->Unite the Right</li>
+        <li>festivalName->Manifestation pour la suprématie de la race blanche</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>Mexicaine</defName>
+    <label>Mexicaine</label>
+    <description>Culture Mexicaine.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeomexique</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityChristian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DietyTypeMakerAbrahamic</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_mexique</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalmexique</festivalNameMaker>
+    <pawnNameMaker>nom_mexique_h</pawnNameMaker>
+    <pawnNameMakerFemale>nom_mexique_f</pawnNameMakerFemale>
+    <iconPath>Symbols/mexico/mexico</iconPath>
+    <allowedPlaceTags>
+      <li>Originmexique</li>
+    </allowedPlaceTags>
+    <styleItemTags>
+      <li>
+        <tag>Soldat_hair</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>4</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Mexican_Beard</tag>
+        <baseWeight>2</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+
+  <RulePackDef>
+    <defName>nom_mexique_h</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomhmexique] [nommexique]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomhmexique</keyword>
+          <path>Noms/prenom_m_mexique</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nommexique</keyword>
+          <path>Noms/nom_mexicain</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>nom_mexique_f</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[prenomfmexique] [nommexique]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>prenomfmexique</keyword>
+          <path>Noms/prenom_f_mexique</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nommexique</keyword>
+          <path>Noms/nom_mexicain</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>nomcoloniemexique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[colonie_mexique]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonie_mexique</keyword>
+          <path>Noms/colonie_mexique</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIdeomexique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Idéologie Mexicaine</li>
+        <li>r_ideoAdjective->mexicain</li>
+        <li>r_memberName->mexicains</li>
+	<li>hyphenPrefix->[memeHyphenPrefix]</li>
+	<li>hyphenPrefix-> </li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <PlaceDef>
+    <defName>mexique</defName>
+    <tags>
+      <li>Originmexique</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <li>place_name->Mexico</li>
+        <li>place_adjective->mexicain</li>
+        <li>place_summary->capitale</li>
+        <li>place_community->Paseo de la Reforma</li>
+        <li>place_community->Monument à la Révolution</li>
+        <li>place_powerCenter->Palais national</li>
+        <li>place_job->policier corrompu</li>
+        <li>place_personalWeapon->fusils</li>
+        <li>place_personalWeapon->machette</li>
+        <li>place_massWeapon->cocaïne</li>
+        <li>place_foeLeader->traficant de drogue</li>
+        <li>place_foeSoldiers->narco-trafiquants</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_mexique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Président</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFestivalmexique</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>festivalName->La Canderlaria</li>
+        <li>festivalName->El Día de los muertos</li>
+        <li>festivalName->El Carnaval</li>
+        <li>festivalName->El Día de Nuestra Señora de Guadalupe</li>
+        <li>festivalName->La Semana Santa</li>
+        <li>festivalName->La Danza de los Voladores</li>
+        <li>festivalName->El Día de la Independencia</li>
+        <li>festivalName->Navidad</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

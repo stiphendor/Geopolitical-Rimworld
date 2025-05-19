@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealFineBase">
+	<defName>Mexican_tacos</defName>
+	<label>tacos</label>
+	<description>A taco is an antojito (snack) from Mexican cuisine which consists of a corn tortilla folded or rolled up on itself containing a filling of meat and raw vegetables (mushrooms, tomatoes, cabbage, peppers, avocado , cucumber..).</description>
+	<graphicData>
+		<texPath>Meal/Tacos</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<ingestible>
+		<specialThoughtDirect>WF_AteTacos</specialThoughtDirect>
+	</ingestible>
+</ThingDef>
+
+
+</Defs>

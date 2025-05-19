@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+<cook_australian_meat_pie.label>cuisiner une tourte à la viande</cook_australian_meat_pie.label>
+<cook_australian_meat_pie.description>Cuisiner une tourte à la viande.</cook_australian_meat_pie.description>
+<cook_australian_meat_pie.jobString>Cuisine la tourte à la viande.</cook_australian_meat_pie.jobString>
+<cook_australian_meat_pie.ingredients.1.filter.customSummary>céréales</cook_australian_meat_pie.ingredients.1.filter.customSummary>
+ 
+
+<cook_France_Baguette.label>cuire une baguette</cook_France_Baguette.label>
+<cook_France_Baguette.description>Cuire une baguette.</cook_France_Baguette.description>
+<cook_France_Baguette.jobString>Cuit la baguette.</cook_France_Baguette.jobString>
+<cook_France_Baguette.ingredients.0.filter.customSummary>céréales</cook_France_Baguette.ingredients.0.filter.customSummary>
+
+<cook_Buddhist_shojin_ryori.label>cuisiner un shojin ryori</cook_Buddhist_shojin_ryori.label>
+<cook_Buddhist_shojin_ryori.description>Cuisiner un shojin ryori.</cook_Buddhist_shojin_ryori.description>
+<cook_Buddhist_shojin_ryori.jobString>Cuisine le shojin ryori.</cook_Buddhist_shojin_ryori.jobString>
+
+
+<cook_Chinese_canard_laque.label>cuisiner un canard laqué</cook_Chinese_canard_laque.label>
+<cook_Chinese_canard_laque.description>Cuisiner un canard laqué.</cook_Chinese_canard_laque.description>
+<cook_Chinese_canard_laque.jobString>Cuisine le canard laqué.</cook_Chinese_canard_laque.jobString>
+
+
+<cook_France_Boeuf_Bourguignon.label>cuisiner un bœuf bourguignon</cook_France_Boeuf_Bourguignon.label>
+<cook_France_Boeuf_Bourguignon.description>Cuisiner un bœuf bourguignon.</cook_France_Boeuf_Bourguignon.description>
+<cook_France_Boeuf_Bourguignon.jobString>Cuisine le bœuf bourguignon.</cook_France_Boeuf_Bourguignon.jobString>
+<cook_France_Boeuf_Bourguignon.ingredients.2.filter.customSummary>carottes</cook_France_Boeuf_Bourguignon.ingredients.2.filter.customSummary>
+
+
+<cook_Italian_Pizza.label>cuire une pizza</cook_Italian_Pizza.label>
+<cook_Italian_Pizza.description>Cuire une pizza.\n\nGarniture : pomme de terre, champignons, oignons, tomates, ananas, olives.</cook_Italian_Pizza.description>
+<cook_Italian_Pizza.jobString>Cuit la pizza.</cook_Italian_Pizza.jobString>
+<cook_Italian_Pizza.ingredients.0.filter.customSummary>céréales</cook_Italian_Pizza.ingredients.0.filter.customSummary>
+<cook_Italian_Pizza.ingredients.2.filter.customSummary>garniture (voir description du plat)</cook_Italian_Pizza.ingredients.2.filter.customSummary>
+
+
+<cook_Mexican_Tacos.label>cuisiner un tacos</cook_Mexican_Tacos.label>
+<cook_Mexican_Tacos.description>Cuisiner un tacos.\n\nGarniture : champignons, tomates, chou, poivrons, avocat, concombre.</cook_Mexican_Tacos.description>
+<cook_Mexican_Tacos.jobString>Cuisine le tacos.</cook_Mexican_Tacos.jobString>
+<cook_Mexican_Tacos.ingredients.2.filter.customSummary>garniture (voir description du plat)</cook_Mexican_Tacos.ingredients.2.filter.customSummary>
+
+<cook_South_Korea_Bibimbap.label>cuisiner un bibimbap</cook_South_Korea_Bibimbap.label>
+<cook_South_Korea_Bibimbap.description>Cuisiner un bibimbap.</cook_South_Korea_Bibimbap.description>
+<cook_South_Korea_Bibimbap.jobString>Cuisine le bibimbap.</cook_South_Korea_Bibimbap.jobString>
+<cook_South_Korea_Bibimbap.ingredients.3.filter.customSummary>légumes (voir description du plat)</cook_South_Korea_Bibimbap.ingredients.3.filter.customSummary>
+
+
+<cook_russia_blinis.label>cuisiner des blinis</cook_russia_blinis.label>
+<cook_russia_blinis.description>Cuisiner des blinis.</cook_russia_blinis.description>
+<cook_russia_blinis.jobString>Cuisine les blinis.</cook_russia_blinis.jobString>
+<cook_russia_blinis.ingredients.0.filter.customSummary>céréales</cook_russia_blinis.ingredients.0.filter.customSummary>
+
+<cook_Sweden_Kottbullar.label>cuisiner un köttbullar</cook_Sweden_Kottbullar.label>
+<cook_Sweden_Kottbullar.description>Cuisiner un köttbullar.</cook_Sweden_Kottbullar.description>
+<cook_Sweden_Kottbullar.jobString>Cuisine le kottbullar.</cook_Sweden_Kottbullar.jobString>
+
+
+</LanguageData>

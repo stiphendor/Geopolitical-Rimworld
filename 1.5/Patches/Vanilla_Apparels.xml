@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="Cloth" or defName="Synthread" or defName="DevilstrandCloth" or defName="Hyperweave"]/stuffProps/categories</xpath>
+	<value>
+		 <li>synthetic</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="Apparel_CowboyHat" or defName="Apparel_Duster"]/apparel/tags</xpath>
+	<value>
+		<li>australien</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="Apparel_CollarShirt" or defName="Apparel_Pants"]/apparel/tags</xpath>
+	<value>
+		 <li>mafia</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="Apparel_Pants" or defName="Apparel_BasicShirt"]/apparel/tags</xpath>
+	<value>
+		<li>EcoloBasic</li>
+		<li>Civil</li>
+		<li>Usa</li>
+		<li>australien</li>
+	</value>
+</Operation>
+
+
+</Patch>

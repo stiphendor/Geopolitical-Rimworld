@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <KCSG.SettlementLayoutDef>
+    <defName>Geopol_Bouddhistes_Base</defName>
+    <settlementSize>142,142</settlementSize>
+    <avoidBridgeable>true</avoidBridgeable>
+    <centerBuildings>
+      <centerSize>52,52</centerSize>
+      <allowedStructures>
+        <li>
+          <count>1~1</count>
+          <tag>energie</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>batterie</tag>
+        </li>
+        <li>
+          <count>1~2</count>
+          <tag>dortoir</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>armurerie_bouddhistes</tag>
+        </li>
+        <li>
+          <count>1~2</count>
+          <tag>champ_riz</tag>
+        </li>
+        <li>
+          <count>1~2</count>
+          <tag>bambou</tag>
+        </li>
+      </allowedStructures>
+    </centerBuildings>
+
+    <peripheralBuildings>
+      <allowedStructures>
+        <li>
+          <count>5~10</count>
+          <tag>champ_riz</tag>
+        </li>
+        <li>
+          <count>5~10</count>
+          <tag>bambou</tag>
+        </li>
+        <li>
+          <count>1~1</count>
+          <tag>grange</tag>
+        </li>
+      </allowedStructures>
+    </peripheralBuildings>
+
+  </KCSG.SettlementLayoutDef>
+</Defs>

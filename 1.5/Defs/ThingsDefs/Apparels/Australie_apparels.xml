@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <ThingDef ParentName="Gilet_pare_balles">
+    <defName>Geopol_australie_gpb</defName>
+    <label>Gilet pare-balles australien</label>
+    <description>Gilets pare-balles australien.</description>
+    <graphicData>
+      <texPath>Apparel/Australie/Gpb/australia_gpb_display</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Australie/Gpb/australia_gpb</wornGraphicPath>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_australie</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Treillis_militaire">
+    <defName>Geopol_australie_uniforme</defName>
+    <label>Treillis australien</label>
+    <description>Treillis australien.</description>
+    <graphicData>
+      <texPath>Apparel/Australie/Treillis/preview_treillis_australie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Apparel/Australie/Treillis/treillis_australie</wornGraphicPath>
+      <tags>
+        <li>Australie</li>
+      </tags>
+	</apparel>
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_australie</li>
+	<li MayRequire="VanillaExpanded.VAPPE">VAE_MilitaryClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="Casque_militaire">
+    <defName>Geopol_australie_casque</defName>
+    <label>Casque australien</label>
+    <description>Casque australien.</description>
+    <graphicData>
+      <texPath>Apparel/Australie/Casque/australie_casque</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparel/Australie/Casque/casque_australie</wornGraphicPath>
+      <tags>
+        <li>Australie</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+	<li>Geopol_research_australie</li>
+	<li>FlakArmor</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+  
+</Defs>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<KCSG.StructureLayoutDef>
+  <defName>statue_de_la_liberte</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,.,Geopol_Liberty_BlocksLimestone,.,.,.</li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>statue_liberte</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>tour_eiffel</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,Geopol_Eiffel,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+    <li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+  </terrainGrid>
+  <tags>
+    <li>tour_eiffel</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+
+<KCSG.StructureLayoutDef>
+  <defName>corcovado</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,Geopol_Corcovado_BlocksLimestone,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>corcovado</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>phone_box_1</defName>
+  <layouts>
+    <li>
+      <li>CAT_Phonebox_Comms_North</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>cabine_tel</li>
+  </tags>
+</KCSG.StructureLayoutDef>
+
+</Defs>

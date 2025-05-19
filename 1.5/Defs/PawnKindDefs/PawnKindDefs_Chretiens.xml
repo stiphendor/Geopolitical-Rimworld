@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Name="ChretienBase" Abstract="True">
+    <defaultFactionType>chretiens</defaultFactionType>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>5~10</initialResistanceRange>
+    <combatPower>35</combatPower>
+    <invNutrition>1</invNutrition>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	<li>chretiens</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>350</min>
+      <max>650</max>
+    </apparelMoney>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0</techHediffsChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_nonne</defName>
+    <label>nonne</label>
+    <race>Human</race>
+    <fixedGender>Female</fixedGender>
+    <apparelRequired>
+	<li>Geopol_soutane_nonne</li>
+	<li>Geopol_Chretien_nonne_voile</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_pretre</defName>
+    <label>prêtre</label>
+    <race>Human</race>
+    <fixedGender>Male</fixedGender>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Pretre</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelRequired>
+	<li>Geopol_soutane_pretre</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_eveque</defName>
+    <label>évêque</label>
+    <race>Human</race>
+    <fixedGender>Male</fixedGender>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Eveque</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelRequired>
+	<li>Geopol_soutane_eveque</li>
+	<li>Geopol_Chretien_Calotte</li>
+    </apparelRequired>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <color>(226, 5, 74)</color>
+      </li>
+    </specificApparelRequirements>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>30</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_cardinal</defName>
+    <label>cardinal</label>
+    <race>Human</race>
+    <fixedGender>Male</fixedGender>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Cardinal</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelRequired>
+	<li>Geopol_soutane_cardinal</li>
+	<li>Geopol_Chretien_Calotte</li>
+    </apparelRequired>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <color>(198, 32, 32)</color>
+      </li>
+    </specificApparelRequirements>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>30</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_cardinal_mitre</defName>
+    <label>cardinal</label>
+    <race>Human</race>
+    <trader>true</trader>
+    <fixedGender>Male</fixedGender>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Cardinal</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelRequired>
+	<li>Geopol_soutane_cardinal</li>
+	<li>Geopol_Chretien_mitre</li>
+    </apparelRequired>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>30</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_pape</defName>
+    <label>pape</label>
+    <race>Human</race>
+    <factionLeader>true</factionLeader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Pape</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <fixedGender>Male</fixedGender>
+    <apparelRequired>
+	<li>Geopol_soutane_pape</li>
+	<li>Geopol_Chretien_Calotte</li>
+    </apparelRequired>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <color>(249, 249, 249)</color>
+      </li>
+    </specificApparelRequirements>
+  <skills>
+	  <li>
+        <skill>Social</skill>
+        <range>10~18</range>
+      </li>
+    </skills>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>300</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ChretienBase">
+    <defName>chretien_pape_mitre</defName>
+    <label>pape</label>
+    <race>Human</race>
+    <factionLeader>true</factionLeader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Pape</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <fixedGender>Male</fixedGender>
+    <apparelRequired>
+	<li>Geopol_soutane_pape</li>
+	<li>Geopol_Chretien_mitre</li>
+    </apparelRequired>
+  <skills>
+	  <li>
+        <skill>Social</skill>
+        <range>10~18</range>
+      </li>
+    </skills>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>300</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+
+</Defs>

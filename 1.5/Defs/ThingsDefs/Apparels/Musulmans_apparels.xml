@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_djellaba</defName>
+    <label>Djellaba</label>
+    <description>La djellaba est une longue robe ample portée par les hommes et les femmes, répandue comme vêtement traditionnel en Afrique du Nord. Porter ce vêtement aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Islamic/Djellaba/preview_Djellaba</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+	<thingCategories>
+	<li>vetements_religieux</li>
+	</thingCategories>
+    <statBases>
+	<MaxHitPoints>100</MaxHitPoints>
+	<WorkToMake>1800</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+      <equippedStatOffsets>
+	<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+	<PsychicSensitivity>-0.1</PsychicSensitivity>
+      </equippedStatOffsets>
+	<apparel>
+	<bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+	<li>Shoulders</li>
+        <li>Arms</li>
+	<li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Islamic/Djellaba/Djellaba</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>musulmans</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+
+   <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Geopol_gilet_sans_manches</defName>
+    <label>Gilet sans manches</label>
+    <description>Un gilet sans manches.</description>
+    <graphicData>
+      <texPath>Apparel/Islamic/Gilet/preview_gilet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+	<MaxHitPoints>70</MaxHitPoints>
+	<WorkToMake>1200</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+	<apparel>
+	<bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Islamic/Gilet/gilet</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>musulmans_gilet</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_kufi</defName>
+    <label>Kufi</label>
+    <description>Le kufi est un bonnet court destiné aux hommes musulmans. Porter ce couvre-chef aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Islamic/Kufi/preview_kufi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+      <equippedStatOffsets>
+	<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+	<PsychicSensitivity>-0.1</PsychicSensitivity>
+      </equippedStatOffsets>
+	<thingCategories>
+	<li>couvre_chef_religieux</li>
+	</thingCategories>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Islamic/Kufi/kufi</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>musulmans</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_hidjab</defName>
+    <label>Hidjab</label>
+    <description>Le hidjab, ou voile, désigne un vêtement porté par des femmes musulmanes et qui couvre leur tête en laissant le visage apparent. Porter ce couvre-chef aide à garder la tête froide en toutes circonstances.</description>
+    <graphicData>
+      <texPath>Apparel/Islamic/Voile/preview_voile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+      <equippedStatOffsets>
+	<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+	<PsychicSensitivity>-0.1</PsychicSensitivity>
+      </equippedStatOffsets>
+	<thingCategories>
+	<li>couvre_chef_religieux</li>
+	</thingCategories>
+    <apparel>
+      <gender>Female</gender>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Islamic/Voile/voile</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>musulmans</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="HatMakeableBase">
+    <defName>Geopol_shemagh</defName>
+    <label>Shemagh</label>
+    <description>Foulard porté au moyen-orient notamment en Irak, en Arabie saoudite, en Jordanie ainsi que par les nomades.</description>
+    <graphicData>
+      <texPath>Apparel/Islamic/Shemagh/Shemagh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <gender>Male</gender>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Islamic/Shemagh/Shemagh_Geo</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+       <li>terroristes</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+	<li>Geopol_research_islam</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+ 
+</Defs>
